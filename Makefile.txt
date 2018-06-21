@@ -4,5 +4,5 @@ all:	create_dir	add_data
 create_dir	: 
 	if	not	exist	"data"	mkdir	data
 add_data	:
-	curl	$(TEV_URL)	--output	data/gammacat.fits.gz
-	curl	$(GEV_URL)	--output	data/gll_psc_v16.fit
+	if	not	exist	"data/gammacat.fits.gz"	curl	$(TEV_URL)	--output	data/gammacat.fits.gz
+	if	not	exist	"data/gll_psc_v16.fit"	curl	$(GEV_URL)	--output	data/gll_psc_v16.fit
