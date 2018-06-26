@@ -76,7 +76,8 @@ _names_common = [
     'Flux3000_10000', 
     'Flux300_1000', 
     'Flux30_100', 
-    'CLASS1']
+    'CLASS1'
+    ]
 _gevToTev = {'BLL': 'blazar', 
             'FRSQ': 'frsq', 
             'HMB': 'bin' , 
@@ -87,6 +88,11 @@ _gevToTev = {'BLL': 'blazar',
             'SNR': 'snr', 
             '': 'unid'}
 _tevToGev = {v:k for k, v in _gevToTev.items()}
+
+_d_coord = {'GLON' : 'glon', 
+            'GLAT' : 'glat', 
+            'RAJ2000' : 'pos_ra', 
+            'DEJ2000' : 'pos_dec'}
 
 
 def cat_gev_tev(path_gev, path_tev):    
@@ -162,7 +168,7 @@ def create_only_tev_data(cat_tev, D, name_tev):
                 data[k].append(cat_tev[name_tev[i]][j])
             k = k+1
     df_only_tev = pd.DataFrame(data = data, columns = name_tev)
-        
+    df_only_tev = df_only_tev.rename(columns = {'classes' : 'CLASS1'})    
     return df_only_tev
 
 
@@ -181,7 +187,8 @@ def create_only_gev_data(cat_gev, D, names_gev):
             for i in range(len(names_gev)):
                 data[k].append(cat_gev[names_gev[i]][j])
             k = k+1            
-    df_only_gev = pd.DataFrame(data = data, columns = names_gev)        
+    df_only_gev = pd.DataFrame(data = data, columns = names_gev)  
+    df_only_gev = df_only_gev.rename(columns = _d_coord)        
     return df_only_gev
 
 def gev_tev_data():
