@@ -25,6 +25,7 @@ _names_gev = [
     'Flux3000_10000', 
     'Flux300_1000',  
     'Flux30_100',
+    'ASSOC_TEV'
     ] 
 _names_tev = [
     'classes', 
@@ -89,6 +90,16 @@ _gevToTev = {'BLL': 'blazar',
             '': 'unid'}
 _tevToGev = {v:k for k, v in _gevToTev.items()}
 
+_interesting_types = {'BLL', 'blazar', 
+            'FRSQ', 'frsq', 
+            'HMB', 'bin' , 
+            'BIN', 'bin', 
+            'GAL', 'galaxy', 
+            'PSR', 'psr', 
+            'PWN', 'pwn', 
+            'SNR', 'snr', 
+            '', 'unid'}
+
 _d_coord = {'GLON' : 'glon', 
             'GLAT' : 'glat', 
             'RAJ2000' : 'pos_ra', 
@@ -102,17 +113,29 @@ def cat_gev_tev(path_gev, path_tev):
     cat_gev = hdul_gev[1].data
     return cat_gev, cat_tev
 
-def common(cat_gev, cat_tev, epsilon):
-    """This function looks for the same objects in GeV and TeV catalogs
-    
-    Return: dictionary with corresponding values
-    
-    feature1(list) - features of GeV 
-    feature2(list) - features of TeV 
-    epsilon(double) - distance accepted as equivalence
+def create_common(cat_gev, cat_tev, epsilon):
     """
-    d = {}
-
+    Returns 2 vectors for gev and tev respectively.
+    C_associations_gev coordinate is equal 
+    
+    -1, if no similar objects in TEV catalog found
+    i, where i is a corresponding index of a similar object from TEV
+        to the object from GEV with an index equal to number 
+        of the coordinate.
+    
+    Arguments:
+    cat_gev -- rec array with GEV data
+    cat_tev -- rec array with TEV data
+    epsilon - threshold for similarity
+    
+    Returns:
+    C_associations_gev - numpy array (n,)
+    C_associations_tev - numpy array (m, )
+    
+    n - number of examples in GEV
+    m - number of examples in TEV
+    """
+    
     class_gev = cat_gev['CLASS1']
     class_tev = cat_tev['classes']
     glat_gev = cat_gev['GLAT']
@@ -120,83 +143,109 @@ def common(cat_gev, cat_tev, epsilon):
     glon_gev = cat_gev['GLON']
     glon_tev = cat_tev['glon']
     
+    C_associations_gev = -1.0 * np.ones((len(glat_gev)))
+    C_associations_tev = -1.0 * np.ones((len(glat_tev)))
+    
     for i in range(len(glat_gev)):
         for j in range(len(glat_tev)):
             classGeV = class_gev[i]
-            start = -1
-            try: 
-                start = (class_tev[j].find(_gevToTev[classGeV]))
-            except KeyError:
-                continue
-            if (start != -1):
-                if ((np.abs(glat_gev[i] - glat_tev[j])/np.abs(glat_gev[i]) < epsilon) and (np.abs(glon_gev[i] - glon_tev[j])//np.abs(glat_tev[j]) < epsilon)) :
-                    d.update({j : i})
-    return d
+            classTeV = class_tev[j]
+            if (classGeV in _interesting_types and classTeV in _interesting_types):
+                if ((np.abs(glat_gev[i] - glat_tev[j])/np.abs(glat_gev[i]) < epsilon) and (np.abs(glon_gev[i] - glon_tev[j])//np.abs(glon_gev[j]) < epsilon)) :
+                    C_associations_gev[i] = j
+                    C_associations_tev[j] = i
+    return C_associations_gev, C_associations_tev
 
-def create_common_data(cat_gev, cat_tev, D, namefinal):
-    """The fonction adds objects found both in GeV and TeV.
-    
-    D(dictionary) - a dictionary with repeated objects from TeV and GeV
-    namefinal(list) - names of required features to fill in data
+def create_pandas_frames(cat_gev, cat_tev):   
     """
-    data = []
-    k = 0
-    for j in D.keys():
-        data.append([]) 
-        for i in range(15): 
-            data[k].append(cat_tev[namefinal[i]][j]) 
-        for i in range(15, len(namefinal)): 
-            data[k].append(cat_gev[namefinal[i]][D[j]])
-        k = k+1  
-    df_common = pd.DataFrame(data = data, columns = namefinal)
-    return df_common 
+    Creates pandas dataframes with the same values as in cat_gev 
+    and cat_tev, adding to columns names "gev_" and "tev_" 
+    respectively.
+    
+    Arguments:
+    cat_gev -- rec array with GEV data
+    cat_tev -- rec array with TEV data
+    
+    Returns:
+    data_gev -- pandas DataFrame with GEV data
+    data_tev -- pandas DataFrame with TEV data
+    """
+    data_gev = pd.DataFrame.from_records(cat_gev.tolist(), columns=cat_gev.dtype.names)[_names_gev]
+    gev_match_names = {}
+    for i in data_gev.columns:
+        gev_match_names.update({i : "gev_" + i})
+    data_gev = data_gev.rename(columns = gev_match_names)
 
+    data_tev = pd.DataFrame.from_records(cat_tev.tolist(), columns=cat_tev.dtype.names)[_names_tev]
+    tev_match_names = {}
+    for i in data_tev.columns:
+        tev_match_names.update({i : "tev_" + i})
+    data_tev = data_tev.rename(columns = tev_match_names)
+    return data_gev, data_tev
 
-def create_only_tev_data(cat_tev, D, name_tev):
+def create_common_data(data_gev, data_tev, C_associations_gev, C_associations_tev):
+    """
+    The fonction adds objects found both in GeV and TeV.
+    
+    Arguments:
+    data_gev -- pandas DataFrame with GEV data
+    data_tev -- pandas DataFrame with TEV data
+    C_associations_gev - numpy array (n,)
+    C_associations_tev - numpy array (m, )
+    
+    n - number of examples in GEV
+    m - number of examples in TEV
+    
+    Returns:
+    pd_common_gevtev - pandas DataFrame with all chosen columns 
+    from GEV and TEV
+    """
+    data_gev['join'] = C_associations_gev
+    pd_common_gevtev = pd.merge(data_tev, data_gev, left_index=True, right_on='join', how='inner')
+    data_tev['join'] = C_associations_tev
+    pd_common_gevtev0 = pd.merge(data_tev, data_gev, right_index=True, left_on='join', how='inner')
+    
+    pd_common_gevtev = pd_common_gevtev.append(pd_common_gevtev0)
+    array_non_duplicate = ['tev_glon', 'gev_GLAT', 'gev_GLON', 'tev_glat', 'gev_CLASS1', 'tev_classes']
+    pd_common_gevtev = pd_common_gevtev.drop_duplicates(array_non_duplicate)
+    del pd_common_gevtev['join']
+    pd_common_gevtev = pd_common_gevtev.reset_index()
+    #df_common = pd.DataFrame(data = data, columns = namefinal)
+    return pd_common_gevtev
+
+def create_only_tev_data(data_tev, C_associations_tev):
     """The fonction adds objects found only in TeV.
-    
-    D(dictionary) - a dictionary with repeated objects from TeV and GeV
-    name_tev(list) - names of TeV columns
     """
-    k = 0
-    data = []
-    
-    for j in range(len(cat_tev)):
-        if not(j in D.keys()):
-            data.append([])
-            for i in range(len(name_tev)):
-                data[k].append(cat_tev[name_tev[i]][j])
-            k = k+1
-    df_only_tev = pd.DataFrame(data = data, columns = name_tev)
-    df_only_tev = df_only_tev.rename(columns = {'classes' : 'CLASS1'})    
-    return df_only_tev
+    data_tev['join'] = C_associations_tev
+    data_only_tev = data_tev[data_tev['join'] >= 0]
+    del data_only_tev['join']
+    return data_only_tev
 
-
-def create_only_gev_data(cat_gev, D, names_gev):
+def create_only_gev_data(data_gev, C_associations_gev):
     """The fonction adds objects found only in GeV.
-    
-    D(dictionary) - a dictionary with repeated objects from TeV and GeV
-    name_gev(list) - names of GeV columns
     """
-    k = 0
-    data = []
-    
-    for j in range(len(cat_gev)):
-        if not(j in D.values()):
-            data.append([])
-            for i in range(len(names_gev)):
-                data[k].append(cat_gev[names_gev[i]][j])
-            k = k+1            
-    df_only_gev = pd.DataFrame(data = data, columns = names_gev)  
-    df_only_gev = df_only_gev.rename(columns = _d_coord)        
-    return df_only_gev
+    data_gev['join'] = C_associations_gev
+    data_only_gev = data_gev[data_gev['join'] >= 0]
+    del data_only_gev['join']
+    return data_only_gev
 
-def gev_tev_data():
+
+def compare_gev_tev_data():
+    """
+    The fonction returns common objects for GEV and TEV,
+    only GEV and only TEV objects.
+    
+    Returns:
+    common_data - pandas DataFrame with common for GEV and TEV objects 
+    only_tev_data - pandas DataFrame of only TEV objects 
+    only_gev_data - pandas DataFrame of only GEV objects 
+    """
     cat_gev, cat_tev = cat_gev_tev(_path_gev, _path_tev)
-    D = common(cat_gev, cat_tev, _epsilon)
-    common_data = create_common_data(cat_gev, cat_tev, D, _names_common)
-    only_tev_data = create_only_tev_data(cat_tev, D, _names_tev)
-    only_gev_data = create_only_gev_data(cat_gev, D, _names_gev)
+    C_associations_gev, C_associations_tev = create_common(cat_gev, cat_tev, _epsilon)
+    data_gev, data_tev = create_pandas_frames(cat_gev, cat_tev)
+    common_data = create_common_data(data_gev, data_tev, C_associations_gev, C_associations_tev)
+    only_tev_data = create_only_tev_data(data_tev, C_associations_tev)
+    only_gev_data = create_only_gev_data(data_gev, C_associations_gev)
     return common_data, only_tev_data, only_gev_data
 
 #common_data, only_tev_data, only_gev_data = gev_tev_data()
