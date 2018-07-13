@@ -151,7 +151,8 @@ def create_common(cat_gev, cat_tev, epsilon):
             classGeV = class_gev[i]
             classTeV = class_tev[j]
             if (classGeV in _interesting_types and classTeV in _interesting_types):
-                if ((np.abs(glat_gev[i] - glat_tev[j])/np.abs(glat_gev[i]) < epsilon) and (np.abs(glon_gev[i] - glon_tev[j])//np.abs(glon_gev[j]) < epsilon)) :
+                if ((np.abs(glat_gev[i] - glat_tev[j])/np.abs(glat_gev[i]) < epsilon) 
+                and (np.abs(glon_gev[i] - glon_tev[j])/np.abs(glon_gev[j]) < epsilon)) :
                     C_associations_gev[i] = j
                     C_associations_tev[j] = i
     return C_associations_gev, C_associations_tev
@@ -230,7 +231,7 @@ def create_only_gev_data(data_gev, C_associations_gev):
     return data_only_gev
 
 
-def compare_gev_tev_data():
+def compare_gev_tev_data(epsilon):
     """
     The fonction returns common objects for GEV and TEV,
     only GEV and only TEV objects.
@@ -241,7 +242,7 @@ def compare_gev_tev_data():
     only_gev_data - pandas DataFrame of only GEV objects 
     """
     cat_gev, cat_tev = cat_gev_tev(_path_gev, _path_tev)
-    C_associations_gev, C_associations_tev = create_common(cat_gev, cat_tev, _epsilon)
+    C_associations_gev, C_associations_tev = create_common(cat_gev, cat_tev, epsilon)
     data_gev, data_tev = create_pandas_frames(cat_gev, cat_tev)
     common_data = create_common_data(data_gev, data_tev, C_associations_gev, C_associations_tev)
     only_tev_data = create_only_tev_data(data_tev, C_associations_tev)
