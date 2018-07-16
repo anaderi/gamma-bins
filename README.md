@@ -1,5 +1,7 @@
-# gamma-bins
+# Search for binary gamma stars
 
-data is taken from 
- - TEV catalog: https://gamma-cat.readthedocs.io/data/catalog.html
- - GEV catalog: https://fermi.gsfc.nasa.gov/ssc/data/access/lat/4yr_catalog/ 
+The main goal of the project is to find star objects that look similar to binary gamma stars.
+
+## Data
+Data about stars is taken from various sources (see details at https://github.com/anaderi/gamma-bins/tree/master/data)
+ 
