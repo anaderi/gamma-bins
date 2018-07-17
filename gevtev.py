@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from astropy.io import fits
 
-_epsilon = 1e-2
+_epsilon = 1e-1
 _path_gev = 'data/gll_psc_v16.fit'
 _path_tev = 'data/gammacat.fits.gz'
 _names_gev = [
@@ -151,8 +151,8 @@ def create_common(cat_gev, cat_tev, epsilon):
             classGeV = class_gev[i]
             classTeV = class_tev[j]
             if (classGeV in _interesting_types and classTeV in _interesting_types):
-                if ((np.abs(glat_gev[i] - glat_tev[j])/np.abs(glat_gev[i]) < epsilon) 
-                and (np.abs(glon_gev[i] - glon_tev[j])/np.abs(glon_gev[j]) < epsilon)) :
+                if ((np.abs(glat_gev[i] - glat_tev[j]) < epsilon) 
+                and (np.abs(glon_gev[i] - glon_tev[j]) < epsilon)) :
                     C_associations_gev[i] = j
                     C_associations_tev[j] = i
     return C_associations_gev, C_associations_tev
@@ -220,6 +220,7 @@ def create_only_tev_data(data_tev, C_associations_tev):
     data_tev['join'] = C_associations_tev
     data_only_tev = data_tev[data_tev['join'] >= 0]
     del data_only_tev['join']
+    data_only_tev = data_only_tev.reset_index()
     return data_only_tev
 
 def create_only_gev_data(data_gev, C_associations_gev):
@@ -228,6 +229,7 @@ def create_only_gev_data(data_gev, C_associations_gev):
     data_gev['join'] = C_associations_gev
     data_only_gev = data_gev[data_gev['join'] >= 0]
     del data_only_gev['join']
+    data_only_gev = data_only_gev.reset_index()
     return data_only_gev
 
 
