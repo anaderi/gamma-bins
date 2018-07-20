@@ -1,0 +1,408 @@
+	level_0	s_COO_BIBCODE	s_COO_ERR_ANGLE	s_COO_ERR_MAJA	s_COO_ERR_MINA	s_COO_QUAL	s_COO_WAVELENGTH	s_DEC	s_DEC_PREC	s_MAIN_ID	s_RA	s_RA_PREC	s_class	s_glat	s_glon	tev_classes	tev_glat	tev_glon	tev_morph_pa	tev_pos_dec	tev_pos_ra	tev_sed_dnde	tev_sed_dnde_err	tev_sed_e_ref	tev_spec_dnde_1TeV	tev_spec_dnde_1TeV_err	tev_spec_eflux_1TeV_10TeV	tev_spec_eflux_1TeV_10TeV_err	tev_spec_flux_1TeV	tev_spec_flux_1TeV_crab	tev_spec_flux_1TeV_crab_err
+0	146	b'2003yCat.2246....0C'	90.0	60.0	60.0	B	N	+18 52 37.04	7.0	b'[KKM2013] 7'	19 30 26.672	7.0	B	0.28022900625000696	54.09526321007298	b'pwn,snr'	0.26045286655426025	54.09474182128906		18.8700008392334	292.6333312988281	"[  1.09799999e-11   4.23583998e-12   1.11824005e-12   6.16713982e-13
+              nan   3.94787996e-14              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[  5.66021015e-12   1.43402000e-12   4.53777993e-13   1.65800994e-13
+              nan   2.11698995e-14              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ 0.31071001  0.49243999  0.78047001  1.23696995  1.96045995  3.10712004
+  4.92445993         nan         nan         nan         nan         nan
+         nan         nan         nan         nan         nan         nan
+         nan         nan         nan         nan         nan         nan
+         nan         nan         nan         nan         nan         nan
+         nan         nan         nan         nan         nan         nan
+         nan         nan         nan         nan]"	7.499999970031479e-13	1.199999978942004e-13	1.8259259122049842e-12	5.051422604859801e-13	5.395683357577175e-13	2.601027011871338	0.5986857414245605
+1	84	b'2003yCat.2246....0C'	90.0	60.0	60.0	B	N	-51 46 03.69	7.0	b'MSX6C G331.5487-00.5364'	16 14 15.380	7.0	B	-0.5366280049537805	331.5484222397493	b'unid'	-0.5732107758522034	331.5122985839844		-51.867645263671875	243.54270935058594	"[  1.12999998e-10   7.80000023e-11   2.56999994e-11   2.76000004e-11
+   1.24000003e-11   1.13000000e-11   6.39000007e-12   5.36000020e-12
+   2.73000004e-12   1.72000001e-12   1.26000003e-12   1.05000004e-12
+   4.15000011e-13   2.88000011e-13   2.41999996e-13   1.65999999e-13
+   7.01000020e-15              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.34999999   0.43000001   0.50999999   0.62         0.75         0.91000003
+   1.10000002   1.33000004   1.61000001   1.96000004   2.36999989
+   2.86999989   3.47000003   4.21000004   5.0999999    6.17999983
+  13.77000046          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	8.21838343906256e-12	4.817890877917286e-13	1.943150675087768e-11	1.484853581236456e-12	5.787593928413548e-12	27.89950180053711	1.8743407726287842
+2	133	b'2018yCat.1345....0G'	90.0	0.03620000183582306	0.03519999980926514	A	O	-05 29 40.704	14.0	b'LS  IV -05   11'	18 41 02.0854	14.0	B	-0.19838446968984755	26.85778247965305	b'unid'	-0.19760440289974213	26.79511260986328	39.0	-5.549823760986328	280.22857666015625	"[  1.83209992e-11   8.44120000e-12   1.89954996e-12   3.35584994e-13
+   1.62058003e-13   1.70820999e-14   7.12766960e-15   1.17825999e-15
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.73806798   1.29738998   2.29364991   4.04547024   7.16009998  12.6875
+  22.45540047  39.7901001           nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	1.2799999775381377e-11	1.3000000381735433e-12	3.0559457742107554e-11	3.910089266256911e-12	9.078014381880273e-12	43.76120376586914	5.091009140014648
+3	26	b'2018yCat.1345....0G'	90.0	0.026100000366568562	0.025100000202655792	A	O	-69 11 03.680	14.0	b'CPD-69   416'	05 36 17.0923	14.0	B	-31.875965785400066	279.59282013407153	b'other'	-31.911823272705078	279.6239929199219		-69.18611145019531	81.47916412353516	"[  2.26799997e-13   1.05299999e-13   4.02800013e-14   5.39899986e-15
+   6.19499992e-15   1.77800008e-15   3.36699991e-16   2.70399995e-16
+   1.93199996e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  1.01400006   1.38199997   2.00600004   2.93300009   4.29899979   6.296
+   9.20699978  13.53999996  19.46999931  28.69000053          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	1.599999971922672e-13	3.99999992980668e-14	3.1992748836424945e-13	9.834238864870823e-14	9.9999998245167e-14	0.48205700516700745	0.13473902642726898
+4	108	b'2004ApJ...602..770G'	0.0			D		-28 59 58.7	6.0	b'GCIRS  8'	17 45 40.14	6.0	O	-0.04221907679382832	359.95142071028005	b'unid'	-0.04616236314177513	359.9442443847656		-29.00611114501953	266.4150085449219	"[  1.42756001e-10   7.84681972e-11   4.92253009e-11   3.17322002e-11
+   1.88826003e-11   1.30341996e-11   7.63816961e-12   5.91062008e-12
+   3.53094008e-12   2.46355995e-12   1.58521004e-12   9.65577986e-13
+   6.24254988e-13   4.21873989e-13   2.83297989e-13   1.53878998e-13
+   9.87130977e-14   6.01008975e-14   3.19129014e-14   1.86931007e-14
+   1.57526004e-14   5.44977017e-15   3.60858990e-15   2.89817003e-15
+   1.11400005e-15              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.16536801   0.20472901   0.25132099   0.30717701   0.374511     0.456534
+   0.55517101   0.67491698   0.81997102   0.99582797   1.20834005
+   1.46496999   1.77715003   2.15512991   2.61316991   3.16806006
+   3.84025002   4.66024017   5.65836      6.87463999   8.32250977
+  10.05189991  12.10630035  14.53190041  17.39290047  23.01939964
+  39.00299835  62.55519867          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	2.3224796651816204e-12	5.45272174309365e-14	5.835075044674509e-12	3.561089953734581e-13	1.703835857125302e-12	8.213459968566895	0.38133570551872253
+5	110	b'2011MNRAS.417..114D'	90.0	49.0	49.0	B	O	-28 55 15.3	6.0	b'[MCD2010] 13'	17 46 01.65	6.0	O	-0.06818724779357126	0.05945874855574083	b'unid'	-0.14797726273536682	0.05499047413468361	15.399999618530273	-28.966230392456055	266.5821228027344	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"							
+6	111	b'2011MNRAS.417..114D'	90.0	49.0	49.0	B	O	-28 55 15.3	6.0	b'[MCD2010] 13'	17 46 01.65	6.0	O	-0.06818724779357126	0.05945874855574083	b'unid'	-0.11320564895868301	0.14061740040779114		-28.87386131286621	266.59552001953125	"[  3.23300002e-12   4.40699994e-13   2.95000000e-13   4.41999986e-14
+   6.19000023e-14   6.50500026e-14   2.37699993e-14   4.50100010e-15
+   3.87900009e-15              nan              nan   7.35199981e-16
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.39789999   0.56220001   0.79430002   1.12199998   1.58500004
+   2.24000001   3.16499996   4.47100019   6.31699991   8.92399979
+  12.60999966  17.80999947  25.17000008          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.8000000361756419e-13	4.99999991225835e-14	5.321443698018402e-13	1.8615892247858534e-13	1.4999999397961872e-13	0.7230854630470276	0.23423752188682556
+7	27	b'2018yCat.1345....0G'	90.0	0.05209999904036522	0.06159999966621399	A	O	-69 12 00.115	14.0	b'VFTS 318'	05 38 20.9276	14.0	O	-31.692118877845893	279.58514771296774	b'pwn'	-31.74585723876953	279.5587158203125				"[  8.26800000e-13   1.07500001e-12   8.86800019e-13   4.25799993e-13
+   2.18600000e-13   1.06799999e-13   8.98900027e-14   5.46900002e-14
+   3.34100017e-14   2.14900001e-14   1.35200002e-14   3.83400019e-15
+   1.16500001e-15   2.14499998e-15   1.46999995e-15   6.57300002e-16
+   1.67700003e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.87300003   1.04100001   1.25199997   1.50999999   1.82799995
+   2.21199989   2.67700005   3.24300003   3.92799997   4.75500011
+   5.75600004   6.96299982   8.42300034  10.19999981  12.36999989
+  15.02000046  18.29000092  25.10000038          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.3000000381735433e-12	9.9999998245167e-14	2.190904142135297e-12	2.4574445126393507e-13	7.22222195242983e-13	3.481522798538208	0.33035194873809814
+8	145	b'2018yCat.1345....0G'	90.0	0.03840000182390213	0.03869999945163727	A	O	-69 09 31.171	14.0	b'UCAC4 105-013663'	05 35 43.6492	14.0	Be	-31.92835086906839	279.5701287201435	b'other'	-31.911823272705078	279.6239929199219		-69.18611145019531	81.47916412353516	"[  2.26799997e-13   1.05299999e-13   4.02800013e-14   5.39899986e-15
+   6.19499992e-15   1.77800008e-15   3.36699991e-16   2.70399995e-16
+   1.93199996e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  1.01400006   1.38199997   2.00600004   2.93300009   4.29899979   6.296
+   9.20699978  13.53999996  19.46999931  28.69000053          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	1.599999971922672e-13	3.99999992980668e-14	3.1992748836424945e-13	9.834238864870823e-14	9.9999998245167e-14	0.48205700516700745	0.13473902642726898
+9	1242	b'2018yCat.1345....0G'	90.0	0.035500001162290566	0.03539999946951866	A	O	-69 16 59.448	14.0	b'[AAA97b] J053648.7-691700'	05 36 48.7345	14.0	B	-31.817315151310076	279.70142732772126	b'other'	-31.911823272705078	279.6239929199219		-69.18611145019531	81.47916412353516	"[  2.26799997e-13   1.05299999e-13   4.02800013e-14   5.39899986e-15
+   6.19499992e-15   1.77800008e-15   3.36699991e-16   2.70399995e-16
+   1.93199996e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  1.01400006   1.38199997   2.00600004   2.93300009   4.29899979   6.296
+   9.20699978  13.53999996  19.46999931  28.69000053          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	1.599999971922672e-13	3.99999992980668e-14	3.1992748836424945e-13	9.834238864870823e-14	9.9999998245167e-14	0.48205700516700745	0.13473902642726898
+10	1812	b'2009yCat....1.2023S'	0.0			C	O	-69 11 46	5.0	b'[ST92] 2-62B'	05 36 10.8	5.0	B	-31.883737919444304	279.60792624878655	b'other'	-31.911823272705078	279.6239929199219		-69.18611145019531	81.47916412353516	"[  2.26799997e-13   1.05299999e-13   4.02800013e-14   5.39899986e-15
+   6.19499992e-15   1.77800008e-15   3.36699991e-16   2.70399995e-16
+   1.93199996e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  1.01400006   1.38199997   2.00600004   2.93300009   4.29899979   6.296
+   9.20699978  13.53999996  19.46999931  28.69000053          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	1.599999971922672e-13	3.99999992980668e-14	3.1992748836424945e-13	9.834238864870823e-14	9.9999998245167e-14	0.48205700516700745	0.13473902642726898
+11	2995	b'1992A&AS...92..729S'	0.0			D		-69 11 45.3	6.0	b'[ST92] 2-62'	05 36 10.86	6.0	B	-31.88367418099945	279.60768595947803	b'other'	-31.911823272705078	279.6239929199219		-69.18611145019531	81.47916412353516	"[  2.26799997e-13   1.05299999e-13   4.02800013e-14   5.39899986e-15
+   6.19499992e-15   1.77800008e-15   3.36699991e-16   2.70399995e-16
+   1.93199996e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  1.01400006   1.38199997   2.00600004   2.93300009   4.29899979   6.296
+   9.20699978  13.53999996  19.46999931  28.69000053          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	1.599999971922672e-13	3.99999992980668e-14	3.1992748836424945e-13	9.834238864870823e-14	9.9999998245167e-14	0.48205700516700745	0.13473902642726898
+12	6449	b'2018yCat.1345....0G'	90.0	0.0357000008225441	0.036299999803304665	A	O	-69 12 00.275	14.0	b'[M2002] LMC 164553'	05 36 07.2480	14.0	B	-31.888455211887628	279.6133356245563	b'other'	-31.911823272705078	279.6239929199219		-69.18611145019531	81.47916412353516	"[  2.26799997e-13   1.05299999e-13   4.02800013e-14   5.39899986e-15
+   6.19499992e-15   1.77800008e-15   3.36699991e-16   2.70399995e-16
+   1.93199996e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  1.01400006   1.38199997   2.00600004   2.93300009   4.29899979   6.296
+   9.20699978  13.53999996  19.46999931  28.69000053          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	1.599999971922672e-13	3.99999992980668e-14	3.1992748836424945e-13	9.834238864870823e-14	9.9999998245167e-14	0.48205700516700745	0.13473902642726898
+13	6735	b'2018yCat.1345....0G'	90.0	0.03920000046491623	0.04170000180602074	A	O	-69 16 53.138	14.0	b'[M2002] LMC 161594'	05 34 59.7714	14.0	B	-31.976843932450446	279.7234680203181	b'other'	-31.911823272705078	279.6239929199219		-69.18611145019531	81.47916412353516	"[  2.26799997e-13   1.05299999e-13   4.02800013e-14   5.39899986e-15
+   6.19499992e-15   1.77800008e-15   3.36699991e-16   2.70399995e-16
+   1.93199996e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  1.01400006   1.38199997   2.00600004   2.93300009   4.29899979   6.296
+   9.20699978  13.53999996  19.46999931  28.69000053          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan]"	1.599999971922672e-13	3.99999992980668e-14	3.1992748836424945e-13	9.834238864870823e-14	9.9999998245167e-14	0.48205700516700745	0.13473902642726898
+14	251	b'2011MNRAS.417..114D'	90.0	49.0	49.0	B	O	-28 57 16.2	6.0	b'SSTGC 519103'	17 45 37.81	6.0	Be	-0.011453432374284596	359.98552533524423	b'unid'	-0.04616236314177513	359.9442443847656				"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"							
+15	6532	b'2013ApJ...764..154D'	0.0			C	N	-29 00 27.51	7.0	b'GCIRS  1W'	17 45 40.442	7.0	B	-0.04732741654411109	359.94516287559225	b'unid'	-0.04616236314177513	359.9442443847656				"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"							
+16	791	b'2009AJ....138.1003B'	90.0	300.0	300.0	C	I	-69 05 47.772	8.0	b'RMC 141'	05 38 45.5859	8.0	B	-31.66766990531665	279.4594775199765	b'pwn'	-31.74585723876953	279.5587158203125				"[  8.26800000e-13   1.07500001e-12   8.86800019e-13   4.25799993e-13
+   2.18600000e-13   1.06799999e-13   8.98900027e-14   5.46900002e-14
+   3.34100017e-14   2.14900001e-14   1.35200002e-14   3.83400019e-15
+   1.16500001e-15   2.14499998e-15   1.46999995e-15   6.57300002e-16
+   1.67700003e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.87300003   1.04100001   1.25199997   1.50999999   1.82799995
+   2.21199989   2.67700005   3.24300003   3.92799997   4.75500011
+   5.75600004   6.96299982   8.42300034  10.19999981  12.36999989
+  15.02000046  18.29000092  25.10000038          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.3000000381735433e-12	9.9999998245167e-14	2.190904142135297e-12	2.4574445126393507e-13	7.22222195242983e-13	3.481522798538208	0.33035194873809814
+17	5126	b'2018yCat.1345....0G'	90.0	0.03669999912381172	0.029799999669194218	A	O	-69 08 14.584	14.0	b'HTR 13'	05 38 38.8642	14.0	B	-31.67294297452838	279.50841853548854	b'pwn'	-31.74585723876953	279.5587158203125				"[  8.26800000e-13   1.07500001e-12   8.86800019e-13   4.25799993e-13
+   2.18600000e-13   1.06799999e-13   8.98900027e-14   5.46900002e-14
+   3.34100017e-14   2.14900001e-14   1.35200002e-14   3.83400019e-15
+   1.16500001e-15   2.14499998e-15   1.46999995e-15   6.57300002e-16
+   1.67700003e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.87300003   1.04100001   1.25199997   1.50999999   1.82799995
+   2.21199989   2.67700005   3.24300003   3.92799997   4.75500011
+   5.75600004   6.96299982   8.42300034  10.19999981  12.36999989
+  15.02000046  18.29000092  25.10000038          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.3000000381735433e-12	9.9999998245167e-14	2.190904142135297e-12	2.4574445126393507e-13	7.22222195242983e-13	3.481522798538208	0.33035194873809814
+18	7179	b'2011A&A...530A.108E'	0.0			C	O	-69 06 03.37	7.0	b'Cl* NGC 2070    SMB     283'	05 38 40.779	7.0	B	-31.6742766066848	279.4654896442254	b'pwn'	-31.74585723876953	279.5587158203125				"[  8.26800000e-13   1.07500001e-12   8.86800019e-13   4.25799993e-13
+   2.18600000e-13   1.06799999e-13   8.98900027e-14   5.46900002e-14
+   3.34100017e-14   2.14900001e-14   1.35200002e-14   3.83400019e-15
+   1.16500001e-15   2.14499998e-15   1.46999995e-15   6.57300002e-16
+   1.67700003e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.87300003   1.04100001   1.25199997   1.50999999   1.82799995
+   2.21199989   2.67700005   3.24300003   3.92799997   4.75500011
+   5.75600004   6.96299982   8.42300034  10.19999981  12.36999989
+  15.02000046  18.29000092  25.10000038          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.3000000381735433e-12	9.9999998245167e-14	2.190904142135297e-12	2.4574445126393507e-13	7.22222195242983e-13	3.481522798538208	0.33035194873809814
+19	7677	b'2018yCat.1345....0G'	90.0	0.02590000070631504	0.02649999968707561	A	O	-69 06 33.183	14.0	b'SSTISAGE1C J053736.75-690633.4'	05 37 36.8143	14.0	B	-31.767727832295037	279.48813367561934	b'pwn'	-31.74585723876953	279.5587158203125				"[  8.26800000e-13   1.07500001e-12   8.86800019e-13   4.25799993e-13
+   2.18600000e-13   1.06799999e-13   8.98900027e-14   5.46900002e-14
+   3.34100017e-14   2.14900001e-14   1.35200002e-14   3.83400019e-15
+   1.16500001e-15   2.14499998e-15   1.46999995e-15   6.57300002e-16
+   1.67700003e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.87300003   1.04100001   1.25199997   1.50999999   1.82799995
+   2.21199989   2.67700005   3.24300003   3.92799997   4.75500011
+   5.75600004   6.96299982   8.42300034  10.19999981  12.36999989
+  15.02000046  18.29000092  25.10000038          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.3000000381735433e-12	9.9999998245167e-14	2.190904142135297e-12	2.4574445126393507e-13	7.22222195242983e-13	3.481522798538208	0.33035194873809814
+20	8007	b'2011A&A...530A.108E'	0.0			C	O	-69 05 50.55	7.0	b'Cl* NGC 2070    SMB     455'	05 38 39.750	7.0	O	-31.676201688535045	279.46153705702164	b'pwn'	-31.74585723876953	279.5587158203125				"[  8.26800000e-13   1.07500001e-12   8.86800019e-13   4.25799993e-13
+   2.18600000e-13   1.06799999e-13   8.98900027e-14   5.46900002e-14
+   3.34100017e-14   2.14900001e-14   1.35200002e-14   3.83400019e-15
+   1.16500001e-15   2.14499998e-15   1.46999995e-15   6.57300002e-16
+   1.67700003e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.87300003   1.04100001   1.25199997   1.50999999   1.82799995
+   2.21199989   2.67700005   3.24300003   3.92799997   4.75500011
+   5.75600004   6.96299982   8.42300034  10.19999981  12.36999989
+  15.02000046  18.29000092  25.10000038          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.3000000381735433e-12	9.9999998245167e-14	2.190904142135297e-12	2.4574445126393507e-13	7.22222195242983e-13	3.481522798538208	0.33035194873809814
+21	8210	b'2011A&A...530A.108E'	0.0			C	O	-69 05 58.33	7.0	b'Cl* NGC 2070    SMB     163'	05 38 41.108	7.0	O	-31.673950110726754	279.4637899021833	b'pwn'	-31.74585723876953	279.5587158203125				"[  8.26800000e-13   1.07500001e-12   8.86800019e-13   4.25799993e-13
+   2.18600000e-13   1.06799999e-13   8.98900027e-14   5.46900002e-14
+   3.34100017e-14   2.14900001e-14   1.35200002e-14   3.83400019e-15
+   1.16500001e-15   2.14499998e-15   1.46999995e-15   6.57300002e-16
+   1.67700003e-16              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.87300003   1.04100001   1.25199997   1.50999999   1.82799995
+   2.21199989   2.67700005   3.24300003   3.92799997   4.75500011
+   5.75600004   6.96299982   8.42300034  10.19999981  12.36999989
+  15.02000046  18.29000092  25.10000038          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.3000000381735433e-12	9.9999998245167e-14	2.190904142135297e-12	2.4574445126393507e-13	7.22222195242983e-13	3.481522798538208	0.33035194873809814
+22	8504	b'2011MNRAS.417..114D'	90.0	49.0	49.0	B	O	-28 46 11.8	6.0	b'[MCD2010] 18'	17 46 27.60	6.0	O	-0.0705983411720954	0.23766282055346824	b'unid'	-0.11320564895868301	0.14061740040779114		-28.87386131286621	266.59552001953125	"[  3.23300002e-12   4.40699994e-13   2.95000000e-13   4.41999986e-14
+   6.19000023e-14   6.50500026e-14   2.37699993e-14   4.50100010e-15
+   3.87900009e-15              nan              nan   7.35199981e-16
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan
+              nan              nan              nan              nan]"	"[ nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan
+  nan  nan  nan  nan  nan  nan  nan  nan  nan  nan]"	"[  0.39789999   0.56220001   0.79430002   1.12199998   1.58500004
+   2.24000001   3.16499996   4.47100019   6.31699991   8.92399979
+  12.60999966  17.80999947  25.17000008          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan
+          nan          nan          nan          nan          nan]"	1.8000000361756419e-13	4.99999991225835e-14	5.321443698018402e-13	1.8615892247858534e-13	1.4999999397961872e-13	0.7230854630470276	0.23423752188682556

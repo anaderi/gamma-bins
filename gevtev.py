@@ -210,6 +210,8 @@ def create_common_data(data_gev, data_tev, C_associations_gev, C_associations_te
     array_non_duplicate = ['tev_glon', 'gev_GLAT', 'gev_GLON', 'tev_glat', 'gev_CLASS1', 'tev_classes']
     pd_common_gevtev = pd_common_gevtev.drop_duplicates(array_non_duplicate)
     del pd_common_gevtev['join']
+    del pd_common_gevtev['join_x']
+    del pd_common_gevtev['join_y']
     pd_common_gevtev = pd_common_gevtev.reset_index()
     #df_common = pd.DataFrame(data = data, columns = namefinal)
     return pd_common_gevtev
@@ -217,18 +219,20 @@ def create_common_data(data_gev, data_tev, C_associations_gev, C_associations_te
 def create_only_tev_data(data_tev, C_associations_tev):
     """The fonction adds objects found only in TeV.
     """
-    data_tev['join'] = C_associations_tev
-    data_only_tev = data_tev[data_tev['join'] >= 0]
-    del data_only_tev['join']
+    #data_tev['join'] = C_associations_tev
+    #data_only_tev = data_tev[data_tev['join'] < 0]
+    #del data_only_tev['join']
+    data_only_tev = data_tev
     data_only_tev = data_only_tev.reset_index()
     return data_only_tev
 
 def create_only_gev_data(data_gev, C_associations_gev):
     """The fonction adds objects found only in GeV.
     """
-    data_gev['join'] = C_associations_gev
-    data_only_gev = data_gev[data_gev['join'] >= 0]
-    del data_only_gev['join']
+    #data_gev['join'] = C_associations_gev
+    #data_only_gev = data_gev[data_gev['join'] < 0]
+    #del data_only_gev['join']
+    data_only_gev = data_gev
     data_only_gev = data_only_gev.reset_index()
     return data_only_gev
 
@@ -250,7 +254,6 @@ def compare_gev_tev_data(epsilon):
     only_tev_data = create_only_tev_data(data_tev, C_associations_tev)
     only_gev_data = create_only_gev_data(data_gev, C_associations_gev)
     return common_data, only_tev_data, only_gev_data
-
 #common_data, only_tev_data, only_gev_data = gev_tev_data()
 #print(common_data.head())
 #print(common_data.info)
