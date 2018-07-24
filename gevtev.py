@@ -25,7 +25,8 @@ _names_gev = [
     'Flux3000_10000', 
     'Flux300_1000',  
     'Flux30_100',
-    'ASSOC_TEV'
+    'ASSOC_TEV',
+    '2FGL_Name',
     ] 
 _names_tev = [
     'classes', 
@@ -43,42 +44,14 @@ _names_tev = [
     'spec_eflux_1TeV_10TeV_err', 
     'spec_flux_1TeV', 
     'spec_flux_1TeV_crab', 
-    'spec_flux_1TeV_crab_err'
+    'spec_flux_1TeV_crab_err',
+    'tevcat_name',
+    'gamma_names',
+    'other_names',
+    'fermi_names',
+    'common_name',
     ]
-_names_common = [
-    'glat',
-    'glon',
-    'morph_pa',
-    'pos_ra',
-    'pos_dec',
-    'sed_dnde',
-    'sed_dnde_err',
-    'sed_e_ref', 
-    'spec_dnde_1TeV', 
-    'spec_dnde_1TeV_err', 
-    'spec_eflux_1TeV_10TeV', 
-    'spec_eflux_1TeV_10TeV_err', 
-    'spec_flux_1TeV', 
-    'spec_flux_1TeV_crab', 
-    'spec_flux_1TeV_crab_err', 
-    'ASSOC_TEV', 
-    'Variability_Index', 
-    'Flux1000', 
-    'Flux10000_100000', 
-    'Flux1000_3000', 
-    'Flux100_300', 
-    'Flux3000_10000', 
-    'Flux300_1000', 
-    'Flux30_100', 
-    'Flux1000', 
-    'Flux10000_100000', 
-    'Flux1000_3000', 
-    'Flux100_300', 
-    'Flux3000_10000', 
-    'Flux300_1000', 
-    'Flux30_100', 
-    'CLASS1'
-    ]
+
 _gevToTev = {'BLL': 'blazar', 
             'FRSQ': 'frsq', 
             'HMB': 'bin' , 
@@ -90,15 +63,7 @@ _gevToTev = {'BLL': 'blazar',
             '': 'unid'}
 _tevToGev = {v:k for k, v in _gevToTev.items()}
 
-_interesting_types = {'BLL', 'blazar', 
-            'FRSQ', 'frsq', 
-            'HMB', 'bin' , 
-            'BIN', 'bin', 
-            'GAL', 'galaxy', 
-            'PSR', 'psr', 
-            'PWN', 'pwn', 
-            'SNR', 'snr', 
-            '', 'unid'}
+_interesting_types = []
 
 _d_coord = {'GLON' : 'glon', 
             'GLAT' : 'glat', 
@@ -150,7 +115,8 @@ def create_common(cat_gev, cat_tev, epsilon):
         for j in range(len(glat_tev)):
             classGeV = class_gev[i]
             classTeV = class_tev[j]
-            if (classGeV in _interesting_types and classTeV in _interesting_types):
+            #if not (classGeV in _interesting_types and classTeV in _interesting_types):
+            if True:
                 if ((np.abs(glat_gev[i] - glat_tev[j]) < epsilon) 
                 and (np.abs(glon_gev[i] - glon_tev[j]) < epsilon)) :
                     C_associations_gev[i] = j
@@ -171,13 +137,16 @@ def create_pandas_frames(cat_gev, cat_tev):
     data_gev -- pandas DataFrame with GEV data
     data_tev -- pandas DataFrame with TEV data
     """
-    data_gev = pd.DataFrame.from_records(cat_gev.tolist(), columns=cat_gev.dtype.names)[_names_gev]
+    #for i in range(len(cat_tev.dtype.names)):
+    #    print(cat_tev.dtype.names[i])
+    #    print(cat_tev.tolist()[0][i])
+    data_gev = pd.DataFrame.from_records(cat_gev.tolist(), columns=cat_gev.dtype.names)
     gev_match_names = {}
     for i in data_gev.columns:
         gev_match_names.update({i : "gev_" + i})
     data_gev = data_gev.rename(columns = gev_match_names)
 
-    data_tev = pd.DataFrame.from_records(cat_tev.tolist(), columns=cat_tev.dtype.names)[_names_tev]
+    data_tev = pd.DataFrame.from_records(cat_tev.tolist(), columns=cat_tev.dtype.names)
     tev_match_names = {}
     for i in data_tev.columns:
         tev_match_names.update({i : "tev_" + i})
@@ -203,15 +172,14 @@ def create_common_data(data_gev, data_tev, C_associations_gev, C_associations_te
     """
     data_gev['join'] = C_associations_gev
     pd_common_gevtev = pd.merge(data_tev, data_gev, left_index=True, right_on='join', how='inner')
+    del data_gev['join']
     data_tev['join'] = C_associations_tev
     pd_common_gevtev0 = pd.merge(data_tev, data_gev, right_index=True, left_on='join', how='inner')
-    
+    del data_tev['join']
     pd_common_gevtev = pd_common_gevtev.append(pd_common_gevtev0)
     array_non_duplicate = ['tev_glon', 'gev_GLAT', 'gev_GLON', 'tev_glat', 'gev_CLASS1', 'tev_classes']
     pd_common_gevtev = pd_common_gevtev.drop_duplicates(array_non_duplicate)
     del pd_common_gevtev['join']
-    del pd_common_gevtev['join_x']
-    del pd_common_gevtev['join_y']
     pd_common_gevtev = pd_common_gevtev.reset_index()
     #df_common = pd.DataFrame(data = data, columns = namefinal)
     return pd_common_gevtev
@@ -254,8 +222,7 @@ def compare_gev_tev_data(epsilon):
     only_tev_data = create_only_tev_data(data_tev, C_associations_tev)
     only_gev_data = create_only_gev_data(data_gev, C_associations_gev)
     return common_data, only_tev_data, only_gev_data
-#common_data, only_tev_data, only_gev_data = gev_tev_data()
-#print(common_data.head())
-#print(common_data.info)
-#print(only_tev_data.head())
+
+common_data, only_tev_data, only_gev_data = compare_gev_tev_data(_epsilon)
+common_data.to_csv('gevtev.txt')#print(only_tev_data.head())
 #print(only_gev_data.head())
