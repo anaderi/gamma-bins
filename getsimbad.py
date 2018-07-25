@@ -1,3 +1,4 @@
+import astropy
 import astropy.units as u
 import pandas as pd
 import numpy as np
@@ -14,7 +15,11 @@ def get_simbad_data() :
     qry_B0Ve = ("otypes=HMXB")
     qry_BO = ("sptypes=B0")
 
-	#tables with these objects
+    #adding spectral information
+    Simbad.add_votable_fields('flux(U)','flux(B)','flux(V)','flux(G)','flux(J)','flux(H)','flux(U)','flux(K)')
+	
+    astropy.utils.data.conf.remote_timeout = 1000
+    #tables with these objects
     table_Be = Simbad.query_criteria(qry_Be)
     table_plsr = Simbad.query_criteria(qry_plsr)
     table_O = Simbad.query_criteria(qry_O)
@@ -37,6 +42,8 @@ def get_simbad_data() :
     simbad_B0Ve["class"] = "B0Ve" 
     simbad_BO = table_BO.to_pandas()
     simbad_BO["class"] = "B0Ve" 
+    for i in simbad_O.columns:
+        print(i)
 
 	#concatenating tables into one
     simbad_tables = [simbad_plsr, 
@@ -74,3 +81,5 @@ def get_simbad_data() :
     
     s_data.to_csv("data/simbad.txt", sep='\t', encoding='utf-8')
     return s_data
+
+get_simbad_data()
