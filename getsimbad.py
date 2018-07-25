@@ -16,7 +16,7 @@ def get_simbad_data() :
     qry_BO = ("sptypes=B0")
 
     #adding spectral information
-    Simbad.add_votable_fields('flux(U)','flux(B)','flux(V)','flux(G)','flux(J)','flux(H)','flux(U)','flux(K)')
+    Simbad.add_votable_fields('flux(U)','flux(B)','flux(V)','flux(R)','flux(G)','flux(J)','flux(H)','flux(K)','flux(g)','flux(r)','flux(i)' )
 	
     astropy.utils.data.conf.remote_timeout = 1000
     #tables with these objects
@@ -81,5 +81,3 @@ def get_simbad_data() :
     
     s_data.to_csv("data/simbad.txt", sep='\t', encoding='utf-8')
     return s_data
-
-get_simbad_data()
