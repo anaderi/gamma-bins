@@ -15,8 +15,22 @@ def get_simbad_data() :
     qry_B0Ve = ("otypes=HMXB")
     qry_BO = ("sptypes=B0")
 
+
     #adding spectral information
-    Simbad.add_votable_fields('flux(U)','flux(B)','flux(V)','flux(R)','flux(G)','flux(J)','flux(H)','flux(K)','flux(g)','flux(r)','flux(i)' )
+    Simbad.add_votable_fields('flux(U)',
+                              'flux(B)',
+                              'flux(V)',
+                              'flux(R)',
+                              'flux(I)',
+                              'flux(G)',
+                              'flux(J)',
+                              'flux(H)',
+                              'flux(K)',
+                              'flux(u)',
+                              'flux(g)',
+                              'flux(r)',
+                              'flux(i)',
+                              'flux(z)')
 	
     astropy.utils.data.conf.remote_timeout = 1000
     #tables with these objects
