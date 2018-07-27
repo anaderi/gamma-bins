@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 from astropy.io import fits
 
-_epsilon = 1e-1
+_epsilon = 1.2e-1
 _path_gev = 'data/gll_psc_v16.fit'
 _path_tev = 'data/gammacat.fits.gz'
 _names_gev = [
@@ -101,27 +101,18 @@ def create_common(cat_gev, cat_tev, epsilon):
     m - number of examples in TEV
     """
     
-    class_gev = cat_gev['CLASS1']
-    class_tev = cat_tev['classes']
     glat_gev = cat_gev['GLAT']
     glat_tev = cat_tev['glat']
     glon_gev = cat_gev['GLON']
     glon_tev = cat_tev['glon']
     
-    C_associations_gev = -1.0 * np.ones((len(glat_gev)))
-    C_associations_tev = -1.0 * np.ones((len(glat_tev)))
-    
-    for i in range(len(glat_gev)):
-        for j in range(len(glat_tev)):
-            classGeV = class_gev[i]
-            classTeV = class_tev[j]
-            #if not (classGeV in _interesting_types and classTeV in _interesting_types):
-            if True:
-                if ((np.abs(glat_gev[i] - glat_tev[j]) < epsilon) 
-                and (np.abs(glon_gev[i] - glon_tev[j]) < epsilon)) :
-                    C_associations_gev[i] = j
-                    C_associations_tev[j] = i
-    return C_associations_gev, C_associations_tev
+    glat_dif_matrix = np.dot(np.vstack((glat_gev, -np.ones_like(glat_gev))).T,
+                      np.vstack((np.ones_like(glat_tev), glat_tev)))
+    glon_dif_matrix = np.dot(np.vstack((glon_gev, -np.ones_like(glon_gev))).T,
+                      np.vstack((np.ones_like(glon_tev), glon_tev))) 
+    pairs_matrix = np.logical_and(np.abs(glat_dif_matrix) < epsilon,
+                                  np.abs(glon_dif_matrix) < epsilon)
+    return pairs_matrix
 
 def create_pandas_frames(cat_gev, cat_tev):   
     """
@@ -153,15 +144,14 @@ def create_pandas_frames(cat_gev, cat_tev):
     data_tev = data_tev.rename(columns = tev_match_names)
     return data_gev, data_tev
 
-def create_common_data(data_gev, data_tev, C_associations_gev, C_associations_tev):
+def create_common_data(data_gev, data_tev, pairs_matrix):
     """
     The fonction adds objects found both in GeV and TeV.
     
     Arguments:
     data_gev -- pandas DataFrame with GEV data
     data_tev -- pandas DataFrame with TEV data
-    C_associations_gev - numpy array (n,)
-    C_associations_tev - numpy array (m, )
+    pairs matrix - (n, m) associations
     
     n - number of examples in GEV
     m - number of examples in TEV
@@ -170,21 +160,24 @@ def create_common_data(data_gev, data_tev, C_associations_gev, C_associations_te
     pd_common_gevtev - pandas DataFrame with all chosen columns 
     from GEV and TEV
     """
-    data_gev['join'] = C_associations_gev
-    pd_common_gevtev = pd.merge(data_tev, data_gev, left_index=True, right_on='join', how='inner')
-    del data_gev['join']
-    data_tev['join'] = C_associations_tev
-    pd_common_gevtev0 = pd.merge(data_tev, data_gev, right_index=True, left_on='join', how='inner')
-    del data_tev['join']
-    pd_common_gevtev = pd_common_gevtev.append(pd_common_gevtev0)
+    vector_association = np.where(np.sum(pairs_matrix, axis=0) > 0)[0]
+    pd_common_gevtev = pd.DataFrame()
+    for i in vector_association:
+        data_gev_join = (pairs_matrix[:, i] > 0)*(i + 1) - 1
+        data_gev["join"] = data_gev_join
+        pd_common_gevtev0 = pd.merge(data_gev, data_tev, right_index=True, left_on='join', how='inner')
+        if (len(pd_common_gevtev)):
+            pd_common_gevtev = pd_common_gevtev.append(pd_common_gevtev0)
+            del pd_common_gevtev["join"]
+        else:
+            pd_common_gevtev = pd_common_gevtev0.copy()
     array_non_duplicate = ['tev_glon', 'gev_GLAT', 'gev_GLON', 'tev_glat', 'gev_CLASS1', 'tev_classes']
     pd_common_gevtev = pd_common_gevtev.drop_duplicates(array_non_duplicate)
-    del pd_common_gevtev['join']
     pd_common_gevtev = pd_common_gevtev.reset_index()
     #df_common = pd.DataFrame(data = data, columns = namefinal)
     return pd_common_gevtev
 
-def create_only_tev_data(data_tev, C_associations_tev):
+def create_only_tev_data(data_tev):
     """The fonction adds objects found only in TeV.
     """
     #data_tev['join'] = C_associations_tev
@@ -194,7 +187,7 @@ def create_only_tev_data(data_tev, C_associations_tev):
     data_only_tev = data_only_tev.reset_index()
     return data_only_tev
 
-def create_only_gev_data(data_gev, C_associations_gev):
+def create_only_gev_data(data_gev):
     """The fonction adds objects found only in GeV.
     """
     #data_gev['join'] = C_associations_gev
@@ -216,13 +209,13 @@ def compare_gev_tev_data(epsilon):
     only_gev_data - pandas DataFrame of only GEV objects 
     """
     cat_gev, cat_tev = cat_gev_tev(_path_gev, _path_tev)
-    C_associations_gev, C_associations_tev = create_common(cat_gev, cat_tev, epsilon)
+    pairs_matrix = create_common(cat_gev, cat_tev, epsilon)
     data_gev, data_tev = create_pandas_frames(cat_gev, cat_tev)
-    common_data = create_common_data(data_gev, data_tev, C_associations_gev, C_associations_tev)
-    only_tev_data = create_only_tev_data(data_tev, C_associations_tev)
-    only_gev_data = create_only_gev_data(data_gev, C_associations_gev)
+    common_data = create_common_data(data_gev, data_tev, pairs_matrix)
+    only_tev_data = create_only_tev_data(data_tev)
+    only_gev_data = create_only_gev_data(data_gev)
     return common_data, only_tev_data, only_gev_data
 
-common_data, only_tev_data, only_gev_data = compare_gev_tev_data(_epsilon)
-common_data.to_csv('gevtev.txt')#print(only_tev_data.head())
+
+#print(only_tev_data.head())
 #print(only_gev_data.head())
