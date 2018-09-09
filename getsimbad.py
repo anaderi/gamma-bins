@@ -4,7 +4,13 @@ import pandas as pd
 import numpy as np
 from astroquery.simbad import Simbad
 from astropy.coordinates import SkyCoord
+from definitions import *
 
+def change_spectra_columns_units(s_data):
+    s_spectrum_columns =  list_s_spectrum_columns()
+    if len(s_spectrum_columns) > 0:
+        s_data[s_spectrum_columns] = 10 ** (-s_data[s_spectrum_columns])
+    return s_data
 
 def get_simbad_data() :
 	#queries for required objects
@@ -92,6 +98,7 @@ def get_simbad_data() :
     for i in s_data.columns:
         s_match_names.update({i : "s_" + i})
     s_data = s_data.rename(columns = s_match_names)
+    s_data = change_spectra_columns_units(s_data)
     
     s_data.to_csv("data/simbad.txt", sep='\t', encoding='utf-8')
     return s_data

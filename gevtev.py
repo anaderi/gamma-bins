@@ -4,11 +4,15 @@ Created on Sun Jun 17 18:34:49 2018
 
 @author: Admin
 """
+import math
 import numpy as np
 import pandas as pd
+from scipy.interpolate import interp1d
 from astropy.io import fits
+from definitions import *
+import re
 
-_epsilon = 1.2e-1
+_epsilon = get_epsilon()
 _path_gev = 'data/gll_psc_v16.fit'
 _path_tev = 'data/gammacat.fits.gz'
 _names_gev = [
@@ -78,6 +82,55 @@ def cat_gev_tev(path_gev, path_tev):
     cat_gev = hdul_gev[1].data
     return cat_gev, cat_tev
 
+def get_tev_spectra(catalog_TeV):
+    energies = [0.3, 1, 3, 10, 30]
+    energies_log = np.log([0.3, 1, 3, 10, 30])
+    energies_TeV = pd.DataFrame(columns = ['tev_0.3TeV', 'tev_1TeV', 'tev_3TeV',  'tev_10TeV',  'tev_30TeV' ])
+    tev_spectrum_columns = ['tev_0.3TeV', 'tev_1TeV', 'tev_3TeV',  'tev_10TeV',  'tev_30TeV' ]
+    for idx in range(len(catalog_TeV)):
+        #if all values are nan, in a new spectrum the correspondant values will be 0
+        res = [-float('inf')]*5
+
+        #extracting columns
+        x = catalog_TeV.loc[idx, 'tev_sed_e_ref']
+        y = catalog_TeV.loc[idx, 'tev_sed_dnde']
+        y_err = catalog_TeV.loc[idx,'tev_sed_dnde_err']
+
+        #transfor,img string to float list
+        
+
+        #determining which indexes are not nan
+        indexes_not_nan = []
+        for yi in (range(len(y))):
+            if not math.isnan(y[yi]):
+                indexes_not_nan.append(yi)
+        #if not all values are nan
+        if (len(indexes_not_nan) != 0):
+            #x and y consist of not nan-values of x and y
+            x = np.log([0 if math.isnan(x[xi]) else x[xi] for xi in indexes_not_nan])
+            y = np.log([0 if math.isnan(y[yi]) else y[yi] for yi in indexes_not_nan])
+            #plotting
+
+            # linear interpolation on each pair of sequential points
+            f = interp1d(x, y, fill_value = 'extrapolate')
+
+            # find fluxes on determined energies
+            res = f(energies_log)
+
+
+        #adding to pandas frame    
+        energies = pd.DataFrame([np.exp(res)], columns = tev_spectrum_columns)
+        energies_TeV = energies_TeV.append(energies)
+    energies_TeV = energies_TeV.reset_index(drop=True)
+    catalog_TeV = catalog_TeV.join(energies_TeV)
+    for i in tev_spectrum_columns:
+        if len(re.findall("\d+", i)) == 2:
+            E = 0.3
+        else:
+            E = int(re.findall("\d+", i)[0])
+        catalog_TeV[i] = 1.6 * E ** 2 * catalog_TeV[i]
+    return catalog_TeV
+
 def create_common(cat_gev, cat_tev, epsilon):
     """
     Returns 2 vectors for gev and tev respectively.
@@ -142,6 +195,7 @@ def create_pandas_frames(cat_gev, cat_tev):
     for i in data_tev.columns:
         tev_match_names.update({i : "tev_" + i})
     data_tev = data_tev.rename(columns = tev_match_names)
+    data_tev = get_tev_spectra(data_tev)
     return data_gev, data_tev
 
 def create_common_data(data_gev, data_tev, pairs_matrix):
@@ -214,8 +268,9 @@ def compare_gev_tev_data(epsilon):
     common_data = create_common_data(data_gev, data_tev, pairs_matrix)
     only_tev_data = create_only_tev_data(data_tev)
     only_gev_data = create_only_gev_data(data_gev)
+    common_data.to_csv("data/gevtev.txt", sep='\t')
+    only_gev_data.to_csv("data/gev.txt", sep='\t')
+    only_tev_data.to_csv("data/tev.txt", sep='\t')
     return common_data, only_tev_data, only_gev_data
-
-
 #print(only_tev_data.head())
 #print(only_gev_data.head())

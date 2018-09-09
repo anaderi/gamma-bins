@@ -1,4 +1,4 @@
-	index	gev_0FGL_Name	gev_1FGL_Name	gev_1FHL_Name	gev_2FGL_Name	gev_ASSOC1	gev_ASSOC2	gev_ASSOC_GAM1	gev_ASSOC_GAM2	gev_ASSOC_GAM3	gev_ASSOC_TEV	gev_CLASS1	gev_Conf_68_PosAng	gev_Conf_68_SemiMajor	gev_Conf_68_SemiMinor	gev_Conf_95_PosAng	gev_Conf_95_SemiMajor	gev_Conf_95_SemiMinor	gev_Cutoff	gev_DEJ2000	gev_Energy_Flux100	gev_Exp_Index	gev_Extended_Source_Name	gev_Flags	gev_Flux1000	gev_Flux10000_100000	gev_Flux1000_3000	gev_Flux100_300	gev_Flux3000_10000	gev_Flux300_1000	gev_Flux30_100	gev_Flux_Density	gev_Flux_History	gev_Flux_Peak	gev_GLAT	gev_GLON	gev_Peak_Interval	gev_Pivot_Energy	gev_PowerLaw_Index	gev_RAJ2000	gev_ROI_num	gev_Signif_Avg	gev_Signif_Curve	gev_Signif_Peak	gev_Source_Name	gev_Spectral_Index	gev_SpectrumType	gev_Sqrt_TS10000_100000	gev_Sqrt_TS1000_3000	gev_Sqrt_TS100_300	gev_Sqrt_TS3000_10000	gev_Sqrt_TS300_1000	gev_Sqrt_TS30_100	gev_TEVCAT_FLAG	gev_Time_Peak	gev_Unc_Cutoff	gev_Unc_Energy_Flux100	gev_Unc_Exp_Index	gev_Unc_Flux1000	gev_Unc_Flux10000_100000	gev_Unc_Flux1000_3000	gev_Unc_Flux100_300	gev_Unc_Flux3000_10000	gev_Unc_Flux300_1000	gev_Unc_Flux30_100	gev_Unc_Flux_Density	gev_Unc_Flux_History	gev_Unc_Flux_Peak	gev_Unc_Spectral_Index	gev_Unc_beta	gev_Variability_Index	gev_beta	gev_nuFnu10000_100000	gev_nuFnu1000_3000	gev_nuFnu100_300	gev_nuFnu3000_10000	gev_nuFnu300_1000	gev_nuFnu30_100	tev_classes	tev_common_name	tev_dec	tev_discoverer	tev_discovery_date	tev_fermi_names	tev_gamma_names	tev_glat	tev_glon	tev_livetime	tev_morph_pa	tev_morph_pa_err	tev_morph_pa_frame	tev_morph_sigma	tev_morph_sigma2	tev_morph_sigma2_err	tev_morph_sigma_err	tev_morph_type	tev_other_names	tev_pos_dec	tev_pos_err	tev_pos_glat	tev_pos_glon	tev_pos_ra	tev_ra	tev_reference_id	tev_sed_dnde	tev_sed_dnde_err	tev_sed_dnde_errn	tev_sed_dnde_errp	tev_sed_dnde_ul	tev_sed_e_max	tev_sed_e_min	tev_sed_e_ref	tev_sed_n_points	tev_sed_n_ul	tev_sed_reference_id	tev_seen_by	tev_significance	tev_source_id	tev_spec_dnde_1TeV	tev_spec_dnde_1TeV_err	tev_spec_ecpl_e_cut	tev_spec_ecpl_e_cut_err	tev_spec_ecpl_e_cut_err_sys	tev_spec_ecpl_e_ref	tev_spec_ecpl_index	tev_spec_ecpl_index_err	tev_spec_ecpl_index_err_sys	tev_spec_ecpl_norm	tev_spec_ecpl_norm_err	tev_spec_ecpl_norm_err_sys	tev_spec_eflux_1TeV_10TeV	tev_spec_eflux_1TeV_10TeV_err	tev_spec_erange_max	tev_spec_erange_min	tev_spec_flux_1TeV	tev_spec_flux_1TeV_crab	tev_spec_flux_1TeV_crab_err	tev_spec_flux_1TeV_err	tev_spec_pl2_e_max	tev_spec_pl2_e_min	tev_spec_pl2_flux	tev_spec_pl2_flux_err	tev_spec_pl2_flux_err_sys	tev_spec_pl2_index	tev_spec_pl2_index_err	tev_spec_pl2_index_err_sys	tev_spec_pl_e_ref	tev_spec_pl_index	tev_spec_pl_index_err	tev_spec_pl_index_err_sys	tev_spec_pl_norm	tev_spec_pl_norm_err	tev_spec_pl_norm_err_sys	tev_spec_theta	tev_spec_type	tev_tevcat2_id	tev_tevcat_id	tev_tevcat_name	tev_tgevcat_id	tev_tgevcat_name	tev_where
+	index	gev_0FGL_Name	gev_1FGL_Name	gev_1FHL_Name	gev_2FGL_Name	gev_ASSOC1	gev_ASSOC2	gev_ASSOC_GAM1	gev_ASSOC_GAM2	gev_ASSOC_GAM3	gev_ASSOC_TEV	gev_CLASS1	gev_Conf_68_PosAng	gev_Conf_68_SemiMajor	gev_Conf_68_SemiMinor	gev_Conf_95_PosAng	gev_Conf_95_SemiMajor	gev_Conf_95_SemiMinor	gev_Cutoff	gev_DEJ2000	gev_Energy_Flux100	gev_Exp_Index	gev_Extended_Source_Name	gev_Flags	gev_Flux1000	gev_Flux10000_100000	gev_Flux1000_3000	gev_Flux100_300	gev_Flux3000_10000	gev_Flux300_1000	gev_Flux30_100	gev_Flux_Density	gev_Flux_History	gev_Flux_Peak	gev_GLAT	gev_GLON	gev_Peak_Interval	gev_Pivot_Energy	gev_PowerLaw_Index	gev_RAJ2000	gev_ROI_num	gev_Signif_Avg	gev_Signif_Curve	gev_Signif_Peak	gev_Source_Name	gev_Spectral_Index	gev_SpectrumType	gev_Sqrt_TS10000_100000	gev_Sqrt_TS1000_3000	gev_Sqrt_TS100_300	gev_Sqrt_TS3000_10000	gev_Sqrt_TS300_1000	gev_Sqrt_TS30_100	gev_TEVCAT_FLAG	gev_Time_Peak	gev_Unc_Cutoff	gev_Unc_Energy_Flux100	gev_Unc_Exp_Index	gev_Unc_Flux1000	gev_Unc_Flux10000_100000	gev_Unc_Flux1000_3000	gev_Unc_Flux100_300	gev_Unc_Flux3000_10000	gev_Unc_Flux300_1000	gev_Unc_Flux30_100	gev_Unc_Flux_Density	gev_Unc_Flux_History	gev_Unc_Flux_Peak	gev_Unc_Spectral_Index	gev_Unc_beta	gev_Variability_Index	gev_beta	gev_nuFnu10000_100000	gev_nuFnu1000_3000	gev_nuFnu100_300	gev_nuFnu3000_10000	gev_nuFnu300_1000	gev_nuFnu30_100	tev_0.3TeV	tev_10TeV	tev_1TeV	tev_30TeV	tev_3TeV	tev_classes	tev_common_name	tev_dec	tev_discoverer	tev_discovery_date	tev_fermi_names	tev_gamma_names	tev_glat	tev_glon	tev_livetime	tev_morph_pa	tev_morph_pa_err	tev_morph_pa_frame	tev_morph_sigma	tev_morph_sigma2	tev_morph_sigma2_err	tev_morph_sigma_err	tev_morph_type	tev_other_names	tev_pos_dec	tev_pos_err	tev_pos_glat	tev_pos_glon	tev_pos_ra	tev_ra	tev_reference_id	tev_sed_dnde	tev_sed_dnde_err	tev_sed_dnde_errn	tev_sed_dnde_errp	tev_sed_dnde_ul	tev_sed_e_max	tev_sed_e_min	tev_sed_e_ref	tev_sed_n_points	tev_sed_n_ul	tev_sed_reference_id	tev_seen_by	tev_significance	tev_source_id	tev_spec_dnde_1TeV	tev_spec_dnde_1TeV_err	tev_spec_ecpl_e_cut	tev_spec_ecpl_e_cut_err	tev_spec_ecpl_e_cut_err_sys	tev_spec_ecpl_e_ref	tev_spec_ecpl_index	tev_spec_ecpl_index_err	tev_spec_ecpl_index_err_sys	tev_spec_ecpl_norm	tev_spec_ecpl_norm_err	tev_spec_ecpl_norm_err_sys	tev_spec_eflux_1TeV_10TeV	tev_spec_eflux_1TeV_10TeV_err	tev_spec_erange_max	tev_spec_erange_min	tev_spec_flux_1TeV	tev_spec_flux_1TeV_crab	tev_spec_flux_1TeV_crab_err	tev_spec_flux_1TeV_err	tev_spec_pl2_e_max	tev_spec_pl2_e_min	tev_spec_pl2_flux	tev_spec_pl2_flux_err	tev_spec_pl2_flux_err_sys	tev_spec_pl2_index	tev_spec_pl2_index_err	tev_spec_pl2_index_err_sys	tev_spec_pl_e_ref	tev_spec_pl_index	tev_spec_pl_index_err	tev_spec_pl_index_err_sys	tev_spec_pl_norm	tev_spec_pl_norm_err	tev_spec_pl_norm_err_sys	tev_spec_theta	tev_spec_type	tev_tevcat2_id	tev_tevcat_id	tev_tevcat_name	tev_tgevcat_id	tev_tgevcat_name	tev_where
 0	33	b'                 '	b'                  '	b'                  '	b'                  '	b'RBS 0030                  '	b'                          '	b'               '	b'              '	b'               '	b'SHBL J001355.9-185406'	b'bll  '	55.709999084472656	0.038175418972969055	0.036263566464185715	55.709999084472656	0.061900001019239426	0.058800000697374344	-inf	-18.8966007232666	2.704800142541708e-12	-inf	b'                  '	0	2.373437280045465e-10	8.065614148788924e-12	2.2268917265755306e-10	4.829534531623422e-14	9.082083696210219e-11	1.0914425613295364e-10		2.975391607358199e-14	"[1.99231809e-09 3.29158922e-09 1.10628084e-08 6.49371312e-09
  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
  0.00000000e+00 1.43104639e-09 0.00000000e+00 0.00000000e+00
@@ -57,7 +57,7 @@
  [           nan  6.1374168e-09]
  [           nan  4.1332577e-09]
  [           nan  5.9483130e-09]
- [           nan  5.3198712e-09]]"	-inf	0.16737209260463715	-inf	36.458805084228516	-inf	1.4743197981892386e-13	5.385566125004626e-13	1.1679857250878368e-17	6.283424843801788e-13	7.551127962929921e-14		b'hbl'	b'SHBL J001355.9-185406'	-18.90184783935547	b'hess'	b'2010-11'	b''	b'HESS J0013-189'	-78.0869369506836	74.63201141357422	41.5			b''					b'point'	b''	-18.891387939453125	0.006180165335536003	-78.06826782226562	74.61251068115234	3.4666666984558105	3.483558416366577	b'2013A&A...554A..72H'	"[1.90700e-12 1.46200e-13 8.40099e-15         nan         nan         nan
+ [           nan  5.3198712e-09]]"	-inf	0.16737209260463715	-inf	36.458805084228516	-inf	1.4743197981892386e-13	5.385566125004626e-13	1.1679857250878368e-17	6.283424843801788e-13	7.551127962929921e-14		1.0468143893078333e-12	5.4218188400397835e-15	1.9470572405524109e-13	9.819965000794608e-16	3.526498121915887e-14	b'hbl'	b'SHBL J001355.9-185406'	-18.90184783935547	b'hess'	b'2010-11'	b''	b'HESS J0013-189'	-78.0869369506836	74.63201141357422	41.5			b''					b'point'	b''	-18.891387939453125	0.006180165335536003	-78.06826782226562	74.61251068115234	3.4666666984558105	3.483558416366577	b'2013A&A...554A..72H'	"[1.90700e-12 1.46200e-13 8.40099e-15         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -146,7 +146,7 @@
  [-5.60692071e-09  9.29560962e-09]
  [            nan  1.01854090e-08]
  [-1.25800712e-08  1.43376813e-08]
- [-1.47038115e-08  1.70752834e-08]]"	-inf	0.13857939839363098	-inf	31.292749404907227	-inf	1.0184933408804997e-12	1.0782096786579598e-12	5.0196869908316136e-14	5.647267050691573e-13	2.145693562063955e-12		b'snr'	b'Tycho SNR'	64.14080047607422	b'veritas'	b'2010-05'	b''	b'VER J0025+641'	1.4129304885864258	120.09236145019531	147.0			b''					b'point'	b'SNR G120.1+1.4,3C10,SN1572'	64.12999725341797	0.024494897574186325	1.402172565460205	120.09140014648438	6.340000152587891	6.339700222015381	b'2017ApJ...836...23A'	"[1.8299999e-12 2.2899998e-13 4.5599998e-14 6.6199996e-15 6.0499997e-15
+ [-1.47038115e-08  1.70752834e-08]]"	-inf	0.13857939839363098	-inf	31.292749404907227	-inf	1.0184933408804997e-12	1.0782096786579598e-12	5.0196869908316136e-14	5.647267050691573e-13	2.145693562063955e-12		1.9755932060255345e-12	8.749737904500848e-13	3.010336331462195e-13	6.6313311994251895e-12	9.506755063428869e-14	b'snr'	b'Tycho SNR'	64.14080047607422	b'veritas'	b'2010-05'	b''	b'VER J0025+641'	1.4129304885864258	120.09236145019531	147.0			b''					b'point'	b'SNR G120.1+1.4,3C10,SN1572'	64.12999725341797	0.024494897574186325	1.402172565460205	120.09140014648438	6.340000152587891	6.339700222015381	b'2017ApJ...836...23A'	"[1.8299999e-12 2.2899998e-13 4.5599998e-14 6.6199996e-15 6.0499997e-15
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
@@ -234,7 +234,7 @@
  [-5.4043192e-09  6.2471335e-09]
  [-4.0865444e-09  5.1183742e-09]
  [-4.9243387e-09  5.9475291e-09]
- [-4.5657722e-09  5.3911173e-09]]"	-inf	0.035383034497499466	-inf	64.62390899658203	-inf	8.395113597348125e-12	4.1760839578075526e-12	2.2672794631334314e-12	6.302553964832036e-12	2.2965741721531208e-12		b'hbl'	b'KUV 00311-1938'	-19.35920524597168	b'hess'	b'2012-07'	b''	b''	-81.21610260009766	94.17464447021484				b''					b'none'	b''						8.393287658691406	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-4.5657722e-09  5.3911173e-09]]"	-inf	0.035383034497499466	-inf	64.62390899658203	-inf	8.395113597348125e-12	4.1760839578075526e-12	2.2672794631334314e-12	6.302553964832036e-12	2.2965741721531208e-12		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'KUV 00311-1938'	-19.35920524597168	b'hess'	b'2012-07'	b''	b''	-81.21610260009766	94.17464447021484				b''					b'none'	b''						8.393287658691406	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -309,7 +309,7 @@
  [-8.39575520e-09  9.75326486e-09]
  [-7.11985670e-09  8.83145290e-09]
  [            nan  7.55338725e-09]
- [-8.14856449e-09  9.73241931e-09]]"	-inf	0.04220777004957199	-inf	69.54862213134766	-inf	5.756688962327283e-12	3.369682571169319e-12	2.990092982241288e-12	4.719991324869666e-12	4.563474598207051e-12		b'hbl'	b'1ES 0033+595'	59.834495544433594	b'magic'	b'2011-10'	b''	b''	-2.9781200885772705	120.97542572021484				b''					b'none'	b''						8.968975067138672	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-8.14856449e-09  9.73241931e-09]]"	-inf	0.04220777004957199	-inf	69.54862213134766	-inf	5.756688962327283e-12	3.369682571169319e-12	2.990092982241288e-12	4.719991324869666e-12	4.563474598207051e-12		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'1ES 0033+595'	59.834495544433594	b'magic'	b'2011-10'	b''	b''	-2.9781200885772705	120.97542572021484				b''					b'none'	b''						8.968975067138672	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -382,7 +382,7 @@
  [-6.8947279e-09  7.7375564e-09]
  [-4.0212700e-09  5.0266395e-09]
  [-4.7129465e-09  5.4700182e-09]
- [-5.4464668e-09  6.3819834e-09]]"	-inf	0.02474238909780979	-inf	62.30137634277344	-inf	1.8848483537836636e-11	6.4882413677858075e-12	4.589447311770245e-12	1.0182324601537562e-11	3.958297231654306e-12		b'hbl'	b'RGB J0136+391'	39.09977722167969	b'magic'	b'2012-07'	b''	b''	-22.93984603881836	132.4164581298828				b''					b'none'	b'B3 0133+388,1RXS J013632.9+390556'						24.135826110839844	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-5.4464668e-09  6.3819834e-09]]"	-inf	0.02474238909780979	-inf	62.30137634277344	-inf	1.8848483537836636e-11	6.4882413677858075e-12	4.589447311770245e-12	1.0182324601537562e-11	3.958297231654306e-12		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'RGB J0136+391'	39.09977722167969	b'magic'	b'2012-07'	b''	b''	-22.93984603881836	132.4164581298828				b''					b'none'	b'B3 0133+388,1RXS J013632.9+390556'						24.135826110839844	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -457,7 +457,7 @@
  [           nan  4.9343432e-09]
  [           nan  6.5013781e-09]
  [-5.3935225e-09  7.0604229e-09]
- [-4.3467177e-09  6.0214007e-09]]"	-inf	0.10303929448127747	-inf	51.75806427001953	-inf	2.0128753264875288e-12	1.5171940309990917e-12	1.0125922452960956e-12	7.859896002278266e-13	7.043175179362315e-13		b'hbl'	b'RGB J0152+017'	1.7881617546081543	b'hess'	b'2008-02'	b''	b'HESS J0152+017'	-57.54093551635742	152.3774871826172	14.699999809265137			b''					b'point'	b'RXJ0152.6+0147'	1.7778611183166504	0.025619635358452797	-57.56133270263672	152.34323120117188	28.139583587646484	28.1650447845459	b'2008A&A...481L.103A'	"[2.03400e-11 5.64453e-12 1.20330e-12 3.12379e-13 1.18590e-13 4.09739e-14
+ [-4.3467177e-09  6.0214007e-09]]"	-inf	0.10303929448127747	-inf	51.75806427001953	-inf	2.0128753264875288e-12	1.5171940309990917e-12	1.0125922452960956e-12	7.859896002278266e-13	7.043175179362315e-13		2.9507200302069042e-12	3.4860996183700645e-13	7.895815435259081e-13	2.3631938234547934e-13	5.337926576515924e-13	b'hbl'	b'RGB J0152+017'	1.7881617546081543	b'hess'	b'2008-02'	b''	b'HESS J0152+017'	-57.54093551635742	152.3774871826172	14.699999809265137			b''					b'point'	b'RXJ0152.6+0147'	1.7778611183166504	0.025619635358452797	-57.56133270263672	152.34323120117188	28.139583587646484	28.1650447845459	b'2008A&A...481L.103A'	"[2.03400e-11 5.64453e-12 1.20330e-12 3.12379e-13 1.18590e-13 4.09739e-14
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -546,7 +546,7 @@
  [-1.7089249e-08  1.8188597e-08]
  [-1.7968981e-08  1.8938518e-08]
  [-1.7802984e-08  1.8701137e-08]
- [-1.8355809e-08  1.9489654e-08]]"	-inf	0.056947704404592514	-inf	37.42585372924805	-inf	3.2008561925110646e-13	1.1376149154640469e-11	1.7029180149341627e-11	4.20213690233151e-12	1.5342794743022914e-11		b'pwn'	b'3C 58'	64.82830047607422	b'magic'	b'2014-05'	b''	b''	3.083847999572754	130.7178192138672	99.0			b''					b'point'	b''	64.8499984741211	0.02500000037252903	3.1016318798065186	130.70140075683594	31.379167556762695	31.404300689697266	b'2014A&A...567L...8A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-1.8355809e-08  1.9489654e-08]]"	-inf	0.056947704404592514	-inf	37.42585372924805	-inf	3.2008561925110646e-13	1.1376149154640469e-11	1.7029180149341627e-11	4.20213690233151e-12	1.5342794743022914e-11		0.0	0.0	0.0	0.0	0.0	b'pwn'	b'3C 58'	64.82830047607422	b'magic'	b'2014-05'	b''	b''	3.083847999572754	130.7178192138672	99.0			b''					b'point'	b''	64.8499984741211	0.02500000037252903	3.1016318798065186	130.70140075683594	31.379167556762695	31.404300689697266	b'2014A&A...567L...8A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -619,7 +619,7 @@
  [-1.85239504e-08  1.94810319e-08]
  [-1.72115495e-08  1.88889100e-08]
  [-2.19065885e-08  2.33600002e-08]
- [-2.93251770e-08  2.93251770e-08]]"	2.932517695342085e-08	0.02690732665359974	-inf	408.0013427734375	-inf	3.653335446662798e-12	7.641505483935163e-12	1.661822936205315e-11	6.361454332054484e-12	1.1384715219164843e-11		b'blazar'	b'S3 0218+35'	35.93709945678711	b'magic'	b'2014-07'	b''	b''	-23.486858367919922	142.60171508789062				b''					b'none'	b'B2 0218+35'						35.27280044555664	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-2.93251770e-08  2.93251770e-08]]"	2.932517695342085e-08	0.02690732665359974	-inf	408.0013427734375	-inf	3.653335446662798e-12	7.641505483935163e-12	1.661822936205315e-11	6.361454332054484e-12	1.1384715219164843e-11		0.0	0.0	0.0	0.0	0.0	b'blazar'	b'S3 0218+35'	35.93709945678711	b'magic'	b'2014-07'	b''	b''	-23.486858367919922	142.60171508789062				b''					b'none'	b'B2 0218+35'						35.27280044555664	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -692,7 +692,7 @@
  [-1.28012756e-08  1.37202631e-08]
  [-1.32581599e-08  1.40431693e-08]
  [-1.35316069e-08  1.42570942e-08]
- [-1.47136960e-08  1.55369744e-08]]"	2.428307865898205e-08	0.0172601155936718	0.00705215148627758	885.04345703125	0.038562752306461334	2.7734623625486066e-11	3.025127717770637e-11	2.0860129595901e-11	3.302311896158372e-11	2.7684429401708677e-11		b'ibl'	b'3C 66A'	43.0355224609375	b'crimea'	b'1998-03'	b''	b''	-16.766897201538086	140.14295959472656				b''					b'none'	b'B2 0218+35'						35.6650505065918	b'2011ApJ...726...58A'	"[2.40002e-09 2.17000e-10 3.14000e-11 4.42001e-12         nan         nan
+ [-1.47136960e-08  1.55369744e-08]]"	2.428307865898205e-08	0.0172601155936718	0.00705215148627758	885.04345703125	0.038562752306461334	2.7734623625486066e-11	3.025127717770637e-11	2.0860129595901e-11	3.302311896158372e-11	2.7684429401708677e-11		3.0195528376417573e-12	4.6014965065548567e-14	7.178979777915876e-13	1.2405531242639828e-14	1.9354368257880848e-13	b'ibl'	b'3C 66A'	43.0355224609375	b'crimea'	b'1998-03'	b''	b''	-16.766897201538086	140.14295959472656				b''					b'none'	b'B2 0218+35'						35.6650505065918	b'2011ApJ...726...58A'	"[2.40002e-09 2.17000e-10 3.14000e-11 4.42001e-12         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -780,7 +780,7 @@
  [-1.28012756e-08  1.37202631e-08]
  [-1.32581599e-08  1.40431693e-08]
  [-1.35316069e-08  1.42570942e-08]
- [-1.47136960e-08  1.55369744e-08]]"	2.428307865898205e-08	0.0172601155936718	0.00705215148627758	885.04345703125	0.038562752306461334	2.7734623625486066e-11	3.025127717770637e-11	2.0860129595901e-11	3.302311896158372e-11	2.7684429401708677e-11		b'unid'	b'MAGIC J0223+403'	43.0355224609375	b'magic'	b'2009-02'	b''	b'MAGIC J0223+403'	-16.766897201538086	140.14295959472656				b''					b'none'	b'3C 66A/B Region'						35.6650505065918	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-1.47136960e-08  1.55369744e-08]]"	2.428307865898205e-08	0.0172601155936718	0.00705215148627758	885.04345703125	0.038562752306461334	2.7734623625486066e-11	3.025127717770637e-11	2.0860129595901e-11	3.302311896158372e-11	2.7684429401708677e-11		0.0	0.0	0.0	0.0	0.0	b'unid'	b'MAGIC J0223+403'	43.0355224609375	b'magic'	b'2009-02'	b''	b'MAGIC J0223+403'	-16.766897201538086	140.14295959472656				b''					b'none'	b'3C 66A/B Region'						35.6650505065918	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -855,7 +855,7 @@
  [            nan  7.40868167e-09]
  [-8.07141998e-09  1.00310587e-08]
  [            nan  8.60251070e-09]
- [-1.03771427e-08  1.12634853e-08]]"	-inf	0.1495983898639679	-inf	49.163089752197266	-inf	7.425288682527675e-13	5.936927382002577e-13	5.586350609529389e-13	3.1329349921629945e-13	1.2027971934419623e-12		b'hbl'	b'1ES 0229+200'	20.288190841674805	b'hess'	b'2006-12'	b''	b'VER J0232+202,HESS J0232+202'	-36.60728073120117	152.9411163330078				b''					b'none'	b'QSO B0229+200'						38.20256423950195	b'2007A&A...475L...9A'	"[3.22340e-12 9.27542e-13 2.32469e-13 1.62990e-13 7.40980e-14 2.43740e-14
+ [-1.03771427e-08  1.12634853e-08]]"	-inf	0.1495983898639679	-inf	49.163089752197266	-inf	7.425288682527675e-13	5.936927382002577e-13	5.586350609529389e-13	3.1329349921629945e-13	1.2027971934419623e-12		4.367609284774801e-12	2.910348114260941e-13	9.292766439019045e-13	4.065668327483445e-13	8.533814077775569e-13	b'hbl'	b'1ES 0229+200'	20.288190841674805	b'hess'	b'2006-12'	b''	b'VER J0232+202,HESS J0232+202'	-36.60728073120117	152.9411163330078				b''					b'none'	b'QSO B0229+200'						38.20256423950195	b'2007A&A...475L...9A'	"[3.22340e-12 9.27542e-13 2.32469e-13 1.62990e-13 7.40980e-14 2.43740e-14
  3.78948e-15 1.42780e-15         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -943,7 +943,7 @@
  [-4.1983764e-08  4.1983764e-08]
  [-3.9880863e-08  3.9880863e-08]
  [-3.9557676e-08  3.9557676e-08]
- [-3.9351249e-08  3.9351249e-08]]"	4.802485165100734e-08	0.009463462978601456	0.005762056913226843	344.3282775878906	0.1461610198020935	5.9290025146430114e-12	8.840735782333908e-11	1.353836348583215e-10	4.0559514080662495e-11	1.3179177194011515e-10		b'bin'	b'LS I +61 303'	61.22933578491211	b'magic'	b'2006-06'	b''	b'VER J0240+612'	1.0861347913742065	135.67527770996094				b''					b'none'	b''						40.13193893432617	b'2016ApJ...817L...7A'	"[3.22340e-12 9.27542e-13 2.32469e-13 1.62990e-13 7.40980e-14 2.43740e-14
+ [-3.9351249e-08  3.9351249e-08]]"	4.802485165100734e-08	0.009463462978601456	0.005762056913226843	344.3282775878906	0.1461610198020935	5.9290025146430114e-12	8.840735782333908e-11	1.353836348583215e-10	4.0559514080662495e-11	1.3179177194011515e-10		4.367609284774801e-12	2.910348114260941e-13	9.292766439019045e-13	4.065668327483445e-13	8.533814077775569e-13	b'bin'	b'LS I +61 303'	61.22933578491211	b'magic'	b'2006-06'	b''	b'VER J0240+612'	1.0861347913742065	135.67527770996094				b''					b'none'	b''						40.13193893432617	b'2016ApJ...817L...7A'	"[3.22340e-12 9.27542e-13 2.32469e-13 1.62990e-13 7.40980e-14 2.43740e-14
  3.78948e-15 1.42780e-15         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -1031,7 +1031,7 @@
  [-7.77815146e-09  8.99917829e-09]
  [-7.54103180e-09  8.45025561e-09]
  [-8.33295655e-09  9.94337057e-09]
- [-7.77767184e-09  8.67004246e-09]]"	2.2557387069355173e-08	0.022218987345695496	-inf	676.8516235351562	-inf	1.0022451618629802e-11	9.14945376406795e-12	6.473749921548366e-12	1.0199967606649984e-11	8.397519658809305e-12		b'hbl'	b'PKS 0301-243'	-24.119861602783203	b'hess'	b'2012-07'	b''	b'HESS J0303-241'	-60.177364349365234	214.62142944335938				b''					b'none'	b''						45.860416412353516	b'2013A&A...559A.136H'	"[2.04440e-11 5.69061e-12 6.10222e-13         nan         nan         nan
+ [-7.77767184e-09  8.67004246e-09]]"	2.2557387069355173e-08	0.022218987345695496	-inf	676.8516235351562	-inf	1.0022451618629802e-11	9.14945376406795e-12	6.473749921548366e-12	1.0199967606649984e-11	8.397519658809305e-12		1.4412421891806701e-12	5.653979236805734e-18	2.4361232908303394e-14	1.0431119884008422e-19	4.494444184275575e-16	b'hbl'	b'PKS 0301-243'	-24.119861602783203	b'hess'	b'2012-07'	b''	b'HESS J0303-241'	-60.177364349365234	214.62142944335938				b''					b'none'	b''						45.860416412353516	b'2013A&A...559A.136H'	"[2.04440e-11 5.69061e-12 6.10222e-13         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -1118,7 +1118,7 @@
  [-9.00615049e-09  1.16119416e-08]
  [            nan  1.05698419e-08]
  [            nan  5.95263616e-09]
- [            nan  9.61711333e-09]]"	-inf	0.14309190213680267	-inf	38.74217987060547	-inf	7.141548637179529e-13	1.6077042041401368e-12	1.2282776063740142e-15	1.2002920359022173e-12	6.217254125977679e-16		b'hbl'	b'IC 310'	41.32476806640625	b'magic'	b'2010-03'	b''	b'MAGIC J0317+413'	-13.734146118164062	150.18299865722656				b''					b'none'	b''						49.17927169799805	b'2014A&A...563A..91A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [            nan  9.61711333e-09]]"	-inf	0.14309190213680267	-inf	38.74217987060547	-inf	7.141548637179529e-13	1.6077042041401368e-12	1.2282776063740142e-15	1.2002920359022173e-12	6.217254125977679e-16		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'IC 310'	41.32476806640625	b'magic'	b'2010-03'	b''	b'MAGIC J0317+413'	-13.734146118164062	150.18299865722656				b''					b'none'	b''						49.17927169799805	b'2014A&A...563A..91A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -1191,7 +1191,7 @@
  [-2.0587159e-08  2.0587159e-08]
  [-2.1984206e-08  2.1984206e-08]
  [-2.0514141e-08  2.0514141e-08]
- [-1.8834182e-08  1.8834182e-08]]"	2.3484084010760853e-08	0.014123921282589436	0.006601132918149233	622.204833984375	0.0647643432021141	1.4458422306629082e-11	3.692957051271151e-11	3.819394106541196e-11	3.0714569776435496e-11	3.876787779688584e-11		b'fri'	b'NGC 1275'	41.511695861816406	b'magic'	b'2010-10'	b''	b''	-13.261216163635254	150.57582092285156				b''					b'none'	b''						49.95066833496094	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-1.8834182e-08  1.8834182e-08]]"	2.3484084010760853e-08	0.014123921282589436	0.006601132918149233	622.204833984375	0.0647643432021141	1.4458422306629082e-11	3.692957051271151e-11	3.819394106541196e-11	3.0714569776435496e-11	3.876787779688584e-11		0.0	0.0	0.0	0.0	0.0	b'fri'	b'NGC 1275'	41.511695861816406	b'magic'	b'2010-10'	b''	b''	-13.261216163635254	150.57582092285156				b''					b'none'	b''						49.95066833496094	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -1264,7 +1264,7 @@
  [           nan  3.2896195e-09]
  [           nan  2.9874940e-09]
  [-1.2200431e-09  2.2226219e-09]
- [           nan  3.7355203e-09]]"	3.7746299419438856e-09	0.10176534950733185	-inf	76.32682800292969	-inf	2.6805977142857484e-12	8.26034282207927e-13	9.800791651366119e-16	1.3403128433508993e-12	1.414808347517324e-13		b'hbl'	b'RBS 0413'	18.75955581665039	b'veritas'	b'2009-10'	b''	b'VER J0319+187'	-31.69727897644043	165.10678100585938	48.0			b''					b'none'	b'RBS 0413,EXO 0317.0+1834,1E 0317.0+1835'	18.761667251586914	0.01666666753590107	-31.707599639892578	165.0879364013672	49.94583511352539	49.965850830078125	b'2012ApJ...750...94A'	"[1.26000e-11 5.06999e-12 1.53000e-12 4.33000e-13         nan         nan
+ [           nan  3.7355203e-09]]"	3.7746299419438856e-09	0.10176534950733185	-inf	76.32682800292969	-inf	2.6805977142857484e-12	8.26034282207927e-13	9.800791651366119e-16	1.3403128433508993e-12	1.414808347517324e-13		1.7986789737694785e-12	9.953580852918448e-15	3.943047923468417e-13	1.7203224631876643e-15	6.814948325033481e-14	b'hbl'	b'RBS 0413'	18.75955581665039	b'veritas'	b'2009-10'	b''	b'VER J0319+187'	-31.69727897644043	165.10678100585938	48.0			b''					b'none'	b'RBS 0413,EXO 0317.0+1834,1E 0317.0+1835'	18.761667251586914	0.01666666753590107	-31.707599639892578	165.0879364013672	49.94583511352539	49.965850830078125	b'2012ApJ...750...94A'	"[1.26000e-11 5.06999e-12 1.53000e-12 4.33000e-13         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -1351,7 +1351,7 @@
  [           nan  5.1469216e-09]
  [-3.5564840e-09  4.6168269e-09]
  [           nan  6.0234724e-09]
- [           nan  3.9259791e-09]]"	-inf	0.1562715321779251	-inf	44.25679397583008	-inf	1.042295698534812e-12	2.3502131230729306e-13	1.4276284961058788e-13	8.440753521479771e-13	9.131491542730893e-14		b'hbl'	b'1ES 0347-121'	-11.99085807800293	b'hess'	b'2007-08'	b''	b'HESS J0349-119'	-45.709136962890625	201.9267120361328				b''					b'none'	b'QSO B0347-121'						57.34660720825195	b'2007A&A...473L..25A'	"[1.67330e-11 6.79238e-12 1.47099e-12 4.60960e-13 1.20280e-13 5.29600e-14
+ [           nan  3.9259791e-09]]"	-inf	0.1562715321779251	-inf	44.25679397583008	-inf	1.042295698534812e-12	2.3502131230729306e-13	1.4276284961058788e-13	8.440753521479771e-13	9.131491542730893e-14		2.4646273285858496e-12	2.7939738778213837e-12	6.342119939381498e-13	1.161554569942324e-11	5.862170719864613e-13	b'hbl'	b'1ES 0347-121'	-11.99085807800293	b'hess'	b'2007-08'	b''	b'HESS J0349-119'	-45.709136962890625	201.9267120361328				b''					b'none'	b'QSO B0347-121'						57.34660720825195	b'2007A&A...473L..25A'	"[1.67330e-11 6.79238e-12 1.47099e-12 4.60960e-13 1.20280e-13 5.29600e-14
  4.04370e-14         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -1440,7 +1440,7 @@
  [-7.4615514e-09  8.9432817e-09]
  [           nan  3.9597499e-09]
  [-5.2797278e-09  6.9379777e-09]
- [-4.0353201e-09  4.8598903e-09]]"	-inf	0.11405110359191895	-inf	55.84862518310547	-inf	1.96753182322984e-12	7.348923986710831e-13	3.994919765002228e-14	1.206971154965597e-12	9.87635971269607e-13		b'hbl'	b'1ES 0414+009'	1.0899944305419922	b'hess'	b'2009-11'	b''	b'VER J0416+011,HESS J0416+010'	-33.1590576171875	191.8144989013672	56.20000076293945			b''					b'none'	b''	1.1097222566604614	0.006425018422305584	-33.14286422729492	191.79908752441406	64.2249984741211	64.21873474121094	b'2012ApJ...755..118A'	"[3.28000e-11 1.57000e-11 3.52002e-12 1.16999e-12         nan         nan
+ [-4.0353201e-09  4.8598903e-09]]"	-inf	0.11405110359191895	-inf	55.84862518310547	-inf	1.96753182322984e-12	7.348923986710831e-13	3.994919765002228e-14	1.206971154965597e-12	9.87635971269607e-13		2.646212262415017e-12	1.3372024516002405e-14	3.502328574458128e-13	2.815548531009843e-15	7.374332930012711e-14	b'hbl'	b'1ES 0414+009'	1.0899944305419922	b'hess'	b'2009-11'	b''	b'VER J0416+011,HESS J0416+010'	-33.1590576171875	191.8144989013672	56.20000076293945			b''					b'none'	b''	1.1097222566604614	0.006425018422305584	-33.14286422729492	191.79908752441406	64.2249984741211	64.21873474121094	b'2012ApJ...755..118A'	"[3.28000e-11 1.57000e-11 3.52002e-12 1.16999e-12         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -1529,7 +1529,7 @@
  [-1.10264207e-08  1.20627721e-08]
  [-7.96701372e-09  8.59913207e-09]
  [-9.68918812e-09  1.08072369e-08]
- [-8.10409073e-09  8.81313955e-09]]"	1.5357336735632998e-08	0.015304931439459324	-inf	230.17333984375	-inf	2.1731049251738632e-11	1.6144526687744687e-11	1.1280529461921152e-11	2.062084530907171e-11	1.25145649051972e-11		b'hbl'	b'PKS 0447-439'	-43.8358154296875	b'hess'	b'2009-12'	b''	b''	-39.91876983642578	248.80523681640625				b''					b'none'	b''						72.35291290283203	b''	"[1.22942e-10 4.79225e-11 1.41785e-11 1.25336e-11 3.22665e-12 4.73058e-13
+ [-8.10409073e-09  8.81313955e-09]]"	1.5357336735632998e-08	0.015304931439459324	-inf	230.17333984375	-inf	2.1731049251738632e-11	1.6144526687744687e-11	1.1280529461921152e-11	2.062084530907171e-11	1.25145649051972e-11		3.6202135472942268e-12	3.2798051222405528e-15	2.5287272180538255e-13	4.210711725324387e-16	3.110553121558208e-14	b'hbl'	b'PKS 0447-439'	-43.8358154296875	b'hess'	b'2009-12'	b''	b''	-39.91876983642578	248.80523681640625				b''					b'none'	b''						72.35291290283203	b''	"[1.22942e-10 4.79225e-11 1.41785e-11 1.25336e-11 3.22665e-12 4.73058e-13
  1.22300e-13 3.01529e-14         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -1616,7 +1616,7 @@
  [-2.8111518e-09  3.3821284e-09]
  [-3.1663461e-09  3.8009595e-09]
  [-3.1821152e-09  3.7408960e-09]
- [-3.4722751e-09  4.0735051e-09]]"	4.167911793473422e-09	0.03989908844232559	-inf	77.94445037841797	-inf	1.2202784789583365e-11	2.0294581987156946e-12	7.588919184904619e-13	4.334763017282972e-12	2.0410752081534422e-12		b'hbl'	b'1ES 0502+675'	67.62340545654297	b'veritas'	b'2009-11'	b''	b''	15.88968563079834	143.79489135742188				b''					b'none'	b''						76.98405456542969	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-3.4722751e-09  4.0735051e-09]]"	4.167911793473422e-09	0.03989908844232559	-inf	77.94445037841797	-inf	1.2202784789583365e-11	2.0294581987156946e-12	7.588919184904619e-13	4.334763017282972e-12	2.0410752081534422e-12		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'1ES 0502+675'	67.62340545654297	b'veritas'	b'2009-11'	b''	b''	15.88968563079834	143.79489135742188				b''					b'none'	b''						76.98405456542969	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -1691,7 +1691,7 @@
  [-1.21666242e-08  1.40180170e-08]
  [-1.29053603e-08  1.47709835e-08]
  [-1.22686536e-08  1.38147591e-08]
- [-1.29083482e-08  1.43650052e-08]]"	2.0895644325946705e-08	0.02420932799577713	-inf	239.791015625	-inf	1.503094003429961e-11	1.2538748685175793e-11	9.66103239075089e-12	1.4542328279076866e-11	1.0812671938364993e-11		b'ibl'	b'RGB J0521+212'	21.214271545410156	b'veritas'	b'2009-10'	b''	b'VER J0521+211'	-8.708333969116211	183.60418701171875	14.5			b''					b'none'	b''	21.214277267456055	0.003888888983055949	-8.711463928222656	183.60208129882812	80.4375	80.44153594970703	b'2013ApJ...776...69A'	"[1.21455e-10 7.79084e-11 3.16068e-11 1.46794e-11 7.25491e-12 1.97822e-12
+ [-1.29083482e-08  1.43650052e-08]]"	2.0895644325946705e-08	0.02420932799577713	-inf	239.791015625	-inf	1.503094003429961e-11	1.2538748685175793e-11	9.66103239075089e-12	1.4542328279076866e-11	1.0812671938364993e-11		8.783805397130173e-12	7.982140614824632e-14	1.3517468064524526e-12	2.069399013361593e-14	3.5044528060457207e-13	b'ibl'	b'RGB J0521+212'	21.214271545410156	b'veritas'	b'2009-10'	b''	b'VER J0521+211'	-8.708333969116211	183.60418701171875	14.5			b''					b'none'	b''	21.214277267456055	0.003888888983055949	-8.711463928222656	183.60208129882812	80.4375	80.44153594970703	b'2013ApJ...776...69A'	"[1.21455e-10 7.79084e-11 3.16068e-11 1.46794e-11 7.25491e-12 1.97822e-12
  1.22521e-12 5.82552e-13         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -1778,7 +1778,7 @@
  [-2.0288404e-09  3.0864440e-09]
  [           nan  3.4943388e-09]
  [           nan  4.7656519e-09]
- [-4.0307198e-09  4.7526640e-09]]"	-inf	0.19437968730926514	-inf	36.4205207824707	-inf	1.6603559889818986e-12	3.866457392968925e-13	1.2024445308508565e-16	3.6601179986134325e-13	3.0294356975248127e-13		b'snr,mc'	b'LMC N132D'	-69.6441650390625	b'hess'	b'2014-10'	b''	b'HESS J0525-696'	-32.78403854370117	280.3069763183594	148.0			b''					b'point'	b'SNR J052501-693842'						81.25917053222656	b'2015Sci...347..406H'	"[3.167e-14 5.483e-15 2.309e-16       nan       nan       nan       nan
+ [-4.0307198e-09  4.7526640e-09]]"	-inf	0.19437968730926514	-inf	36.4205207824707	-inf	1.6603559889818986e-12	3.866457392968925e-13	1.2024445308508565e-16	3.6601179986134325e-13	3.0294356975248127e-13		9.541224641137668e-14	7.160116949819644e-14	1.1497172142838106e-13	3.1089084814974856e-14	1.3629838956992e-13	b'snr,mc'	b'LMC N132D'	-69.6441650390625	b'hess'	b'2014-10'	b''	b'HESS J0525-696'	-32.78403854370117	280.3069763183594	148.0			b''					b'point'	b'SNR J052501-693842'						81.25917053222656	b'2015Sci...347..406H'	"[3.167e-14 5.483e-15 2.309e-16       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
@@ -1862,7 +1862,7 @@
  [ nan -inf]
  [ nan -inf]
  [ nan -inf]
- [ nan -inf]]"	-inf	-inf	-inf	0.0	-inf	1.1601800770089099e-10	3.60264144905198e-11	1.5726100976998225e-11	6.452641199139464e-11	2.3833535839346e-11		b'psr'	b'Crab pulsar'	22.014493942260742	b'magic'	b'2008-11'	b''	b''	-5.784365653991699	184.55746459960938				b''					b'none'	b'PSR 0531+21,V* CM Tau'						83.6330795288086	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [ nan -inf]]"	-inf	-inf	-inf	0.0	-inf	1.1601800770089099e-10	3.60264144905198e-11	1.5726100976998225e-11	6.452641199139464e-11	2.3833535839346e-11		0.0	0.0	0.0	0.0	0.0	b'psr'	b'Crab pulsar'	22.014493942260742	b'magic'	b'2008-11'	b''	b''	-5.784365653991699	184.55746459960938				b''					b'none'	b'PSR 0531+21,V* CM Tau'						83.6330795288086	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -1935,7 +1935,7 @@
  [-7.9524689e-08  7.9524689e-08]
  [-8.0103860e-08  8.0103860e-08]
  [-7.8031974e-08  7.8031974e-08]
- [-8.0798927e-08  8.0798927e-08]]"	9.26545666857237e-08	0.010912163183093071	-inf	621.931396484375	-inf	2.0969033800999348e-11	2.941491217267611e-10	3.9293107656490633e-10	1.610622746284207e-10	3.689618610636103e-10		b'psr'	b'Crab pulsar'	22.014493942260742	b'magic'	b'2008-11'	b''	b''	-5.784365653991699	184.55746459960938				b''					b'none'	b'PSR 0531+21,V* CM Tau'						83.6330795288086	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-8.0798927e-08  8.0798927e-08]]"	9.26545666857237e-08	0.010912163183093071	-inf	621.931396484375	-inf	2.0969033800999348e-11	2.941491217267611e-10	3.9293107656490633e-10	1.610622746284207e-10	3.689618610636103e-10		0.0	0.0	0.0	0.0	0.0	b'psr'	b'Crab pulsar'	22.014493942260742	b'magic'	b'2008-11'	b''	b''	-5.784365653991699	184.55746459960938				b''					b'none'	b'PSR 0531+21,V* CM Tau'						83.6330795288086	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -2000,7 +2000,7 @@
  [ nan -inf]
  [ nan -inf]
  [ nan -inf]
- [ nan -inf]]"	-inf	-inf	-inf	0.0	-inf	1.1601800770089099e-10	3.60264144905198e-11	1.5726100976998225e-11	6.452641199139464e-11	2.3833535839346e-11		b'pwn'	b'Crab nebula'	22.01449966430664	b'whipple'	b'1989-07'	b''	b'HESS J0534+220'	-5.784357070922852	184.55746459960938	22.899999618530273			b''					b'point'	b'G184.6-5.8,3C 144,SN 1054'						83.6330795288086	b'2006A&A...457..899A'	"[1.81e-10 7.27e-11 3.12e-11 1.22e-11 4.60e-12 1.53e-12 6.35e-13 2.27e-13
+ [ nan -inf]]"	-inf	-inf	-inf	0.0	-inf	1.1601800770089099e-10	3.60264144905198e-11	1.5726100976998225e-11	6.452641199139464e-11	2.3833535839346e-11		1.1352880986252317e-10	1.1855711400776202e-11	5.694536498635563e-11	1.5072751363389606e-12	2.906815978313941e-11	b'pwn'	b'Crab nebula'	22.01449966430664	b'whipple'	b'1989-07'	b''	b'HESS J0534+220'	-5.784357070922852	184.55746459960938	22.899999618530273			b''					b'point'	b'G184.6-5.8,3C 144,SN 1054'						83.6330795288086	b'2006A&A...457..899A'	"[1.81e-10 7.27e-11 3.12e-11 1.22e-11 4.60e-12 1.53e-12 6.35e-13 2.27e-13
  6.49e-14 1.75e-14 7.26e-15 9.58e-16      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -2080,7 +2080,7 @@
  [-7.9524689e-08  7.9524689e-08]
  [-8.0103860e-08  8.0103860e-08]
  [-7.8031974e-08  7.8031974e-08]
- [-8.0798927e-08  8.0798927e-08]]"	9.26545666857237e-08	0.010912163183093071	-inf	621.931396484375	-inf	2.0969033800999348e-11	2.941491217267611e-10	3.9293107656490633e-10	1.610622746284207e-10	3.689618610636103e-10		b'pwn'	b'Crab nebula'	22.01449966430664	b'whipple'	b'1989-07'	b''	b'HESS J0534+220'	-5.784357070922852	184.55746459960938	22.899999618530273			b''					b'point'	b'G184.6-5.8,3C 144,SN 1054'						83.6330795288086	b'2006A&A...457..899A'	"[1.81e-10 7.27e-11 3.12e-11 1.22e-11 4.60e-12 1.53e-12 6.35e-13 2.27e-13
+ [-8.0798927e-08  8.0798927e-08]]"	9.26545666857237e-08	0.010912163183093071	-inf	621.931396484375	-inf	2.0969033800999348e-11	2.941491217267611e-10	3.9293107656490633e-10	1.610622746284207e-10	3.689618610636103e-10		1.1352880986252317e-10	1.1855711400776202e-11	5.694536498635563e-11	1.5072751363389606e-12	2.906815978313941e-11	b'pwn'	b'Crab nebula'	22.01449966430664	b'whipple'	b'1989-07'	b''	b'HESS J0534+220'	-5.784357070922852	184.55746459960938	22.899999618530273			b''					b'point'	b'G184.6-5.8,3C 144,SN 1054'						83.6330795288086	b'2006A&A...457..899A'	"[1.81e-10 7.27e-11 3.12e-11 1.22e-11 4.60e-12 1.53e-12 6.35e-13 2.27e-13
  6.49e-14 1.75e-14 7.26e-15 9.58e-16      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -2160,7 +2160,7 @@
  [           nan  3.2429670e-09]
  [           nan  3.2470246e-09]
  [-3.0512364e-09  4.3283417e-09]
- [-1.0854962e-09  2.0588393e-09]]"	-inf	0.1642294079065323	-inf	48.43851852416992	-inf	8.20818077135882e-13	2.2262039759378405e-13	3.309010509176813e-13	8.557209303129698e-13	1.3043655511160018e-13		b'hbl'	b'PKS 0548-322'	-32.27124786376953	b'hess'	b'2007-07'	b''	b'HESS J0550-322'	-26.14487648010254	237.56539916992188				b''					b'none'	b'H 0548-322,1ES 0548-322,QSO B0549-322'						87.66899108886719	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-1.0854962e-09  2.0588393e-09]]"	-inf	0.1642294079065323	-inf	48.43851852416992	-inf	8.20818077135882e-13	2.2262039759378405e-13	3.309010509176813e-13	8.557209303129698e-13	1.3043655511160018e-13		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'PKS 0548-322'	-32.27124786376953	b'hess'	b'2007-07'	b''	b'HESS J0550-322'	-26.14487648010254	237.56539916992188				b''					b'none'	b'H 0548-322,1ES 0548-322,QSO B0549-322'						87.66899108886719	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -2233,7 +2233,7 @@
  [-9.5943555e-08  9.5943555e-08]
  [-9.8125156e-08  9.8125156e-08]
  [-9.6866472e-08  9.6866472e-08]
- [-9.5513826e-08  9.5513826e-08]]"	-inf	0.021170252934098244	-inf	46.487491607666016	-inf	2.8874866039863e-11	1.366021407100959e-09	4.652760121626187e-10	6.947572517290723e-10	1.0073055722870095e-09		b'psr,pwn'	b'Geminga'	17.770252227783203	b'milagro'	b'2009-04'	b''	b'MGRO J0632+17'	4.26581335067749	195.13385009765625				b''					b'none'	b''						98.47563934326172	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-9.5513826e-08  9.5513826e-08]]"	-inf	0.021170252934098244	-inf	46.487491607666016	-inf	2.8874866039863e-11	1.366021407100959e-09	4.652760121626187e-10	6.947572517290723e-10	1.0073055722870095e-09		0.0	0.0	0.0	0.0	0.0	b'psr,pwn'	b'Geminga'	17.770252227783203	b'milagro'	b'2009-04'	b''	b'MGRO J0632+17'	4.26581335067749	195.13385009765625				b''					b'none'	b''						98.47563934326172	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -2308,7 +2308,7 @@
  [-7.4904944e-09  8.9047685e-09]
  [-6.7903136e-09  8.5657783e-09]
  [-4.7774300e-09  6.9683974e-09]
- [-4.8127924e-09  6.4512040e-09]]"	-inf	0.0711330994963646	-inf	36.03874969482422	-inf	3.4941108166541834e-12	2.209630265218032e-12	2.6871319297287755e-13	2.9448973641599263e-12	1.2271115113621223e-12		b'hbl'	b'RX J0648.7+1516'	15.273571968078613	b'veritas'	b'2010-03'	b'1FGL J0648.8+1516'	b'VER J0648+152'	6.327681541442871	198.98690795898438	19.299999237060547			b''					b'none'	b''	15.270000457763672	0.11489125341176987	6.318759918212891	198.98646545410156	102.19000244140625	102.198486328125	b'2011ApJ...742..127A'	"[1.14000e-10 4.37000e-11 3.05000e-11 2.34000e-11 2.82001e-12         nan
+ [-4.8127924e-09  6.4512040e-09]]"	-inf	0.0711330994963646	-inf	36.03874969482422	-inf	3.4941108166541834e-12	2.209630265218032e-12	2.6871319297287755e-13	2.9448973641599263e-12	1.2271115113621223e-12		3.9277764375610805e-12	2.0962022191724768e-17	7.355836945562758e-14	4.265239482404314e-19	1.496726121143426e-15	b'hbl'	b'RX J0648.7+1516'	15.273571968078613	b'veritas'	b'2010-03'	b'1FGL J0648.8+1516'	b'VER J0648+152'	6.327681541442871	198.98690795898438	19.299999237060547			b''					b'none'	b''	15.270000457763672	0.11489125341176987	6.318759918212891	198.98646545410156	102.19000244140625	102.198486328125	b'2011ApJ...742..127A'	"[1.14000e-10 4.37000e-11 3.05000e-11 2.34000e-11 2.82001e-12         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -2397,7 +2397,7 @@
  [-4.4276915e-09  5.6292433e-09]
  [-5.9449015e-09  7.1546302e-09]
  [-5.4637277e-09  6.5499997e-09]
- [-6.7198305e-09  7.6960358e-09]]"	-inf	0.04744306951761246	-inf	63.845619201660156	-inf	6.6540206504484e-12	2.7546192323674168e-12	1.3577629688968362e-12	4.64622307641549e-12	2.0871882781131612e-12		b'hbl'	b'1ES 0647+250'	25.049896240234375	b'magic'	b'2011-09'	b''	b''	10.995633125305176	190.28245544433594				b''					b'none'	b''						102.69371032714844	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-6.7198305e-09  7.6960358e-09]]"	-inf	0.04744306951761246	-inf	63.845619201660156	-inf	6.6540206504484e-12	2.7546192323674168e-12	1.3577629688968362e-12	4.64622307641549e-12	2.0871882781131612e-12		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'1ES 0647+250'	25.049896240234375	b'magic'	b'2011-09'	b''	b''	10.995633125305176	190.28245544433594				b''					b'none'	b''						102.69371032714844	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -2470,7 +2470,7 @@
  [           nan  3.5993952e-09]
  [           nan  3.1332423e-09]
  [           nan  4.1086876e-09]
- [           nan  2.7277349e-09]]"	-inf	0.09397920221090317	-inf	55.542213439941406	-inf	2.854379276343022e-12	7.841492212501411e-13	9.276981309883081e-13	1.0142128022833097e-12	6.284547535151397e-13		b'hbl'	b'RGB J0710+591'	59.1390266418457	b'veritas'	b'2009-02'	b'1FGL J0710.6+5911'	b'VER J0710+591'	25.42650604248047	157.40428161621094	22.100000381469727			b''					b'point'	b'RX J0710.5+5908,1H 0658+595'	59.150001525878906	0.009999999776482582	25.420021057128906	157.39053344726562	107.60832977294922	107.62532806396484	b'2010ApJ...715L..49A'	"[8.78001e-12 2.36999e-12 7.25003e-13 8.57001e-14 3.10000e-14         nan
+ [           nan  2.7277349e-09]]"	-inf	0.09397920221090317	-inf	55.542213439941406	-inf	2.854379276343022e-12	7.841492212501411e-13	9.276981309883081e-13	1.0142128022833097e-12	6.284547535151397e-13		2.582505307755511e-12	6.869107740428455e-13	1.6889771921452251e-12	7.823349376071068e-13	5.956485997277044e-13	b'hbl'	b'RGB J0710+591'	59.1390266418457	b'veritas'	b'2009-02'	b'1FGL J0710.6+5911'	b'VER J0710+591'	25.42650604248047	157.40428161621094	22.100000381469727			b''					b'point'	b'RX J0710.5+5908,1H 0658+595'	59.150001525878906	0.009999999776482582	25.420021057128906	157.39053344726562	107.60832977294922	107.62532806396484	b'2010ApJ...715L..49A'	"[8.78001e-12 2.36999e-12 7.25003e-13 8.57001e-14 3.10000e-14         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -2559,7 +2559,7 @@
  [-1.72223107e-08  1.72223107e-08]
  [-1.84474214e-08  1.84474214e-08]
  [-1.59941038e-08  1.59941038e-08]
- [-1.86896241e-08  1.86896241e-08]]"	1.9905357362404175e-08	0.012437167577445507	0.005078609567135572	1818.041748046875	0.049420204013586044	1.8571630344688117e-11	3.831027856060487e-11	3.616529992145345e-11	3.378605728521222e-11	3.7951784076506456e-11		b'ibl'	b'S5 0716+714'	71.34343719482422	b'magic'	b'2008-04'	b''	b''	28.017559051513672	143.98104858398438				b''					b'none'	b''						110.47270202636719	b'2009ApJ...704L.129A'	"[6.46e-10 1.07e-10 6.54e-12      nan      nan      nan      nan      nan
+ [-1.86896241e-08  1.86896241e-08]]"	1.9905357362404175e-08	0.012437167577445507	0.005078609567135572	1818.041748046875	0.049420204013586044	1.8571630344688117e-11	3.831027856060487e-11	3.616529992145345e-11	3.378605728521222e-11	3.7951784076506456e-11		2.3628477740602506e-11	1.1284190443179889e-14	1.9989193781390722e-12	9.544360256563647e-16	1.69072001796251e-13	b'ibl'	b'S5 0716+714'	71.34343719482422	b'magic'	b'2008-04'	b''	b''	28.017559051513672	143.98104858398438				b''					b'none'	b''						110.47270202636719	b'2009ApJ...704L.129A'	"[6.46e-10 1.07e-10 6.54e-12      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -2644,7 +2644,7 @@
  [-7.2045547e-09  7.8760500e-09]
  [-6.3894099e-09  7.4542799e-09]
  [-6.0136500e-09  6.9200525e-09]
- [-6.0360001e-09  7.0053456e-09]]"	1.2743151422967003e-08	0.024315379559993744	-inf	485.1522216796875	-inf	1.0224372563871764e-11	7.414972282016041e-12	6.330612249694223e-12	8.377174821883049e-12	5.2736413326537335e-12		b'hbl'	b'1ES 0806+524'	52.31618118286133	b'veritas'	b'2008-12'	b''	b''	32.9103889465332	166.2450714111328	65.0			b''					b'none'	b'VTS J0809+522'	52.317222595214844	0.0353553406894207	32.93540573120117	166.24533081054688	122.49583435058594	122.45494842529297	b'2009ApJ...690L.126A'	"[1.60148e-11 7.50308e-12 3.43605e-12 1.19761e-12         nan         nan
+ [-6.0360001e-09  7.0053456e-09]]"	1.2743151422967003e-08	0.024315379559993744	-inf	485.1522216796875	-inf	1.0224372563871764e-11	7.414972282016041e-12	6.330612249694223e-12	8.377174821883049e-12	5.2736413326537335e-12		2.5523784734285346e-12	1.4097335942199135e-15	2.6583056957396637e-13	1.157345327770961e-16	2.1823823234160086e-14	b'hbl'	b'1ES 0806+524'	52.31618118286133	b'veritas'	b'2008-12'	b''	b''	32.9103889465332	166.2450714111328	65.0			b''					b'none'	b'VTS J0809+522'	52.317222595214844	0.0353553406894207	32.93540573120117	166.24533081054688	122.49583435058594	122.45494842529297	b'2009ApJ...690L.126A'	"[1.60148e-11 7.50308e-12 3.43605e-12 1.19761e-12         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -2723,7 +2723,7 @@
  [ nan -inf]
  [ nan -inf]
  [ nan -inf]
- [ nan -inf]]"	-inf	-inf	-inf	0.0	-inf	1.044201270589129e-11	3.3396389820250505e-11	8.58538032333378e-11	2.0864362321182384e-11	5.3637080887902755e-11		b'pwn'	b'Vela X'	-45.189998626708984	b'hess'	b'2006-03'	b''	b'HESS J0835-455'	-3.1061031818389893	263.3319396972656	53.099998474121094	41.0	7.0	b'radec'	0.47999998927116394	0.36000001430511475	0.029999999329447746	0.029999999329447746	b'gauss'	b''	-45.599998474121094		-3.089031219482422	263.8556823730469	128.75	128.28700256347656	b'2012A&A...548A..38A'	"[1.055e-11 1.304e-11 9.211e-12 8.515e-12 5.378e-12 4.455e-12 3.754e-12
+ [ nan -inf]]"	-inf	-inf	-inf	0.0	-inf	1.044201270589129e-11	3.3396389820250505e-11	8.58538032333378e-11	2.0864362321182384e-11	5.3637080887902755e-11		5.720760909711113e-13	3.469541558504569e-11	1.613525038620715e-11	3.133589116882032e-11	2.919181639606625e-11	b'pwn'	b'Vela X'	-45.189998626708984	b'hess'	b'2006-03'	b''	b'HESS J0835-455'	-3.1061031818389893	263.3319396972656	53.099998474121094	41.0	7.0	b'radec'	0.47999998927116394	0.36000001430511475	0.029999999329447746	0.029999999329447746	b'gauss'	b''	-45.599998474121094		-3.089031219482422	263.8556823730469	128.75	128.28700256347656	b'2012A&A...548A..38A'	"[1.055e-11 1.304e-11 9.211e-12 8.515e-12 5.378e-12 4.455e-12 3.754e-12
  2.418e-12 1.605e-12 1.445e-12 9.240e-13 7.348e-13 3.863e-13 3.579e-13
  1.696e-13 1.549e-13 6.695e-14 2.105e-14 3.279e-14 3.026e-14 1.861e-14
  5.653e-15 3.479e-15 1.002e-15       nan       nan       nan       nan
@@ -2813,7 +2813,7 @@
  [           nan  3.6769519e-09]
  [-4.9338595e-09  6.2739782e-09]
  [-3.0415250e-09  4.6441757e-09]
- [           nan  5.4485110e-09]]"	-inf	0.11474240571260452	-inf	44.89639663696289	-inf	1.6056274148787408e-12	7.394249600632674e-13	5.064325817734328e-16	9.715320995612453e-13	4.741104969556431e-13		b'hbl'	b'RBS 0723'	11.563919067382812	b'magic'	b'2014-01'	b'1FGL J0847.2+113,2FGL J0847.2+1134,3FGL J0847.1+1134,1FHL J0847.0+1132'	b''	30.889463424682617	215.4558868408203				b''					b'none'	b''						131.80389404296875	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [           nan  5.4485110e-09]]"	-inf	0.11474240571260452	-inf	44.89639663696289	-inf	1.6056274148787408e-12	7.394249600632674e-13	5.064325817734328e-16	9.715320995612453e-13	4.741104969556431e-13		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'RBS 0723'	11.563919067382812	b'magic'	b'2014-01'	b'1FGL J0847.2+113,2FGL J0847.2+1134,3FGL J0847.1+1134,1FHL J0847.0+1132'	b''	30.889463424682617	215.4558868408203				b''					b'none'	b''						131.80389404296875	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -2888,7 +2888,7 @@
  [-5.54456037e-09  6.98835700e-09]
  [-4.35243175e-09  5.86892890e-09]
  [-6.31575459e-09  7.54684137e-09]
- [-7.84350274e-09  8.92239171e-09]]"	-inf	0.05857345834374428	-inf	39.79719924926758	-inf	8.837787814942877e-13	2.1943378104155586e-12	1.8343391042230373e-12	9.154530432320396e-13	1.7493463275175536e-12		b'galaxy'	b'M 82'	69.67970275878906	b'veritas'	b'2009-07'	b'1FGL J0956.5+6938,2FGL J0955.9+6936,3FGL J0955.4+6940'	b''	40.56696319580078	141.4094696044922				b''					b'none'	b'NGC 3034'						148.9684600830078	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-7.84350274e-09  8.92239171e-09]]"	-inf	0.05857345834374428	-inf	39.79719924926758	-inf	8.837787814942877e-13	2.1943378104155586e-12	1.8343391042230373e-12	9.154530432320396e-13	1.7493463275175536e-12		0.0	0.0	0.0	0.0	0.0	b'galaxy'	b'M 82'	69.67970275878906	b'veritas'	b'2009-07'	b'1FGL J0956.5+6938,2FGL J0955.9+6936,3FGL J0955.4+6940'	b''	40.56696319580078	141.4094696044922				b''					b'none'	b'NGC 3034'						148.9684600830078	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -2961,7 +2961,7 @@
  [-8.59782379e-09  9.61051771e-09]
  [-9.85868542e-09  1.07586215e-08]
  [-9.42489109e-09  1.04248183e-08]
- [-9.88367610e-09  1.08481730e-08]]"	1.538392879751882e-08	0.040863364934921265	-inf	230.729736328125	-inf	6.498042663845294e-13	2.5052705136113795e-12	5.5038556177888776e-12	1.6300653318465641e-12	3.757492147288266e-12		b'blazar'	b'S4 0954+65'	65.56522369384766	b'magic'	b'2015-02'	b''	b''	43.131622314453125	145.7462158203125				b''					b'none'	b''						149.6968536376953	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-9.88367610e-09  1.08481730e-08]]"	1.538392879751882e-08	0.040863364934921265	-inf	230.729736328125	-inf	6.498042663845294e-13	2.5052705136113795e-12	5.5038556177888776e-12	1.6300653318465641e-12	3.757492147288266e-12		0.0	0.0	0.0	0.0	0.0	b'blazar'	b'S4 0954+65'	65.56522369384766	b'magic'	b'2015-02'	b''	b''	43.131622314453125	145.7462158203125				b''					b'none'	b''						149.6968536376953	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -3034,7 +3034,7 @@
  [           nan  4.0930468e-09]
  [           nan  4.1201962e-09]
  [-4.4854978e-09  5.7644312e-09]
- [           nan  4.6589088e-09]]"	5.3439417335710004e-09	0.10033205896615982	-inf	86.29910278320312	-inf	3.5448395521026077e-12	8.031952381838681e-13	2.4744416585176232e-12	2.0113524561160556e-12	1.0191031503924142e-13		b'hbl'	b'1RXS J101015.9-311909'	-31.318992614746094	b'hess'	b'2010-12'	b''	b'HESS J1010-313'	20.053640365600586	266.9082336425781				b''					b'none'	b''						152.56655883789062	b''	"[1.11600e-11 9.08315e-13 9.36621e-14 4.41739e-14         nan         nan
+ [           nan  4.6589088e-09]]"	5.3439417335710004e-09	0.10033205896615982	-inf	86.29910278320312	-inf	3.5448395521026077e-12	8.031952381838681e-13	2.4744416585176232e-12	2.0113524561160556e-12	1.0191031503924142e-13		1.2232101670186402e-12	1.4880966899813958e-12	2.290621228728475e-13	4.161099574233852e-12	4.821986613440499e-13	b'hbl'	b'1RXS J101015.9-311909'	-31.318992614746094	b'hess'	b'2010-12'	b''	b'HESS J1010-313'	20.053640365600586	266.9082336425781				b''					b'none'	b''						152.56655883789062	b''	"[1.11600e-11 9.08315e-13 9.36621e-14 4.41739e-14         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -3121,7 +3121,7 @@
  [-8.0080218e-09  8.5987999e-09]
  [-9.3452286e-09  9.9374109e-09]
  [-7.3886124e-09  8.0033864e-09]
- [-8.7133492e-09  9.3642276e-09]]"	9.34522859097342e-09	0.016745932400226593	-inf	110.45854187011719	-inf	1.5616374512972264e-11	1.232122823907611e-11	7.312333030751184e-12	1.3524682242194164e-11	8.63044097992871e-12		b'hbl'	b'1ES 1011+496'	49.433528900146484	b'magic'	b'2007-09'	b''	b''	52.71226119995117	165.5338592529297				b''					b'none'	b''						153.76724243164062	b''	"[7.08001e-10 9.70999e-11 1.07000e-11 6.55996e-12         nan         nan
+ [-8.7133492e-09  9.3642276e-09]]"	9.34522859097342e-09	0.016745932400226593	-inf	110.45854187011719	-inf	1.5616374512972264e-11	1.232122823907611e-11	7.312333030751184e-12	1.3524682242194164e-11	8.63044097992871e-12		4.2747157748603795e-12	5.174786214352032e-11	5.9744984917526405e-12	1.4495626363494992e-10	1.6735782747027858e-11	b'hbl'	b'1ES 1011+496'	49.433528900146484	b'magic'	b'2007-09'	b''	b''	52.71226119995117	165.5338592529297				b''					b'none'	b''						153.76724243164062	b''	"[7.08001e-10 9.70999e-11 1.07000e-11 6.55996e-12         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -3208,7 +3208,7 @@
  [-3.6218317e-08  4.1694801e-08]
  [-2.8694213e-08  3.1818136e-08]
  [-3.9437943e-08  4.3239947e-08]
- [-4.3951463e-08  4.7978126e-08]]"	-inf	0.12903212010860443	-inf	46.62308120727539	-inf	7.410543532981873e-13	1.7344951863673685e-11	1.8404845356090327e-11	8.337519910583957e-12	1.5148418977539713e-11		b'pwn'	b'HESS J1018-589 B'	-58.95336151123047	b'hess'	b'2010-08'	b''	b'HESS J1018-589 B'	-1.8798760175704956	284.079345703125				b''	0.15000000596046448			0.029999999329447746	b'gauss'	b'PSR J1016-5857'	-58.97999954223633	0.05000000074505806	-1.8902121782302856	284.11175537109375	154.12916564941406	154.08816528320312	b'2012A&A...541A...5H'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-4.3951463e-08  4.7978126e-08]]"	-inf	0.12903212010860443	-inf	46.62308120727539	-inf	7.410543532981873e-13	1.7344951863673685e-11	1.8404845356090327e-11	8.337519910583957e-12	1.5148418977539713e-11		0.0	0.0	0.0	0.0	0.0	b'pwn'	b'HESS J1018-589 B'	-58.95336151123047	b'hess'	b'2010-08'	b''	b'HESS J1018-589 B'	-1.8798760175704956	284.079345703125				b''	0.15000000596046448			0.029999999329447746	b'gauss'	b'PSR J1016-5857'	-58.97999954223633	0.05000000074505806	-1.8902121782302856	284.11175537109375	154.12916564941406	154.08816528320312	b'2012A&A...541A...5H'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -3281,7 +3281,7 @@
  [-5.3223236e-08  5.3678932e-08]
  [-4.3573699e-08  4.4251681e-08]
  [-4.9486935e-08  4.9939818e-08]
- [-5.9690130e-08  6.1268487e-08]]"	-inf	0.026657477021217346	0.01487415935844183	42.29044723510742	0.2671985924243927	1.4233825706630454e-12	4.9352091857635116e-11	6.769671628825691e-11	1.9444891877218318e-11	7.775646099217326e-11		b'bin'	b'HESS J1018-589 A'	-59.0	b'hess'	b'2010-08'	b'1FGL J1018.6-5856'	b'HESS J1018-589 A'	-1.7795172929763794	284.3140869140625	63.29999923706055			b''					b'point'	b'SNR G284.3-01.8,MSH 10-53'	-58.94527816772461	0.013176157139241695	-1.6865339279174805	284.3556823730469	154.74166870117188	154.5749969482422	b'2015A&A...577A.131H'	"[2.2556861e-12 3.4779121e-13 2.2703089e-13 8.2036042e-14 2.5168017e-14
+ [-5.9690130e-08  6.1268487e-08]]"	-inf	0.026657477021217346	0.01487415935844183	42.29044723510742	0.2671985924243927	1.4233825706630454e-12	4.9352091857635116e-11	6.769671628825691e-11	1.9444891877218318e-11	7.775646099217326e-11		7.229459082408714e-13	4.634764708438476e-13	4.4598768159350005e-13	9.263959990315457e-13	3.483650278051309e-13	b'bin'	b'HESS J1018-589 A'	-59.0	b'hess'	b'2010-08'	b'1FGL J1018.6-5856'	b'HESS J1018-589 A'	-1.7795172929763794	284.3140869140625	63.29999923706055			b''					b'point'	b'SNR G284.3-01.8,MSH 10-53'	-58.94527816772461	0.013176157139241695	-1.6865339279174805	284.3556823730469	154.74166870117188	154.5749969482422	b'2015A&A...577A.131H'	"[2.2556861e-12 3.4779121e-13 2.2703089e-13 8.2036042e-14 2.5168017e-14
  1.0363750e-14 2.8630093e-15 2.9045687e-15 1.5243943e-15           nan
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
@@ -3374,7 +3374,7 @@
  [-4.4371355e-08  4.4954870e-08]
  [-4.1894690e-08  4.2800700e-08]
  [-3.5351331e-08  3.6806451e-08]
- [-3.8118458e-08  3.9599346e-08]]"	-inf	0.03221874684095383	-inf	71.08381652832031	-inf	3.2932356928278006e-12	6.333750884879308e-11	3.440428150702779e-11	3.0380361421000757e-11	6.557696052844619e-11		b'pwn'	b'HESS J1026-582'	-58.29193878173828	b'hess'	b'2011-01'	b''	b'HESS J1026-582'	-0.45973488688468933	285.0734558105469	45.900001525878906			b''	0.14000000059604645			0.029999999329447746	b'gauss'	b'PSR J1028-5819'	-58.20000076293945	0.05196152254939079	-0.5204254984855652	284.7984313964844	156.66000366210938	157.16583251953125	b'2011A&A...525A..46H'	"[4.97531e-13 2.35513e-13 6.47886e-14 2.64149e-14 8.30140e-15 1.85120e-15
+ [-3.8118458e-08  3.9599346e-08]]"	-inf	0.03221874684095383	-inf	71.08381652832031	-inf	3.2932356928278006e-12	6.333750884879308e-11	3.440428150702779e-11	3.0380361421000757e-11	6.557696052844619e-11		4.802411179612105e-13	2.0098951362615856e-12	1.0897200266797216e-12	1.5209594739679374e-12	1.7373653435659071e-12	b'pwn'	b'HESS J1026-582'	-58.29193878173828	b'hess'	b'2011-01'	b''	b'HESS J1026-582'	-0.45973488688468933	285.0734558105469	45.900001525878906			b''	0.14000000059604645			0.029999999329447746	b'gauss'	b'PSR J1028-5819'	-58.20000076293945	0.05196152254939079	-0.5204254984855652	284.7984313964844	156.66000366210938	157.16583251953125	b'2011A&A...525A..46H'	"[4.97531e-13 2.35513e-13 6.47886e-14 2.64149e-14 8.30140e-15 1.85120e-15
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -3461,7 +3461,7 @@
  [           nan  4.1148063e-09]
  [           nan  3.4071008e-09]
  [           nan  3.5242536e-09]
- [-5.6418799e-09  6.7050454e-09]]"	-inf	0.14462146162986755	-inf	36.51300811767578	-inf	1.6759310952907391e-12	5.322046514426304e-13	1.4048773319618558e-16	6.901241730861152e-13	6.289745200366292e-13		b'hbl'	b'1ES 1101-232'	-23.491975784301758	b'hess'	b'2006-04'	b''	b'HESS J1103-234'	33.079341888427734	273.1897277832031				b''					b'none'	b'1H 1100-230'						165.9066925048828	b''	"[2.11930e-11 1.20310e-11 6.97171e-12 3.11510e-12 8.82373e-13 3.39339e-13
+ [-5.6418799e-09  6.7050454e-09]]"	-inf	0.14462146162986755	-inf	36.51300811767578	-inf	1.6759310952907391e-12	5.322046514426304e-13	1.4048773319618558e-16	6.901241730861152e-13	6.289745200366292e-13		2.2551041751865175e-12	2.977463659385617e-12	7.119727646728299e-13	1.1353681578912947e-11	6.867656923449256e-13	b'hbl'	b'1ES 1101-232'	-23.491975784301758	b'hess'	b'2006-04'	b''	b'HESS J1103-234'	33.079341888427734	273.1897277832031				b''					b'none'	b'1H 1100-230'						165.9066925048828	b''	"[2.11930e-11 1.20310e-11 6.97171e-12 3.11510e-12 8.82373e-13 3.39339e-13
  9.84458e-14 6.28219e-14 5.37811e-14 4.29470e-14         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -3550,7 +3550,7 @@
  [-1.40369405e-08  1.40369405e-08]
  [-1.51920858e-08  1.51920858e-08]
  [-1.58603317e-08  1.58603317e-08]
- [-2.27114452e-08  2.27114452e-08]]"	2.2711445168965838e-08	0.007692279294133186	-inf	755.1039428710938	-inf	8.340810681017885e-11	4.420448729280935e-11	2.5053433286292837e-11	5.80854600529257e-11	3.383151397917672e-11		b'hbl'	b'Markarian 421'	38.208831787109375	b'whipple'	b'1992-08'	b''	b'HESS J1104+382'	65.03147888183594	179.83168029785156				b''					b'none'	b'Markarian 421,Mrk 421,1ES 1101+384,1H 1104+382,H 1105+38'						166.1138153076172	b''	"[3.71997e-09 1.20800e-09 3.77000e-10 1.31800e-10 3.63001e-11 8.94802e-12
+ [-2.27114452e-08  2.27114452e-08]]"	2.2711445168965838e-08	0.007692279294133186	-inf	755.1039428710938	-inf	8.340810681017885e-11	4.420448729280935e-11	2.5053433286292837e-11	5.80854600529257e-11	3.383151397917672e-11		6.509710612597913e-11	1.240089443755611e-13	2.513500667510618e-11	6.239166607782237e-15	3.2831686615859994e-12	b'hbl'	b'Markarian 421'	38.208831787109375	b'whipple'	b'1992-08'	b''	b'HESS J1104+382'	65.03147888183594	179.83168029785156				b''					b'none'	b'Markarian 421,Mrk 421,1ES 1101+384,1H 1104+382,H 1105+38'						166.1138153076172	b''	"[3.71997e-09 1.20800e-09 3.77000e-10 1.31800e-10 3.63001e-11 8.94802e-12
  2.26301e-12 2.87600e-13         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -3639,7 +3639,7 @@
  [-4.3315943e-08  4.6823189e-08]
  [-3.6863071e-08  3.9181462e-08]
  [-3.7614292e-08  4.0009290e-08]
- [-4.1315900e-08  4.4782599e-08]]"	-inf	0.030180813744664192	-inf	62.7488899230957	-inf	2.147615852515772e-12	1.2919668807009899e-11	1.7139433969304285e-11	6.971928676741124e-12	1.7888924716547017e-11		b'pwn'	b'HESS J1119-614'	-61.463748931884766	b'hess'	b'2009-07'	b''	b'HESS J1119-614'	-0.5369425415992737	292.15130615234375				b''					b'none'	b'SNR G292.2-00.5,PSR J1119-6127'						169.80958557128906	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-4.1315900e-08  4.4782599e-08]]"	-inf	0.030180813744664192	-inf	62.7488899230957	-inf	2.147615852515772e-12	1.2919668807009899e-11	1.7139433969304285e-11	6.971928676741124e-12	1.7888924716547017e-11		0.0	0.0	0.0	0.0	0.0	b'pwn'	b'HESS J1119-614'	-61.463748931884766	b'hess'	b'2009-07'	b''	b'HESS J1119-614'	-0.5369425415992737	292.15130615234375				b''					b'none'	b'SNR G292.2-00.5,PSR J1119-6127'						169.80958557128906	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -3714,7 +3714,7 @@
  [-2.9148171e-09  3.6499732e-09]
  [-3.8868864e-09  4.7172715e-09]
  [-3.2418075e-09  4.0071648e-09]
- [-3.8467660e-09  4.7060600e-09]]"	-inf	0.047346826642751694	-inf	43.036956787109375	-inf	3.736876693499758e-12	1.9940305916871237e-12	1.1014103041065426e-12	2.1926486234308262e-12	1.6958474555184289e-12		b'hbl'	b'Markarian 180'	70.15758514404297	b'magic'	b'2006-09'	b''	b''	45.64101791381836	131.90977478027344				b''					b'none'	b'Mrk 180,1ES 1133+704,1H 1137+699'						174.1100311279297	b'2006ApJ...648L.105A'	"[2.20999e-10 2.30000e-11 3.33999e-12 4.06000e-13         nan         nan
+ [-3.8467660e-09  4.7060600e-09]]"	-inf	0.047346826642751694	-inf	43.036956787109375	-inf	3.736876693499758e-12	1.9940305916871237e-12	1.1014103041065426e-12	2.1926486234308262e-12	1.6958474555184289e-12		5.739786155482082e-12	9.71173590482e-14	1.5508887680750905e-12	2.5893132506843736e-14	4.1349320830700913e-13	b'hbl'	b'Markarian 180'	70.15758514404297	b'magic'	b'2006-09'	b''	b''	45.64101791381836	131.90977478027344				b''					b'none'	b'Mrk 180,1ES 1133+704,1H 1137+699'						174.1100311279297	b'2006ApJ...648L.105A'	"[2.20999e-10 2.30000e-11 3.33999e-12 4.06000e-13         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -3801,7 +3801,7 @@
  [-2.4674696e-09  3.1673637e-09]
  [           nan  3.4006644e-09]
  [           nan  1.4897892e-09]
- [-8.7820107e-10  1.6583239e-09]]"	-inf	0.08284144103527069	-inf	50.68827438354492	-inf	1.767475380463901e-12	9.12504447003748e-13	1.247556528569116e-12	1.3926316697054908e-12	5.538054281654936e-13		b'hbl'	b'RX J1136.5+6737'	67.61787414550781	b'magic'	b'2014-04'	b''	b''	47.950706481933594	133.45303344726562				b''					b'none'	b'RBS 1004'						174.1253662109375	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-8.7820107e-10  1.6583239e-09]]"	-inf	0.08284144103527069	-inf	50.68827438354492	-inf	1.767475380463901e-12	9.12504447003748e-13	1.247556528569116e-12	1.3926316697054908e-12	5.538054281654936e-13		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'RX J1136.5+6737'	67.61787414550781	b'magic'	b'2014-04'	b''	b''	47.950706481933594	133.45303344726562				b''					b'none'	b'RBS 1004'						174.1253662109375	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -3874,7 +3874,7 @@
  [-1.12809175e-08  1.21353816e-08]
  [-1.32837021e-08  1.41552441e-08]
  [-1.40388519e-08  1.49593387e-08]
- [-1.07431921e-08  1.14202390e-08]]"	1.5070558134766543e-08	0.02261408604681492	-inf	206.3601531982422	-inf	8.162010130263742e-12	1.0677568204608967e-11	1.0503419314855655e-11	1.0274764546125414e-11	9.363785788418788e-12		b'hbl'	b'1ES 1215+303'	30.116844177246094	b'magic'	b'2011-01'	b''	b'VER J1217+301'	82.0528793334961	188.87486267089844	82.0			b''					b'none'	b'B2 1215+30'	30.101667404174805	0.0070135449059307575	82.0459213256836	189.00985717773438	184.45208740234375	184.46701049804688	b'2013ApJ...779...92A'	"[2.01230e-11 7.84173e-12 1.62801e-12 4.86700e-13         nan         nan
+ [-1.07431921e-08  1.14202390e-08]]"	1.5070558134766543e-08	0.02261408604681492	-inf	206.3601531982422	-inf	8.162010130263742e-12	1.0677568204608967e-11	1.0503419314855655e-11	1.0274764546125414e-11	9.363785788418788e-12		2.897710905880187e-12	1.0741590212576968e-14	4.1653507020878717e-13	1.8755207335374263e-15	7.272853878817102e-14	b'hbl'	b'1ES 1215+303'	30.116844177246094	b'magic'	b'2011-01'	b''	b'VER J1217+301'	82.0528793334961	188.87486267089844	82.0			b''					b'none'	b'B2 1215+30'	30.101667404174805	0.0070135449059307575	82.0459213256836	189.00985717773438	184.45208740234375	184.46701049804688	b'2013ApJ...779...92A'	"[2.01230e-11 7.84173e-12 1.62801e-12 4.86700e-13         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -3961,7 +3961,7 @@
  [-5.6157727e-09  6.8513333e-09]
  [-7.6683726e-09  8.7284384e-09]
  [-6.2616659e-09  7.4354047e-09]
- [-6.2134466e-09  7.1717290e-09]]"	7.7695325728655e-09	0.03831131383776665	-inf	92.4541015625	-inf	1.1957226875303206e-11	4.086967743399672e-12	2.293483328599799e-14	7.278133824784039e-12	2.9088508945313007e-12		b'hbl'	b'1ES 1218+304'	30.17698860168457	b'magic'	b'2006-05'	b''	b'VER J1221+301'	82.73455047607422	186.3585662841797	8.199999809265137			b''					b'point'	b'1H 1219+301,H 1219+305,QSO B1218+304'						185.3414306640625	b'2006ApJ...642L.119A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-6.2134466e-09  7.1717290e-09]]"	7.7695325728655e-09	0.03831131383776665	-inf	92.4541015625	-inf	1.1957226875303206e-11	4.086967743399672e-12	2.293483328599799e-14	7.278133824784039e-12	2.9088508945313007e-12		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'1ES 1218+304'	30.17698860168457	b'magic'	b'2006-05'	b''	b'VER J1221+301'	82.73455047607422	186.3585662841797	8.199999809265137			b''					b'point'	b'1H 1219+301,H 1219+305,QSO B1218+304'						185.3414306640625	b'2006ApJ...642L.119A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -4034,7 +4034,7 @@
  [-1.04334816e-08  1.16518493e-08]
  [-7.26953875e-09  8.79177087e-09]
  [-1.00793187e-08  1.15944809e-08]
- [-9.41246725e-09  1.08263061e-08]]"	1.6520093737426578e-08	0.026889193803071976	-inf	204.24093627929688	-inf	3.3132450776018896e-12	7.457220604911718e-12	7.728548703789251e-12	6.5877945459869025e-12	7.963022602419656e-12		b'ibl'	b'W Comae'	28.2329158782959	b'veritas'	b'2008-08'	b''	b''	83.28802490234375	201.73526000976562				b''					b'none'	b'B2 1219+28'	28.220417022705078	0.14854618906974792	83.38905334472656	201.7254638671875	185.49583435058594	185.38204956054688	b'2009ApJ...707..612A'	"[7.4679263e-10 3.5860534e-10 7.5554257e-11 3.0722556e-11 5.9051839e-12
+ [-9.41246725e-09  1.08263061e-08]]"	1.6520093737426578e-08	0.026889193803071976	-inf	204.24093627929688	-inf	3.3132450776018896e-12	7.457220604911718e-12	7.728548703789251e-12	6.5877945459869025e-12	7.963022602419656e-12		3.0065069989655845e-11	4.2817890158425486e-13	4.014928706612882e-12	1.4717644886947228e-13	1.3800375201044562e-12	b'ibl'	b'W Comae'	28.2329158782959	b'veritas'	b'2008-08'	b''	b''	83.28802490234375	201.73526000976562				b''					b'none'	b'B2 1219+28'	28.220417022705078	0.14854618906974792	83.38905334472656	201.7254638671875	185.49583435058594	185.38204956054688	b'2009ApJ...707..612A'	"[7.4679263e-10 3.5860534e-10 7.5554257e-11 3.0722556e-11 5.9051839e-12
  2.1154124e-12           nan           nan           nan           nan
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
@@ -4125,7 +4125,7 @@
  [-3.9268171e-09  5.8193796e-09]
  [           nan  5.4226805e-09]
  [           nan  7.6764142e-09]
- [           nan  6.6878783e-09]]"	-inf	0.09372164309024811	-inf	54.19090270996094	-inf	1.054786141242714e-12	1.1541701839049012e-12	2.048575285101828e-12	1.6728172666513608e-12	6.576455959667049e-13		b'hbl'	b'MS1221.8+2452'	24.60652732849121	b'magic'	b'2013-05'	b''	b''	83.41777801513672	233.95216369628906				b''					b'none'	b'RGB J1224+246'						186.10076904296875	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [           nan  6.6878783e-09]]"	-inf	0.09372164309024811	-inf	54.19090270996094	-inf	1.054786141242714e-12	1.1541701839049012e-12	2.048575285101828e-12	1.6728172666513608e-12	6.576455959667049e-13		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'MS1221.8+2452'	24.60652732849121	b'magic'	b'2013-05'	b''	b''	83.41777801513672	233.95216369628906				b''					b'none'	b'RGB J1224+246'						186.10076904296875	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -4198,7 +4198,7 @@
  [-2.12874447e-08  2.20964758e-08]
  [-2.51904364e-08  2.51904364e-08]
  [-2.35701556e-08  2.35701556e-08]
- [-2.44001672e-08  2.44001672e-08]]"	5.966151661596086e-08	0.012452179566025734	0.0057831075973808765	18067.447265625	0.05855619162321091	9.352579474763978e-12	4.7451240853257914e-11	8.352227937047374e-11	2.80289506882081e-11	6.81602205232501e-11		b'fsrq'	b'PKS 1222+216'	21.379562377929688	b'magic'	b'2010-06'	b''	b''	81.65980529785156	255.0734100341797				b''					b'none'	b'4C +21.35'						186.22691345214844	b'2011ApJ...730L...8A'	"[2.11001e-08 6.39001e-09 1.94000e-09 3.77000e-10 6.21002e-11         nan
+ [-2.44001672e-08  2.44001672e-08]]"	5.966151661596086e-08	0.012452179566025734	0.0057831075973808765	18067.447265625	0.05855619162321091	9.352579474763978e-12	4.7451240853257914e-11	8.352227937047374e-11	2.80289506882081e-11	6.81602205232501e-11		1.984966154568479e-11	1.0866529225458917e-15	6.831499642971007e-13	5.0223006907857795e-17	3.157387668512631e-14	b'fsrq'	b'PKS 1222+216'	21.379562377929688	b'magic'	b'2010-06'	b''	b''	81.65980529785156	255.0734100341797				b''					b'none'	b'4C +21.35'						186.22691345214844	b'2011ApJ...730L...8A'	"[2.11001e-08 6.39001e-09 1.94000e-09 3.77000e-10 6.21002e-11         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -4288,7 +4288,7 @@
  [            nan  7.14666903e-09]
  [-5.01473485e-09  7.63307284e-09]
  [-4.28557811e-09  6.91515023e-09]
- [-8.24412361e-09  1.06342304e-08]]"	-inf	0.06553196907043457	-inf	54.28102111816406	-inf	6.367391423151014e-13	2.407101211063245e-12	1.4710892009758836e-12	2.303722100235883e-12	2.2817451053591675e-12		b'fri'	b'M 87'	12.39112377166748	b'hegra'	b'2003-05'	b''	b'VER J1230+123,HESS J1230+123'	74.49115753173828	283.7777404785156	48.20000076293945			b''					b'none'	b'1ES 1228+126,1H 1226+128'						187.7059326171875	b'2012ApJ...746..151A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-8.24412361e-09  1.06342304e-08]]"	-inf	0.06553196907043457	-inf	54.28102111816406	-inf	6.367391423151014e-13	2.407101211063245e-12	1.4710892009758836e-12	2.303722100235883e-12	2.2817451053591675e-12		0.0	0.0	0.0	0.0	0.0	b'fri'	b'M 87'	12.39112377166748	b'hegra'	b'2003-05'	b''	b'VER J1230+123,HESS J1230+123'	74.49115753173828	283.7777404785156	48.20000076293945			b''					b'none'	b'1ES 1228+126,1H 1226+128'						187.7059326171875	b'2012ApJ...746..151A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -4361,7 +4361,7 @@
  [-2.4091893e-08  2.5207942e-08]
  [-2.5664303e-08  2.5680091e-08]
  [-2.0685654e-08  2.1596245e-08]
- [-2.1603116e-08  2.3412122e-08]]"	3.7324095814028624e-08	0.014170614071190357	0.007358343806117773	4198.44091796875	0.07893862575292587	6.517809729433832e-12	3.779037846540767e-11	7.969811616215239e-11	2.1087735724290013e-11	6.026786014690089e-11		b'fsrq'	b'3C 279'	-5.789312362670898	b'magic'	b'2008-06'	b''	b''	57.06240463256836	305.1043395996094				b''					b'none'	b''						194.04652404785156	b''	"[2.48000e-08 2.11000e-09 4.06000e-10 9.24002e-11 2.39000e-11         nan
+ [-2.1603116e-08  2.3412122e-08]]"	3.7324095814028624e-08	0.014170614071190357	0.007358343806117773	4198.44091796875	0.07893862575292587	6.517809729433832e-12	3.779037846540767e-11	7.969811616215239e-11	2.1087735724290013e-11	6.026786014690089e-11		1.4704739416598947e-11	2.7538742360341916e-13	3.731232240196582e-12	7.9412094868195e-14	1.0759567911876162e-12	b'fsrq'	b'3C 279'	-5.789312362670898	b'magic'	b'2008-06'	b''	b''	57.06240463256836	305.1043395996094				b''					b'none'	b''						194.04652404785156	b''	"[2.48000e-08 2.11000e-09 4.06000e-10 9.24002e-11 2.39000e-11         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -4451,7 +4451,7 @@
  [            nan  1.07610703e-08]
  [-8.32062952e-09  1.05716698e-08]
  [-7.52492468e-09  9.09464593e-09]
- [-7.39206829e-09  1.06972573e-08]]"	-inf	0.12062511593103409	-inf	46.845848083496094	-inf	7.241382406902863e-12	2.4194710904895667e-12	4.180055449234157e-16	1.915260701770838e-12	3.383858514574567e-12		b'pwn'	b'HESS J1303-631'	-63.1986083984375	b'hess'	b'2005-09'	b''	b''	-0.356149822473526	304.235595703125		147.0	6.0	b'radec'	0.1940000057220459	0.14499999582767487	0.006000000052154064	0.00800000037997961	b'gauss'	b'PSR J1301-6305'	-63.1775016784668	0.009128709323704243	-0.33402344584465027	304.2132568359375	195.6999969482422	195.7516632080078	b'2012A&A...548A..46H'	"[4.25e-12 3.03e-12 2.22e-12 7.73e-13 3.39e-13 1.52e-13 7.40e-14 2.00e-14
+ [-7.39206829e-09  1.06972573e-08]]"	-inf	0.12062511593103409	-inf	46.845848083496094	-inf	7.241382406902863e-12	2.4194710904895667e-12	4.180055449234157e-16	1.915260701770838e-12	3.383858514574567e-12		1.5856272942176214e-12	7.259746076768052e-12	6.072887918183912e-12	1.5537945741232192e-12	9.29396148538818e-12	b'pwn'	b'HESS J1303-631'	-63.1986083984375	b'hess'	b'2005-09'	b''	b''	-0.356149822473526	304.235595703125		147.0	6.0	b'radec'	0.1940000057220459	0.14499999582767487	0.006000000052154064	0.00800000037997961	b'gauss'	b'PSR J1301-6305'	-63.1775016784668	0.009128709323704243	-0.33402344584465027	304.2132568359375	195.6999969482422	195.7516632080078	b'2012A&A...548A..46H'	"[4.25e-12 3.03e-12 2.22e-12 7.73e-13 3.39e-13 1.52e-13 7.40e-14 2.00e-14
  4.40e-15 1.03e-15 1.24e-15      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -4533,7 +4533,7 @@
  [            nan  8.38550118e-09]
  [            nan  1.21588917e-08]
  [-7.60836905e-09  9.31129218e-09]
- [            nan  1.20955619e-08]]"	-inf	0.21402248740196228	-inf	45.023902893066406	-inf	2.575189952773449e-13	8.137263649357629e-13	1.462834085634579e-12	2.3533082492248336e-13	6.300582343181371e-13		b'hbl'	b'1ES 1312-423'	-42.61380386352539	b'hess'	b'2010-12'	b''	b'HESS J1315-426'	20.04585838317871	307.554443359375				b''					b'none'	b''						198.76414489746094	b'2013MNRAS.434.1889H'	"[2.69810e-12 7.70851e-13 1.59260e-13 1.92349e-14 5.77349e-15         nan
+ [            nan  1.20955619e-08]]"	-inf	0.21402248740196228	-inf	45.023902893066406	-inf	2.575189952773449e-13	8.137263649357629e-13	1.462834085634579e-12	2.3533082492248336e-13	6.300582343181371e-13		5.860241250277274e-13	1.5827964171754315e-13	4.366978657096913e-13	1.60129114219494e-13	1.5627732200221048e-13	b'hbl'	b'1ES 1312-423'	-42.61380386352539	b'hess'	b'2010-12'	b''	b'HESS J1315-426'	20.04585838317871	307.554443359375				b''					b'none'	b''						198.76414489746094	b'2013MNRAS.434.1889H'	"[2.69810e-12 7.70851e-13 1.59260e-13 1.92349e-14 5.77349e-15         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -4621,7 +4621,7 @@
  [-2.9916805e-08  3.1071167e-08]
  [-3.3774118e-08  3.5386442e-08]
  [-2.8367996e-08  2.9390495e-08]
- [-3.5832972e-08  3.8178975e-08]]"	-inf	0.029256170615553856	-inf	59.32753372192383	-inf	1.8136861370393609e-12	5.782512489671543e-12	3.2682436618136634e-11	3.1093740863324948e-12	1.3051445341139e-11		b'fri'	b'Centaurus A'	-43.01911163330078	b'hess'	b'2009-03'	b''	b'HESS J1325-430'	19.41727066040039	309.5158996582031				b''					b'none'	b'Cen A'						201.3650665283203	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-3.5832972e-08  3.8178975e-08]]"	-inf	0.029256170615553856	-inf	59.32753372192383	-inf	1.8136861370393609e-12	5.782512489671543e-12	3.2682436618136634e-11	3.1093740863324948e-12	1.3051445341139e-11		0.0	0.0	0.0	0.0	0.0	b'fri'	b'Centaurus A'	-43.01911163330078	b'hess'	b'2009-03'	b''	b'HESS J1325-430'	19.41727066040039	309.5158996582031				b''					b'none'	b'Cen A'						201.3650665283203	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -4694,7 +4694,7 @@
  [-3.3233768e-08  3.4966853e-08]
  [-4.1756394e-08  4.2957751e-08]
  [-3.0507682e-08  3.1829206e-08]
- [-4.2541473e-08  4.4463803e-08]]"	-inf	0.04611155018210411	-inf	54.615867614746094	-inf	3.0627979536249073e-13	5.136512309239505e-12	1.947573699534466e-11	1.934993181310074e-12	1.230771474319825e-11		b'pwn'	b'HESS J1356-645'	-64.5	b'hess'	b'2008-12'	b''	b'HESS J1356-645'	-2.4941415786743164	309.81207275390625	10.0			b''	0.20000000298023224			0.019999999552965164	b'gauss'	b'PSR J1357-6429'	-64.5	0.03333333507180214	-2.4941415786743164	309.81207275390625	209.0	209.0	b'2011A&A...533A.103H'	"[1.30e-12 2.51e-13 1.66e-13 5.49e-14 1.81e-14 4.57e-15      nan      nan
+ [-4.2541473e-08  4.4463803e-08]]"	-inf	0.04611155018210411	-inf	54.615867614746094	-inf	3.0627979536249073e-13	5.136512309239505e-12	1.947573699534466e-11	1.934993181310074e-12	1.230771474319825e-11		4.974367232962238e-11	2.896000862606442e-12	8.488868751136867e-12	1.0891243357384262e-12	2.982337529441396e-12	b'pwn'	b'HESS J1356-645'	-64.5	b'hess'	b'2008-12'	b''	b'HESS J1356-645'	-2.4941415786743164	309.81207275390625	10.0			b''	0.20000000298023224			0.019999999552965164	b'gauss'	b'PSR J1357-6429'	-64.5	0.03333333507180214	-2.4941415786743164	309.81207275390625	209.0	209.0	b'2011A&A...533A.103H'	"[1.30e-12 2.51e-13 1.66e-13 5.49e-14 1.81e-14 4.57e-15      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -4772,7 +4772,7 @@
  [-6.6275319e-08  6.7369896e-08]
  [-7.7300847e-08  8.0504606e-08]
  [-6.5930287e-08  6.6782746e-08]
- [-7.7172231e-08  8.1094939e-08]]"	-inf	0.052266255021095276	-inf	65.27057647705078	-inf	2.9438701910217135e-12	7.848850042124766e-11	4.610640688684775e-11	3.48214616863185e-11	8.726944861203734e-11		b'pwn'	b'HESS J1418-609'	-60.97528076171875	b'hess'	b'2006-09'	b''	b'HESS J1418-609'	0.14962416887283325	313.2469482421875	18.100000381469727	46.20000076293945	20.399999618530273	b'radec'	0.08166666328907013	0.04500000178813934	0.011666666716337204	0.02500000037252903	b'gauss'	b'G313.3+0.1,Kookaburra,Rabbit'	-60.975276947021484	0.01683938317000866	0.14962680637836456	313.2469482421875	214.51666259765625	214.51666259765625	b'2006A&A...456..245A'	"[3.14e-11 7.62e-12 2.43e-12 9.85e-13 4.75e-13 1.26e-13 4.95e-14 2.51e-14
+ [-7.7172231e-08  8.1094939e-08]]"	-inf	0.052266255021095276	-inf	65.27057647705078	-inf	2.9438701910217135e-12	7.848850042124766e-11	4.610640688684775e-11	3.48214616863185e-11	8.726944861203734e-11		1.0375186720253743e-11	3.702052118123474e-12	3.6634008440550146e-12	1.269904070870803e-12	3.812228421081013e-12	b'pwn'	b'HESS J1418-609'	-60.97528076171875	b'hess'	b'2006-09'	b''	b'HESS J1418-609'	0.14962416887283325	313.2469482421875	18.100000381469727	46.20000076293945	20.399999618530273	b'radec'	0.08166666328907013	0.04500000178813934	0.011666666716337204	0.02500000037252903	b'gauss'	b'G313.3+0.1,Kookaburra,Rabbit'	-60.975276947021484	0.01683938317000866	0.14962680637836456	313.2469482421875	214.51666259765625	214.51666259765625	b'2006A&A...456..245A'	"[3.14e-11 7.62e-12 2.43e-12 9.85e-13 4.75e-13 1.26e-13 4.95e-14 2.51e-14
  6.37e-15      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -4852,7 +4852,7 @@
  [-6.6275319e-08  6.7369896e-08]
  [-7.7300847e-08  8.0504606e-08]
  [-6.5930287e-08  6.6782746e-08]
- [-7.7172231e-08  8.1094939e-08]]"	-inf	0.052266255021095276	-inf	65.27057647705078	-inf	2.9438701910217135e-12	7.848850042124766e-11	4.610640688684775e-11	3.48214616863185e-11	8.726944861203734e-11		b'pwn'	b'HESS J1420-607'	-60.97829818725586	b'hess'	b'2006-09'	b''	b'HESS J1420-607'	0.11877414584159851	313.32611083984375	18.100000381469727			b''	0.054999999701976776			0.008333333767950535	b'gauss'	b'PSR J1420-6048,Kookaburra'	-60.7599983215332	0.012171612121164799	0.26844245195388794	313.5576171875	215.03750610351562	214.6916961669922	b'2006A&A...456..245A'	"[2.63e-11 9.13e-12 3.38e-12 1.46e-12 5.91e-13 1.97e-13 7.09e-14 2.54e-14
+ [-7.7172231e-08  8.1094939e-08]]"	-inf	0.052266255021095276	-inf	65.27057647705078	-inf	2.9438701910217135e-12	7.848850042124766e-11	4.610640688684775e-11	3.48214616863185e-11	8.726944861203734e-11		7.044043956246685e-12	3.758529135289583e-12	5.116984180558286e-12	6.587388940412225e-13	5.245324057044978e-12	b'pwn'	b'HESS J1420-607'	-60.97829818725586	b'hess'	b'2006-09'	b''	b'HESS J1420-607'	0.11877414584159851	313.32611083984375	18.100000381469727			b''	0.054999999701976776			0.008333333767950535	b'gauss'	b'PSR J1420-6048,Kookaburra'	-60.7599983215332	0.012171612121164799	0.26844245195388794	313.5576171875	215.03750610351562	214.6916961669922	b'2006A&A...456..245A'	"[2.63e-11 9.13e-12 3.38e-12 1.46e-12 5.91e-13 1.97e-13 7.09e-14 2.54e-14
  6.81e-15 1.05e-15      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -4934,7 +4934,7 @@
  [-1.15121672e-08  1.21988366e-08]
  [-1.04916680e-08  1.13803686e-08]
  [-1.31077380e-08  1.37956668e-08]
- [-1.22368178e-08  1.29488269e-08]]"	1.3761399131340113e-08	0.021694879978895187	0.007975325919687748	210.25340270996094	0.0303980503231287	3.1004272066370575e-11	2.043654134809003e-11	1.1427924578866211e-11	2.4415863428273177e-11	1.5638303152432087e-11		b'hbl'	b'PKS 1424+240'	23.800010681152344	b'veritas'	b'2009-06'	b''	b'VER J1427+237'	68.2076187133789	29.487354278564453				b''					b'none'	b'7C 1424+2401'						216.7516326904297	b'2014A&A...567A.135A'	"[2.63e-11 9.13e-12 3.38e-12 1.46e-12 5.91e-13 1.97e-13 7.09e-14 2.54e-14
+ [-1.22368178e-08  1.29488269e-08]]"	1.3761399131340113e-08	0.021694879978895187	0.007975325919687748	210.25340270996094	0.0303980503231287	3.1004272066370575e-11	2.043654134809003e-11	1.1427924578866211e-11	2.4415863428273177e-11	1.5638303152432087e-11		7.044043956246685e-12	3.758529135289583e-12	5.116984180558286e-12	6.587388940412225e-13	5.245324057044978e-12	b'hbl'	b'PKS 1424+240'	23.800010681152344	b'veritas'	b'2009-06'	b''	b'VER J1427+237'	68.2076187133789	29.487354278564453				b''					b'none'	b'7C 1424+2401'						216.7516326904297	b'2014A&A...567A.135A'	"[2.63e-11 9.13e-12 3.38e-12 1.46e-12 5.91e-13 1.97e-13 7.09e-14 2.54e-14
  6.81e-15 1.05e-15      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -5014,7 +5014,7 @@
  [-2.5699698e-09  3.3773593e-09]
  [-2.1502240e-09  2.8496010e-09]
  [-2.4901410e-09  3.2524061e-09]
- [-1.9212656e-09  2.7429454e-09]]"	-inf	0.08518566191196442	-inf	59.46085739135742	-inf	4.20007171403336e-12	1.015378102778297e-12	1.0343147101602931e-13	8.521936953852227e-13	5.038133538831646e-13		b'hbl'	b'H 1426+428'	42.67251205444336	b'whipple'	b'2002-02'	b''	b''	64.89894104003906	77.4871597290039				b''					b'none'	b'1ES 1426+428,1H 1430+423'						217.1358642578125	b''	"[5.30713e-13 3.59824e-13 1.01253e-13 3.80364e-14 2.43833e-14 2.98488e-15
+ [-1.9212656e-09  2.7429454e-09]]"	-inf	0.08518566191196442	-inf	59.46085739135742	-inf	4.20007171403336e-12	1.015378102778297e-12	1.0343147101602931e-13	8.521936953852227e-13	5.038133538831646e-13		2.5227907221001045e-13	1.6968457001074197e-12	1.0212027366564903e-12	1.1194763752005866e-12	1.7209786142344326e-12	b'hbl'	b'H 1426+428'	42.67251205444336	b'whipple'	b'2002-02'	b''	b''	64.89894104003906	77.4871597290039				b''					b'none'	b'1ES 1426+428,1H 1430+423'						217.1358642578125	b''	"[5.30713e-13 3.59824e-13 1.01253e-13 3.80364e-14 2.43833e-14 2.98488e-15
  1.26020e-15 6.32524e-16         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -5103,7 +5103,7 @@
  [           nan  4.7226303e-09]
  [-3.2594190e-09  5.2825686e-09]
  [           nan  4.0962980e-09]
- [-4.9823785e-09  6.6323329e-09]]"	-inf	0.11709471791982651	-inf	50.45905685424805	-inf	1.4035901347436708e-12	6.697547789806524e-13	1.076525153742569e-12	1.393912437731848e-12	4.746001768668462e-13		b'hbl'	b'1ES 1440+122'	12.011215209960938	b'veritas'	b'2010-08'	b''	b'VER J1443+120'	59.84013748168945	8.329700469970703				b''					b'none'	b''	12.003055572509766	0.001075828680768609	59.74541473388672	8.437768936157227	220.8125	220.70115661621094	b'2016MNRAS.461..202A'	"[8.45e-12 3.75e-12 6.42e-13 2.35e-13      nan      nan      nan      nan
+ [-4.9823785e-09  6.6323329e-09]]"	-inf	0.11709471791982651	-inf	50.45905685424805	-inf	1.4035901347436708e-12	6.697547789806524e-13	1.076525153742569e-12	1.393912437731848e-12	4.746001768668462e-13		7.176859004616334e-13	1.8925275693835846e-13	2.882742104357088e-13	1.5482526351565178e-13	2.358334500247838e-13	b'hbl'	b'1ES 1440+122'	12.011215209960938	b'veritas'	b'2010-08'	b''	b'VER J1443+120'	59.84013748168945	8.329700469970703				b''					b'none'	b''	12.003055572509766	0.001075828680768609	59.74541473388672	8.437768936157227	220.8125	220.70115661621094	b'2016MNRAS.461..202A'	"[8.45e-12 3.75e-12 6.42e-13 2.35e-13      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -5183,7 +5183,7 @@
  [-1.03720428e-08  1.19123387e-08]
  [            nan  8.37614600e-09]
  [-7.89432519e-09  9.82997950e-09]
- [-1.03312816e-08  1.16833911e-08]]"	-inf	0.07444041222333908	-inf	48.01089096069336	-inf	6.582455934489584e-13	1.289028345868859e-12	2.166676126708067e-12	1.9228384075947735e-12	2.0119457315448397e-12		b'fsrq'	b'PKS 1441+25'	25.029024124145508	b'magic'	b'2015-03'	b'3FGL J1443.9+2502'	b'VER J1443+250'	64.70121765136719	34.5630989074707	15.0			b''					b'point'	b''						220.98704528808594	b'2015ApJ...815L..22A'	"[1.2478625e-09 5.0134474e-10 8.7740322e-11 5.3124144e-11           nan
+ [-1.03312816e-08  1.16833911e-08]]"	-inf	0.07444041222333908	-inf	48.01089096069336	-inf	6.582455934489584e-13	1.289028345868859e-12	2.166676126708067e-12	1.9228384075947735e-12	2.0119457315448397e-12		2.486089949683766e-12	1.4527233022947983e-12	2.0672923020316245e-12	1.2276621566075127e-12	1.747019905195426e-12	b'fsrq'	b'PKS 1441+25'	25.029024124145508	b'magic'	b'2015-03'	b'3FGL J1443.9+2502'	b'VER J1443+250'	64.70121765136719	34.5630989074707	15.0			b''					b'point'	b''						220.98704528808594	b'2015ApJ...815L..22A'	"[1.2478625e-09 5.0134474e-10 8.7740322e-11 5.3124144e-11           nan
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
@@ -5277,7 +5277,7 @@
  [-3.5672052e-08  3.9378019e-08]
  [-4.2177664e-08  4.5932069e-08]
  [-2.6775782e-08  2.8090968e-08]
- [-4.3877542e-08  4.6951477e-08]]"	-inf	0.07043968886137009	-inf	39.969635009765625	-inf	4.569196583592561e-13	2.5060254219000377e-11	3.1222815999321085e-11	8.982915973565486e-12	3.221490088578527e-11		b'pwn'	b'HESS J1458-608'	-60.87805938720703	b'hess'	b'2012-04'	b''	b'HESS J1458-608'	-1.781295895576477	317.8908386230469	58.0			b''	0.17000000178813934			0.07000000029802322	b'gauss'	b'PSR J1459-6053'	-60.87722396850586	0.0056927502155303955	-1.7041467428207397	317.7475891113281	224.5399932861328	224.87417602539062	b'2012arXiv1205.0719D'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-4.3877542e-08  4.6951477e-08]]"	-inf	0.07043968886137009	-inf	39.969635009765625	-inf	4.569196583592561e-13	2.5060254219000377e-11	3.1222815999321085e-11	8.982915973565486e-12	3.221490088578527e-11		0.0	0.0	0.0	0.0	0.0	b'pwn'	b'HESS J1458-608'	-60.87805938720703	b'hess'	b'2012-04'	b''	b'HESS J1458-608'	-1.781295895576477	317.8908386230469	58.0			b''	0.17000000178813934			0.07000000029802322	b'gauss'	b'PSR J1459-6053'	-60.87722396850586	0.0056927502155303955	-1.7041467428207397	317.7475891113281	224.5399932861328	224.87417602539062	b'2012arXiv1205.0719D'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -5350,7 +5350,7 @@
  [-4.9507225e-08  4.9507225e-08]
  [-4.4107605e-08  4.5351040e-08]
  [-3.7486114e-08  3.7486114e-08]
- [-4.5579647e-08  4.4330431e-08]]"	8.667779383131347e-08	0.00934901088476181	0.005301286932080984	11013.99609375	0.07487034052610397	1.1140727229630443e-11	7.726305012445422e-11	1.6476987829694423e-10	3.9730715245545056e-11	1.2503419133391702e-10		b'fsrq'	b'PKS 1510-089'	-9.099952697753906	b'hess'	b'2010-03'	b''	b'HESS J1512-090'	40.13874053955078	351.28924560546875				b''					b'none'	b''						228.21055603027344	b''	"[2.98e-10 1.22e-10 2.22e-11 1.17e-11 1.29e-11      nan      nan      nan
+ [-4.5579647e-08  4.4330431e-08]]"	8.667779383131347e-08	0.00934901088476181	0.005301286932080984	11013.99609375	0.07487034052610397	1.1140727229630443e-11	7.726305012445422e-11	1.6476987829694423e-10	3.9730715245545056e-11	1.2503419133391702e-10		1.8015075532931588e-12	1.1738875539286485e-08	3.674222967724134e-11	1.8388998112108283e-07	5.755685797231883e-10	b'fsrq'	b'PKS 1510-089'	-9.099952697753906	b'hess'	b'2010-03'	b''	b'HESS J1512-090'	40.13874053955078	351.28924560546875				b''					b'none'	b''						228.21055603027344	b''	"[2.98e-10 1.22e-10 2.22e-11 1.17e-11 1.29e-11      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -5436,7 +5436,7 @@
  [           nan  4.9927081e-08]
  [-7.9056882e-08  7.9443510e-08]
  [           nan  6.0620224e-08]
- [-8.3286892e-08  8.4487432e-08]]"	-inf	0.12973324954509735	-inf	60.212947845458984	-inf	1.516435197898569e-12	1.6678396944774798e-12	4.4972529172904174e-11	1.3373074349287695e-12	8.378749083437498e-12		b'pwn'	b'MSH 15-52'	-59.157501220703125	b'cangaroo'	b'2005-05'	b''	b'HESS J1514-591'	-1.193045735359192	320.3303527832031	22.100000381469727	41.0	13.0	b'radec'	0.1066666692495346	0.038333334028720856	0.008333333767950535	0.011666666716337204	b'gauss'	b'MSH 15-5-02,G320.3-01.1'	-59.157501220703125	0.016351180151104927	-1.193045735359192	320.3303527832031	228.52915954589844	228.52915954589844	b'2005A&A...435L..17A'	"[1.3e-10 3.6e-11 1.9e-11 7.2e-12 3.2e-12 1.6e-12 5.5e-13 2.2e-13 9.5e-14
+ [-8.3286892e-08  8.4487432e-08]]"	-inf	0.12973324954509735	-inf	60.212947845458984	-inf	1.516435197898569e-12	1.6678396944774798e-12	4.4972529172904174e-11	1.3373074349287695e-12	8.378749083437498e-12		2.1762364592354336e-11	4.85377657604586e-12	9.021573633821551e-12	2.8908556945557323e-12	7.094532358266624e-12	b'pwn'	b'MSH 15-52'	-59.157501220703125	b'cangaroo'	b'2005-05'	b''	b'HESS J1514-591'	-1.193045735359192	320.3303527832031	22.100000381469727	41.0	13.0	b'radec'	0.1066666692495346	0.038333334028720856	0.008333333767950535	0.011666666716337204	b'gauss'	b'MSH 15-5-02,G320.3-01.1'	-59.157501220703125	0.016351180151104927	-1.193045735359192	320.3303527832031	228.52915954589844	228.52915954589844	b'2005A&A...435L..17A'	"[1.3e-10 3.6e-11 1.9e-11 7.2e-12 3.2e-12 1.6e-12 5.5e-13 2.2e-13 9.5e-14
  4.7e-14 1.2e-14 6.2e-15 2.4e-15 7.8e-16     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
@@ -5508,7 +5508,7 @@
  [ nan -inf]
  [ nan -inf]
  [ nan -inf]
- [ nan -inf]]"	-inf	-inf	-inf	0.0	-inf	1.0453203407034817e-11	3.658930797234561e-12	1.3636214553358617e-12	6.004653371749491e-12	2.237832532128725e-12		b'pwn'	b'MSH 15-52'	-59.157501220703125	b'cangaroo'	b'2005-05'	b''	b'HESS J1514-591'	-1.193045735359192	320.3303527832031	22.100000381469727	41.0	13.0	b'radec'	0.1066666692495346	0.038333334028720856	0.008333333767950535	0.011666666716337204	b'gauss'	b'MSH 15-5-02,G320.3-01.1'	-59.157501220703125	0.016351180151104927	-1.193045735359192	320.3303527832031	228.52915954589844	228.52915954589844	b'2005A&A...435L..17A'	"[1.3e-10 3.6e-11 1.9e-11 7.2e-12 3.2e-12 1.6e-12 5.5e-13 2.2e-13 9.5e-14
+ [ nan -inf]]"	-inf	-inf	-inf	0.0	-inf	1.0453203407034817e-11	3.658930797234561e-12	1.3636214553358617e-12	6.004653371749491e-12	2.237832532128725e-12		2.1762364592354336e-11	4.85377657604586e-12	9.021573633821551e-12	2.8908556945557323e-12	7.094532358266624e-12	b'pwn'	b'MSH 15-52'	-59.157501220703125	b'cangaroo'	b'2005-05'	b''	b'HESS J1514-591'	-1.193045735359192	320.3303527832031	22.100000381469727	41.0	13.0	b'radec'	0.1066666692495346	0.038333334028720856	0.008333333767950535	0.011666666716337204	b'gauss'	b'MSH 15-5-02,G320.3-01.1'	-59.157501220703125	0.016351180151104927	-1.193045735359192	320.3303527832031	228.52915954589844	228.52915954589844	b'2005A&A...435L..17A'	"[1.3e-10 3.6e-11 1.9e-11 7.2e-12 3.2e-12 1.6e-12 5.5e-13 2.2e-13 9.5e-14
  4.7e-14 1.2e-14 6.2e-15 2.4e-15 7.8e-16     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
@@ -5590,7 +5590,7 @@
  [-1.60065685e-08  1.70705903e-08]
  [-1.91116563e-08  2.08782946e-08]
  [-1.30497408e-08  1.39839340e-08]
- [-2.08498463e-08  2.28976145e-08]]"	-inf	0.02618362195789814	-inf	60.306480407714844	-inf	4.0427318610813945e-12	9.326064226433672e-12	1.2840992158480447e-11	8.832023654092858e-12	9.207471590721994e-12		b'lbl'	b'AP Librae'	-24.3720760345459	b'hess'	b'2010-07'	b''	b'HESS J1517-243'	27.57802963256836	340.6806335449219	14.0			b''					b'point'	b'PKS B1514-241'	-24.37708282470703	0.007993052713572979	27.576770782470703	340.673095703125	229.41917419433594	229.42422485351562	b'2015A&A...573A..31H'	"[3.9740860e-11 3.5690364e-11 1.7179319e-11 6.0845456e-12 3.0948148e-12
+ [-2.08498463e-08  2.28976145e-08]]"	-inf	0.02618362195789814	-inf	60.306480407714844	-inf	4.0427318610813945e-12	9.326064226433672e-12	1.2840992158480447e-11	8.832023654092858e-12	9.207471590721994e-12		2.04529072228908e-12	3.672946472763747e-12	3.448186090325289e-13	1.8386570489993207e-11	6.28702890525837e-13	b'lbl'	b'AP Librae'	-24.3720760345459	b'hess'	b'2010-07'	b''	b'HESS J1517-243'	27.57802963256836	340.6806335449219	14.0			b''					b'point'	b'PKS B1514-241'	-24.37708282470703	0.007993052713572979	27.576770782470703	340.673095703125	229.41917419433594	229.42422485351562	b'2015A&A...573A..31H'	"[3.9740860e-11 3.5690364e-11 1.7179319e-11 6.0845456e-12 3.0948148e-12
  1.3542174e-12 2.0435352e-13 3.4533777e-13 5.3089758e-14 4.3276252e-14
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
@@ -5677,7 +5677,7 @@
  [-8.4611989e-09  9.3557446e-09]
  [-9.1010914e-09  9.8689430e-09]
  [-7.8176532e-09  8.5335863e-09]
- [-1.0375860e-08  1.1238171e-08]]"	9.85469483794077e-09	0.025241445749998093	0.009406941942870617	123.55406951904297	0.03884071111679077	4.260245975440391e-11	1.6768964689051202e-11	7.103685261550252e-12	2.770703111387718e-11	1.1724929187273414e-11		b'hbl'	b'PG 1553+113'	11.190101623535156	b'hess'	b'2006-03'	b''	b'HESS J1555+111,VER J1555+111'	43.96416091918945	21.908924102783203				b''					b'none'	b'1ES 1553+113'						238.92935180664062	b''	"[8.80939e-11 5.77560e-11 2.73280e-11 5.24672e-12 4.98513e-13 3.87620e-13
+ [-1.0375860e-08  1.1238171e-08]]"	9.85469483794077e-09	0.025241445749998093	0.009406941942870617	123.55406951904297	0.03884071111679077	4.260245975440391e-11	1.6768964689051202e-11	7.103685261550252e-12	2.770703111387718e-11	1.1724929187273414e-11		8.049304330879946e-12	2.6795208727963762e-11	5.770960769362355e-13	1.6723499309984358e-10	3.601787895149277e-12	b'hbl'	b'PG 1553+113'	11.190101623535156	b'hess'	b'2006-03'	b''	b'HESS J1555+111,VER J1555+111'	43.96416091918945	21.908924102783203				b''					b'none'	b'1ES 1553+113'						238.92935180664062	b''	"[8.80939e-11 5.77560e-11 2.73280e-11 5.24672e-12 4.98513e-13 3.87620e-13
  3.52229e-13         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -5764,7 +5764,7 @@
  [-6.9117185e-08  6.8442844e-08]
  [-7.6486430e-08  7.9891798e-08]
  [-6.0735431e-08  6.2827247e-08]
- [-7.7730661e-08  7.9718880e-08]]"	8.868999401556721e-08	0.03205756098031998	-inf	142.4944610595703	-inf	1.55825196496151e-11	2.456584415055918e-11	4.5867712406000294e-11	1.715004353808336e-11	3.806998119526561e-11		b'pwn'	b'HESS J1616-508'	-50.90999984741211	b'hess'	b'2005-03'	b''	b'HESS J1616-508'	-0.1309431493282318	332.3651428222656	10.199999809265137			b''	0.13600000739097595			0.00800000037997961	b'gauss'	b'PSR J1617-5055'	-50.698036193847656	0.013490737415850163	0.1379999965429306	332.3909912109375	243.79489135742188	244.05999755859375	b'2006ApJ...636..777A'	"[6.08884e-11 1.76839e-11 4.35370e-12 1.47045e-12 2.65142e-13 5.22299e-14
+ [-7.7730661e-08  7.9718880e-08]]"	8.868999401556721e-08	0.03205756098031998	-inf	142.4944610595703	-inf	1.55825196496151e-11	2.456584415055918e-11	4.5867712406000294e-11	1.715004353808336e-11	3.806998119526561e-11		1.459613624079682e-11	3.2161829383111203e-12	1.096594805322316e-11	2.21539374464507e-12	7.702959340469815e-12	b'pwn'	b'HESS J1616-508'	-50.90999984741211	b'hess'	b'2005-03'	b''	b'HESS J1616-508'	-0.1309431493282318	332.3651428222656	10.199999809265137			b''	0.13600000739097595			0.00800000037997961	b'gauss'	b'PSR J1617-5055'	-50.698036193847656	0.013490737415850163	0.1379999965429306	332.3909912109375	243.79489135742188	244.05999755859375	b'2006ApJ...636..777A'	"[6.08884e-11 1.76839e-11 4.35370e-12 1.47045e-12 2.65142e-13 5.22299e-14
  4.92743e-15         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -5852,7 +5852,7 @@
  [-3.7823458e-08  4.2237936e-08]
  [           nan  3.2156795e-08]
  [-3.8867899e-08  4.2208239e-08]
- [-4.1767976e-08  4.8618830e-08]]"	-inf	0.14112193882465363	-inf	44.23435592651367	-inf	2.1131694484533003e-12	3.3900883402576687e-12	1.9241275239778588e-11	2.4824964132974525e-12	8.807464306481716e-12		b'unid'	b'HESS J1626-490'	-49.08694076538086	b'hess'	b'2007-07'	b''	b'HESS J1626-490'	0.04730600491166115	334.77020263671875	12.0	3.0	40.0	b'radec'	0.07000000029802322	0.10000000149011612	0.05000000074505806	0.019999999552965164	b'gauss'	b'SNR G335.2+00.1'	-49.08725357055664	0.05000000074505806	0.04500000178813934	334.7720031738281	246.5211181640625	246.51666259765625	b'2008A&A...477..353A'	"[1.18040e-11 3.31229e-12 7.67300e-13 3.57247e-13 1.56568e-13 6.75827e-14
+ [-4.1767976e-08  4.8618830e-08]]"	-inf	0.14112193882465363	-inf	44.23435592651367	-inf	2.1131694484533003e-12	3.3900883402576687e-12	1.9241275239778588e-11	2.4824964132974525e-12	8.807464306481716e-12		2.382300339098655e-11	5.20676428712757e-12	9.419364527003288e-12	4.427163845979945e-12	5.66872694098796e-12	b'unid'	b'HESS J1626-490'	-49.08694076538086	b'hess'	b'2007-07'	b''	b'HESS J1626-490'	0.04730600491166115	334.77020263671875	12.0	3.0	40.0	b'radec'	0.07000000029802322	0.10000000149011612	0.05000000074505806	0.019999999552965164	b'gauss'	b'SNR G335.2+00.1'	-49.08725357055664	0.05000000074505806	0.04500000178813934	334.7720031738281	246.5211181640625	246.51666259765625	b'2008A&A...477..353A'	"[1.18040e-11 3.31229e-12 7.67300e-13 3.57247e-13 1.56568e-13 6.75827e-14
  1.08956e-14 9.70741e-15 1.89333e-15         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -5940,7 +5940,7 @@
  [-2.0838112e-08  2.6558043e-08]
  [-2.2721816e-08  3.1700182e-08]
  [-1.5606153e-08  2.2655263e-08]
- [           nan  2.8386772e-08]]"	-inf	0.11151853948831558	-inf	37.882164001464844	-inf	7.753967606882739e-12	7.205516565356174e-12	1.52565961708713e-13	5.6189644950799256e-12	7.530216034057347e-12		b'pwn'	b'HESS J1640-465'	-46.54999923706055	b'hess'	b'2005-03'	b''	b'HESS J1640-465'	-0.0035156295634806156	338.2771301269531	63.400001525878906			b''	0.0716666653752327			0.0033333334140479565	b'gauss'	b'SNR G338.3-0.0,3EG J1639-4702'	-46.54194259643555	0.0040253824554383755	-0.02178231067955494	338.3040466308594	250.17083740234375	250.125	b'2014MNRAS.439.2828A'	"[3.956e-11 2.997e-11 2.430e-11 1.335e-11 9.179e-12 7.078e-12 4.240e-12
+ [           nan  2.8386772e-08]]"	-inf	0.11151853948831558	-inf	37.882164001464844	-inf	7.753967606882739e-12	7.205516565356174e-12	1.52565961708713e-13	5.6189644950799256e-12	7.530216034057347e-12		5.429345717398228e-12	8.179759168898531e-13	5.402147441597353e-12	3.1167490328687617e-14	3.6365601465978074e-12	b'pwn'	b'HESS J1640-465'	-46.54999923706055	b'hess'	b'2005-03'	b''	b'HESS J1640-465'	-0.0035156295634806156	338.2771301269531	63.400001525878906			b''	0.0716666653752327			0.0033333334140479565	b'gauss'	b'SNR G338.3-0.0,3EG J1639-4702'	-46.54194259643555	0.0040253824554383755	-0.02178231067955494	338.3040466308594	250.17083740234375	250.125	b'2014MNRAS.439.2828A'	"[3.956e-11 2.997e-11 2.430e-11 1.335e-11 9.179e-12 7.078e-12 4.240e-12
  2.684e-12 1.955e-12 1.098e-12 6.519e-13 3.197e-13 2.864e-13 1.677e-13
  9.348e-14 4.709e-14 2.781e-14 2.180e-14 5.728e-15       nan       nan
        nan       nan       nan       nan       nan       nan       nan
@@ -6037,7 +6037,7 @@
  [           nan  6.0661314e-08]
  [           nan  7.4554897e-08]
  [-5.9948242e-08  6.1900060e-08]
- [           nan  7.3120518e-08]]"	-inf	0.06439733505249023	-inf	39.433326721191406	-inf	2.3669037649970415e-12	5.0165618187270056e-12	3.050170185869838e-11	5.787220095504475e-12	1.7342719274560103e-11		b'unid'	b'HESS J1641-463'	-46.30305862426758	b'hess'	b'2012-10'	b''	b'HESS J1641-463'	0.09183607995510101	338.5224304199219	72.0			b''					b'point'	b'SNR G338.5+0.1'	-46.303611755371094	0.011023963801562786	0.09060640633106232	338.52276611328125	250.2587432861328	250.257080078125	b'2014ApJ...794L...1A'	"[4.332e-13 3.037e-13 3.797e-14 1.522e-14 1.120e-14 2.076e-15 6.192e-16
+ [           nan  7.3120518e-08]]"	-inf	0.06439733505249023	-inf	39.433326721191406	-inf	2.3669037649970415e-12	5.0165618187270056e-12	3.050170185869838e-11	5.787220095504475e-12	1.7342719274560103e-11		1.264310842434092e-13	7.502681835780527e-13	5.998038496400324e-13	5.278167136579789e-13	3.7769764393349616e-13	b'unid'	b'HESS J1641-463'	-46.30305862426758	b'hess'	b'2012-10'	b''	b'HESS J1641-463'	0.09183607995510101	338.5224304199219	72.0			b''					b'point'	b'SNR G338.5+0.1'	-46.303611755371094	0.011023963801562786	0.09060640633106232	338.52276611328125	250.2587432861328	250.257080078125	b'2014ApJ...794L...1A'	"[4.332e-13 3.037e-13 3.797e-14 1.522e-14 1.120e-14 2.076e-15 6.192e-16
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
@@ -6133,7 +6133,7 @@
  [-6.52048326e-09  7.14584614e-09]
  [-7.66402852e-09  8.26471336e-09]
  [-1.02191979e-08  1.09619336e-08]
- [-8.27886648e-09  9.02532271e-09]]"	1.035796870496597e-08	0.016216550022363663	-inf	251.46783447265625	-inf	3.08140249427602e-11	1.2908636833064424e-11	7.2368014358836774e-12	2.023825898533893e-11	9.600964120948241e-12		b'hbl'	b'Markarian 501'	39.760169982910156	b'whipple'	b'1996-01'	b''	b'VER J1653+397'	38.85915756225586	63.600040435791016				b''					b'none'	b'Mrk 501'						253.4675750732422	b''	"[1.63165e-11 8.65394e-12 3.15643e-12 8.58517e-13 2.46071e-13 7.08399e-14
+ [-8.27886648e-09  9.02532271e-09]]"	1.035796870496597e-08	0.016216550022363663	-inf	251.46783447265625	-inf	3.08140249427602e-11	1.2908636833064424e-11	7.2368014358836774e-12	2.023825898533893e-11	9.600964120948241e-12		4.6946884016733936e-12	1.1334377524998771e-11	1.3846293147325304e-11	2.02302839103529e-12	1.3927053534033163e-11	b'hbl'	b'Markarian 501'	39.760169982910156	b'whipple'	b'1996-01'	b''	b'VER J1653+397'	38.85915756225586	63.600040435791016				b''					b'none'	b'Mrk 501'						253.4675750732422	b''	"[1.63165e-11 8.65394e-12 3.15643e-12 8.58517e-13 2.46071e-13 7.08399e-14
  2.71905e-14 1.11978e-15 5.10438e-16         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -6228,7 +6228,7 @@
  [-1.15811201e-08  1.34395162e-08]
  [-1.52344199e-08  1.76935817e-08]
  [-1.02629389e-08  1.21527117e-08]
- [-1.32694922e-08  1.62695120e-08]]"	-inf	0.0650477409362793	-inf	39.72783660888672	-inf	1.9446812216106224e-11	5.032144839711705e-12	1.5275954329610486e-12	8.607182674924552e-12	7.614398694899549e-12		b'snr'	b'RX J1713.7-3946'	-39.770999908447266	b'cangaroo'	b'2000-02'	b''	b'HESS J1713-397'	-0.4573555886745453	347.31085205078125	164.0			b''	0.5				b'shell'	b'SNR G347.3-00.5'	-39.770999908447266		-0.4573487937450409	347.31085205078125	258.3550109863281	258.3550109863281	b'2016arXiv160908671H'	"[5.2386201e-10 3.4161346e-10 2.6087560e-10 1.6943710e-10 1.2205620e-10
+ [-1.32694922e-08  1.62695120e-08]]"	-inf	0.0650477409362793	-inf	39.72783660888672	-inf	1.9446812216106224e-11	5.032144839711705e-12	1.5275954329610486e-12	8.607182674924552e-12	7.614398694899549e-12		4.1617784591005905e-11	1.4501294396041622e-11	3.0131301073414055e-11	3.067891824730741e-12	2.543461946718818e-11	b'snr'	b'RX J1713.7-3946'	-39.770999908447266	b'cangaroo'	b'2000-02'	b''	b'HESS J1713-397'	-0.4573555886745453	347.31085205078125	164.0			b''	0.5				b'shell'	b'SNR G347.3-00.5'	-39.770999908447266		-0.4573487937450409	347.31085205078125	258.3550109863281	258.3550109863281	b'2016arXiv160908671H'	"[5.2386201e-10 3.4161346e-10 2.6087560e-10 1.6943710e-10 1.2205620e-10
  7.5102549e-11 5.3938968e-11 3.7837417e-11 2.5293833e-11 1.6644028e-11
  1.2063589e-11 9.2608213e-12 6.0247003e-12 4.4578091e-12 2.6803841e-12
  1.8466647e-12 1.3425498e-12 8.7880620e-13 6.5522425e-13 4.3566065e-13
@@ -6316,7 +6316,7 @@
  [-4.2264883e-08  4.3881698e-08]
  [-5.5962555e-08  5.8693885e-08]
  [-4.3918178e-08  4.5280476e-08]
- [-5.4997585e-08  5.7903396e-08]]"	-inf	0.04209177568554878	0.024707483127713203	68.77009582519531	0.12048586457967758	1.7153058487484607e-12	2.7732489915610614e-11	3.076723598116615e-11	1.807153732213962e-11	3.083200014741827e-11		b'snr,mc'	b'CTB 37A'	-38.54899978637695	b'hess'	b'2008-11'	b''	b'HESS J1714-385'	0.07693904638290405	348.43231201171875	67.5999984741211			b''	0.06666667014360428			0.01666666753590107	b'gauss'	b'SNR G348.5+0.1,CXOU J171419.8-383023'	-38.56666564941406	0.3333333432674408	0.10712027549743652	348.3887939453125	258.57916259765625	258.64300537109375	b'2008A&A...490..685A'	"[4.136e-12 5.404e-13 1.892e-14 1.666e-15       nan       nan       nan
+ [-5.4997585e-08  5.7903396e-08]]"	-inf	0.04209177568554878	0.024707483127713203	68.77009582519531	0.12048586457967758	1.7153058487484607e-12	2.7732489915610614e-11	3.076723598116615e-11	1.807153732213962e-11	3.083200014741827e-11		1.3425695631407628e-12	5.127797908700792e-13	1.5906107785289303e-12	4.580965860461692e-13	7.913406247157833e-13	b'snr,mc'	b'CTB 37A'	-38.54899978637695	b'hess'	b'2008-11'	b''	b'HESS J1714-385'	0.07693904638290405	348.43231201171875	67.5999984741211			b''	0.06666667014360428			0.01666666753590107	b'gauss'	b'SNR G348.5+0.1,CXOU J171419.8-383023'	-38.56666564941406	0.3333333432674408	0.10712027549743652	348.3887939453125	258.57916259765625	258.64300537109375	b'2008A&A...490..685A'	"[4.136e-12 5.404e-13 1.892e-14 1.666e-15       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
@@ -6402,7 +6402,7 @@
  [-3.2697919e-08  3.6505490e-08]
  [           nan  5.3281930e-08]
  [           nan  3.2875903e-08]
- [           nan  4.5837730e-08]]"	-inf	0.06402598321437836	-inf	41.584754943847656	-inf	4.813778715917483e-12	7.539258280175876e-12	1.9815307381043645e-11	7.292236259281992e-12	9.199058181863506e-12		b'snr,mc'	b'SNR G349.7+0.2'	-37.426998138427734	b'hess'	b'2013-07'	b''	b'HESS J1718-374'	0.1806182712316513	349.7361755371094	113.0			b''					b'point'	b'SNR G349.7+00.2'	-37.444332122802734	0.007453559897840023	0.17397509515285492	349.71966552734375	259.4908447265625	259.4960021972656	b'2015A&A...574A.100H'	"[5.9714551e-12 1.6436732e-12 2.3017398e-13 5.4470859e-14           nan
+ [           nan  4.5837730e-08]]"	-inf	0.06402598321437836	-inf	41.584754943847656	-inf	4.813778715917483e-12	7.539258280175876e-12	1.9815307381043645e-11	7.292236259281992e-12	9.199058181863506e-12		8.178854147055591e-13	9.571585676932417e-14	3.0519528003684235e-13	5.504381510553684e-14	1.75510235528857e-13	b'snr,mc'	b'SNR G349.7+0.2'	-37.426998138427734	b'hess'	b'2013-07'	b''	b'HESS J1718-374'	0.1806182712316513	349.7361755371094	113.0			b''					b'point'	b'SNR G349.7+00.2'	-37.444332122802734	0.007453559897840023	0.17397509515285492	349.71966552734375	259.4908447265625	259.4960021972656	b'2015A&A...574A.100H'	"[5.9714551e-12 1.6436732e-12 2.3017398e-13 5.4470859e-14           nan
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
@@ -6498,7 +6498,7 @@
  [-3.2424822e-08  3.4142392e-08]
  [-3.7719744e-08  4.1446061e-08]
  [-2.9515318e-08  3.1290227e-08]
- [-4.0163449e-08  4.3305480e-08]]"	-inf	0.15233275294303894	-inf	68.89276885986328	-inf	1.7497316800747093e-13	2.3129543419431187e-11	1.5953070028190686e-12	9.469209270862589e-12	2.560366155202054e-11		b'pwn'	b'HESS J1718-385'	-38.54999923706055	b'hess'	b'2007-09'	b''	b'HESS J1718-385'	-0.4881265461444855	348.8336181640625	82.0	33.0		b'radec'	0.15000000596046448	0.06666667014360428	0.01666666753590107	0.03333333507180214	b'gauss'	b'PSR J1718-3825'	-38.54999923706055	0.02635231427848339	-0.48810523748397827	348.8336181640625	259.5291748046875	259.5292053222656	b'2007A&A...472..489A'	"[6.23048e-13 1.28768e-13 7.67650e-14 2.50265e-14 4.30848e-15 6.34610e-17
+ [-4.0163449e-08  4.3305480e-08]]"	-inf	0.15233275294303894	-inf	68.89276885986328	-inf	1.7497316800747093e-13	2.3129543419431187e-11	1.5953070028190686e-12	9.469209270862589e-12	2.560366155202054e-11		6.378646053003334e-12	3.189086607397868e-12	2.531822144092425e-12	1.930136835959623e-13	1.5968059360291733e-12	b'pwn'	b'HESS J1718-385'	-38.54999923706055	b'hess'	b'2007-09'	b''	b'HESS J1718-385'	-0.4881265461444855	348.8336181640625	82.0	33.0		b'radec'	0.15000000596046448	0.06666667014360428	0.01666666753590107	0.03333333507180214	b'gauss'	b'PSR J1718-3825'	-38.54999923706055	0.02635231427848339	-0.48810523748397827	348.8336181640625	259.5291748046875	259.5292053222656	b'2007A&A...472..489A'	"[6.23048e-13 1.28768e-13 7.67650e-14 2.50265e-14 4.30848e-15 6.34610e-17
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -6585,7 +6585,7 @@
  [-7.63159491e-09  9.14415033e-09]
  [-1.20008687e-08  1.40599337e-08]
  [-8.64004690e-09  1.04939009e-08]
- [-7.84110110e-09  1.02825446e-08]]"	1.4421046579116137e-08	0.04500766098499298	-inf	79.88134002685547	-inf	8.629909287183324e-12	4.7897857555212475e-12	8.279575809677642e-12	6.9272174801904285e-12	3.920791209061081e-12		b'hbl'	b'H 1722+119'	11.870963096618652	b'magic'	b'2013-05'	b''	b''	24.47509002685547	34.12001037597656				b''					b'none'	b''						261.2680969238281	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-7.84110110e-09  1.02825446e-08]]"	1.4421046579116137e-08	0.04500766098499298	-inf	79.88134002685547	-inf	8.629909287183324e-12	4.7897857555212475e-12	8.279575809677642e-12	6.9272174801904285e-12	3.920791209061081e-12		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'H 1722+119'	11.870963096618652	b'magic'	b'2013-05'	b''	b''	24.47509002685547	34.12001037597656				b''					b'none'	b''						261.2680969238281	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -6660,7 +6660,7 @@
  [           nan  4.7922675e-09]
  [-4.9042739e-09  5.8497482e-09]
  [-6.5799237e-09  7.6398354e-09]
- [-3.6146368e-09  5.4582054e-09]]"	-inf	0.064869724214077	-inf	54.07965850830078	-inf	1.5873043981637358e-12	1.574523497693825e-12	2.0126910121182062e-12	2.190076245356387e-12	1.6326500698257695e-12		b'hbl'	b'1ES 1727+502'	50.219573974609375	b'magic'	b'2011-11'	b''	b'VER J1728+502'	33.53691101074219	77.06771850585938	6.0			b''					b'point'	b'OT546'						262.0776062011719	b'2015ApJ...808..110A'	"[3.3e-11 1.1e-11 5.9e-12 1.4e-12     nan     nan     nan     nan     nan
+ [-3.6146368e-09  5.4582054e-09]]"	-inf	0.064869724214077	-inf	54.07965850830078	-inf	1.5873043981637358e-12	1.574523497693825e-12	2.0126910121182062e-12	2.190076245356387e-12	1.6326500698257695e-12		5.570237625061488e-12	3.7859610533315177e-13	4.565885727810838e-12	1.154095107497281e-13	1.3918437896293723e-12	b'hbl'	b'1ES 1727+502'	50.219573974609375	b'magic'	b'2011-11'	b''	b'VER J1728+502'	33.53691101074219	77.06771850585938	6.0			b''					b'point'	b'OT546'						262.0776062011719	b'2015ApJ...808..110A'	"[3.3e-11 1.1e-11 5.9e-12 1.4e-12     nan     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
@@ -6741,7 +6741,7 @@
  [-3.0201652e-09  4.6257145e-09]
  [           nan  5.4888973e-09]
  [-2.7479026e-09  4.3631214e-09]
- [-5.7060046e-09  7.3439383e-09]]"	-inf	0.10808897018432617	-inf	38.2735710144043	-inf	1.3442066470331637e-12	9.357965791156886e-13	4.981382060315065e-13	1.6675931469034566e-12	4.539715229168878e-13		b'hbl'	b'1ES 1741+196'	19.585838317871094	b'magic'	b'2011-08'	b''	b'VER J1744+195'	23.338668823242188	43.8355598449707	30.0			b''					b'none'	b''	19.546388626098633	0.0029502040706574917	23.311660766601562	43.80109405517578	266.0050048828125	265.990966796875	b'2016MNRAS.459.2550A'	"[2.5e-11 9.0e-12 3.8e-12     nan     nan     nan     nan     nan     nan
+ [-5.7060046e-09  7.3439383e-09]]"	-inf	0.10808897018432617	-inf	38.2735710144043	-inf	1.3442066470331637e-12	9.357965791156886e-13	4.981382060315065e-13	1.6675931469034566e-12	4.539715229168878e-13		1.2960007497679954e-12	1.802686642065023e-13	6.583599360539551e-13	9.716703378965656e-14	3.5486412701783003e-13	b'hbl'	b'1ES 1741+196'	19.585838317871094	b'magic'	b'2011-08'	b''	b'VER J1744+195'	23.338668823242188	43.8355598449707	30.0			b''					b'none'	b''	19.546388626098633	0.0029502040706574917	23.311660766601562	43.80109405517578	266.0050048828125	265.990966796875	b'2016MNRAS.459.2550A'	"[2.5e-11 9.0e-12 3.8e-12     nan     nan     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
      nan     nan     nan     nan     nan     nan     nan     nan     nan
@@ -6820,7 +6820,7 @@
  [-4.2440288e-08  4.3460581e-08]
  [-6.1594903e-08  6.3265581e-08]
  [-4.5051465e-08  4.6350888e-08]
- [           nan  5.4604147e-08]]"	-inf	0.11428111791610718	0.09383556246757507	59.677799224853516	0.5629120469093323	6.749111903028848e-13	1.8350904129604828e-11	3.7694236620922084e-11	2.064199939449951e-12	2.4470748344329607e-11		b'unid,snr,mc'	b'HESS J1745-303'	-30.198999404907227	b'hess'	b'2006-01'	b''	b''	-0.5782836079597473	358.8734130859375	79.0			b''	0.20000000298023224				b'gauss'	b'G359.1-0.5,3EG J1744-3011'	-30.370555877685547		-0.6396377682685852	358.7098388671875	266.2587585449219	266.2969970703125	b'2008A&A...483..509A'	"[5.2758183e-11 1.0849942e-11 2.3849956e-12 4.7159818e-13 1.1731383e-13
+ [           nan  5.4604147e-08]]"	-inf	0.11428111791610718	0.09383556246757507	59.677799224853516	0.5629120469093323	6.749111903028848e-13	1.8350904129604828e-11	3.7694236620922084e-11	2.064199939449951e-12	2.4470748344329607e-11		1.1382463921824549e-11	7.079666738420823e-13	4.484762402299118e-12	5.360020389285671e-13	2.1725300978703374e-12	b'unid,snr,mc'	b'HESS J1745-303'	-30.198999404907227	b'hess'	b'2006-01'	b''	b''	-0.5782836079597473	358.8734130859375	79.0			b''	0.20000000298023224				b'gauss'	b'G359.1-0.5,3EG J1744-3011'	-30.370555877685547		-0.6396377682685852	358.7098388671875	266.2587585449219	266.2969970703125	b'2008A&A...483..509A'	"[5.2758183e-11 1.0849942e-11 2.3849956e-12 4.7159818e-13 1.1731383e-13
  7.9875664e-15 6.1693454e-16           nan           nan           nan
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
@@ -6911,7 +6911,7 @@
  [-4.9852755e-08  5.0938930e-08]
  [-6.1800456e-08  6.2100582e-08]
  [-5.4281013e-08  5.5216415e-08]
- [-6.4769338e-08  6.5978227e-08]]"	-inf	0.060496434569358826	0.044708386063575745	48.41798400878906	0.3981993496417999	2.9380441222276454e-12	7.446349092887772e-11	4.52005967377378e-12	3.1038335096544856e-11	7.171538363159868e-11		b'unid'	b'Galactic Centre'	-29.0078067779541	b'cangaroo'	b'2004-05'	b''	b'HESS J1745-290,VER J1745-290'	-0.04616236314177513	359.9442443847656	226.0			b''					b'point'	b'Sgr A*,Sagittarius A*'	-29.00611114501953	0.0016666667070239782	-0.043911051005125046	359.94488525390625	266.4150085449219	266.4168395996094	b'2016Natur.531..476H'	"[1.42756e-10 7.84682e-11 4.92253e-11 3.17322e-11 1.88826e-11 1.30342e-11
+ [-6.4769338e-08  6.5978227e-08]]"	-inf	0.060496434569358826	0.044708386063575745	48.41798400878906	0.3981993496417999	2.9380441222276454e-12	7.446349092887772e-11	4.52005967377378e-12	3.1038335096544856e-11	7.171538363159868e-11		4.8120028510728615e-12	8.97711494189101e-13	3.904311240649456e-12	8.824606738066157e-14	2.633749343667259e-12	b'unid'	b'Galactic Centre'	-29.0078067779541	b'cangaroo'	b'2004-05'	b''	b'HESS J1745-290,VER J1745-290'	-0.04616236314177513	359.9442443847656	226.0			b''					b'point'	b'Sgr A*,Sagittarius A*'	-29.00611114501953	0.0016666667070239782	-0.043911051005125046	359.94488525390625	266.4150085449219	266.4168395996094	b'2016Natur.531..476H'	"[1.42756e-10 7.84682e-11 4.92253e-11 3.17322e-11 1.88826e-11 1.30342e-11
  7.63817e-12 5.91062e-12 3.53094e-12 2.46356e-12 1.58521e-12 9.65578e-13
  6.24255e-13 4.21874e-13 2.83298e-13 1.53879e-13 9.87131e-14 6.01009e-14
  3.19129e-14 1.86931e-14 1.57526e-14 5.44977e-15 3.60859e-15 2.89817e-15
@@ -7009,7 +7009,7 @@
  [-1.3799898e-07  1.4729018e-07]
  [-1.6639594e-07  1.6916410e-07]
  [-1.5540685e-07  1.6246891e-07]
- [-2.1907438e-07  2.1214021e-07]]"	-inf	0.034254562109708786	-inf	68.25331115722656	-inf	1.5700709829480353e-11	3.587049407505205e-11	1.2844421359847757e-10	3.517630631222346e-11	5.4744167532483345e-11		b'unid'	b'Galactic Centre'	-29.0078067779541	b'cangaroo'	b'2004-05'	b''	b'HESS J1745-290,VER J1745-290'	-0.04616236314177513	359.9442443847656	226.0			b''					b'point'	b'Sgr A*,Sagittarius A*'	-29.00611114501953	0.0016666667070239782	-0.043911051005125046	359.94488525390625	266.4150085449219	266.4168395996094	b'2016Natur.531..476H'	"[1.42756e-10 7.84682e-11 4.92253e-11 3.17322e-11 1.88826e-11 1.30342e-11
+ [-2.1907438e-07  2.1214021e-07]]"	-inf	0.034254562109708786	-inf	68.25331115722656	-inf	1.5700709829480353e-11	3.587049407505205e-11	1.2844421359847757e-10	3.517630631222346e-11	5.4744167532483345e-11		4.8120028510728615e-12	8.97711494189101e-13	3.904311240649456e-12	8.824606738066157e-14	2.633749343667259e-12	b'unid'	b'Galactic Centre'	-29.0078067779541	b'cangaroo'	b'2004-05'	b''	b'HESS J1745-290,VER J1745-290'	-0.04616236314177513	359.9442443847656	226.0			b''					b'point'	b'Sgr A*,Sagittarius A*'	-29.00611114501953	0.0016666667070239782	-0.043911051005125046	359.94488525390625	266.4150085449219	266.4168395996094	b'2016Natur.531..476H'	"[1.42756e-10 7.84682e-11 4.92253e-11 3.17322e-11 1.88826e-11 1.30342e-11
  7.63817e-12 5.91062e-12 3.53094e-12 2.46356e-12 1.58521e-12 9.65578e-13
  6.24255e-13 4.21874e-13 2.83298e-13 1.53879e-13 9.87131e-14 6.01009e-14
  3.19129e-14 1.86931e-14 1.57526e-14 5.44977e-15 3.60859e-15 2.89817e-15
@@ -7109,7 +7109,7 @@
  [-3.5862893e-08  3.8375205e-08]
  [-4.2371891e-08  4.9130840e-08]
  [-3.9392038e-08  4.2355222e-08]
- [-4.3394298e-08  4.8242640e-08]]"	-inf	0.07040226459503174	0.057702094316482544	57.06263732910156	0.33673202991485596	4.706814365346146e-12	5.332763397536411e-11	5.145968286907054e-13	2.923598863002752e-11	3.38735636762344e-11		b'unid'	b'VER J1746-289'	-28.96622657775879	b'veritas'	b'2014-06'	b''	b'VER J1746-289,HESS J1746-285,MAGIC J1746.4-2853'	-0.14797726273536682	0.05499047413468361	85.0	15.399999618530273		b'galactic'	0.07999999821186066	0.029999999329447746			b'gauss'	b'Arc source,GC Radio Arc'	-28.966230392456055	0.009999999776482582	-0.14800000190734863	0.054999999701976776	266.5821228027344	266.58209228515625	b'2016ApJ...821..129A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-4.3394298e-08  4.8242640e-08]]"	-inf	0.07040226459503174	0.057702094316482544	57.06263732910156	0.33673202991485596	4.706814365346146e-12	5.332763397536411e-11	5.145968286907054e-13	2.923598863002752e-11	3.38735636762344e-11		0.0	0.0	0.0	0.0	0.0	b'unid'	b'VER J1746-289'	-28.96622657775879	b'veritas'	b'2014-06'	b''	b'VER J1746-289,HESS J1746-285,MAGIC J1746.4-2853'	-0.14797726273536682	0.05499047413468361	85.0	15.399999618530273		b'galactic'	0.07999999821186066	0.029999999329447746			b'gauss'	b'Arc source,GC Radio Arc'	-28.966230392456055	0.009999999776482582	-0.14800000190734863	0.054999999701976776	266.5821228027344	266.58209228515625	b'2016ApJ...821..129A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -7184,7 +7184,7 @@
  [-3.5862893e-08  3.8375205e-08]
  [-4.2371891e-08  4.9130840e-08]
  [-3.9392038e-08  4.2355222e-08]
- [-4.3394298e-08  4.8242640e-08]]"	-inf	0.07040226459503174	0.057702094316482544	57.06263732910156	0.33673202991485596	4.706814365346146e-12	5.332763397536411e-11	5.145968286907054e-13	2.923598863002752e-11	3.38735636762344e-11		b'unid'	b'Arc source'	-28.875	b'hess'	b'2015-07'	b''	b'HESS J1746-285,VER J1746-289'	-0.11320564895868301	0.14061740040779114	259.0			b''					b'point'	b'SNR G0.13-0.13,G0.13-0.11'	-28.87386131286621	0.01414213515818119	-0.10999999940395355	0.14000000059604645	266.59552001953125	266.5989990234375	b'2017arXiv170604535H'	"[3.233e-12 4.407e-13 2.950e-13 4.420e-14 6.190e-14 6.505e-14 2.377e-14
+ [-4.3394298e-08  4.8242640e-08]]"	-inf	0.07040226459503174	0.057702094316482544	57.06263732910156	0.33673202991485596	4.706814365346146e-12	5.332763397536411e-11	5.145968286907054e-13	2.923598863002752e-11	3.38735636762344e-11		2.371876476773003e-12	2.9698841329189874e-13	1.3313362308866945e-13	4.585588640089745e-13	4.0004692291598573e-13	b'unid'	b'Arc source'	-28.875	b'hess'	b'2015-07'	b''	b'HESS J1746-285,VER J1746-289'	-0.11320564895868301	0.14061740040779114	259.0			b''					b'point'	b'SNR G0.13-0.13,G0.13-0.11'	-28.87386131286621	0.01414213515818119	-0.10999999940395355	0.14000000059604645	266.59552001953125	266.5989990234375	b'2017arXiv170604535H'	"[3.233e-12 4.407e-13 2.950e-13 4.420e-14 6.190e-14 6.505e-14 2.377e-14
  4.501e-15 3.879e-15       nan       nan 7.352e-16       nan       nan
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
@@ -7281,7 +7281,7 @@
  [-1.8701465e-08  1.9518611e-08]
  [-2.2322141e-08  2.4258364e-08]
  [-1.8329542e-08  1.9414994e-08]
- [-2.0032298e-08  2.1872742e-08]]"	2.4951345878321263e-08	0.06070375069975853	0.042633794248104095	75.41484069824219	0.3042474091053009	9.30807839659431e-13	2.1387685025797687e-11	1.1042385755777318e-11	1.1758080620261069e-11	1.851494998983405e-11		b'unid,gc'	b'Terzan 5'	-24.780000686645508	b'hess'	b'2011-07'	b''	b'HESS J1747-248'	1.685840129852295	3.8389620780944824	62.0	92.0	6.0	b'radec'	0.1599999964237213	0.029999999329447746	0.019999999552965164	0.03999999910593033	b'gauss'	b''	-24.808332443237305	0.06708204001188278	1.7230453491210938	3.7834277153015137	266.95416259765625	267.0208435058594	b'2011A&A...531L..18H'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-2.0032298e-08  2.1872742e-08]]"	2.4951345878321263e-08	0.06070375069975853	0.042633794248104095	75.41484069824219	0.3042474091053009	9.30807839659431e-13	2.1387685025797687e-11	1.1042385755777318e-11	1.1758080620261069e-11	1.851494998983405e-11		0.0	0.0	0.0	0.0	0.0	b'unid,gc'	b'Terzan 5'	-24.780000686645508	b'hess'	b'2011-07'	b''	b'HESS J1747-248'	1.685840129852295	3.8389620780944824	62.0	92.0	6.0	b'radec'	0.1599999964237213	0.029999999329447746	0.019999999552965164	0.03999999910593033	b'gauss'	b''	-24.808332443237305	0.06708204001188278	1.7230453491210938	3.7834277153015137	266.95416259765625	267.0208435058594	b'2011A&A...531L..18H'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -7356,7 +7356,7 @@
  [-2.6122667e-08  2.8368618e-08]
  [-3.2948151e-08  3.7336960e-08]
  [-2.4818149e-08  2.7364379e-08]
- [-3.7436362e-08  4.1101046e-08]]"	-inf	0.0876779854297638	0.043062474578619	46.649864196777344	0.19523319602012634	3.386913362615762e-12	1.809129408780752e-11	1.4979670281967117e-11	1.4529268413387975e-11	2.3095381510018775e-11		b'snr,mc'	b'HESS J1800-240B'	-24.038299560546875	b'hess'	b'2008-04'	b''	b'HESS J1800-240B'	-0.3634890019893646	5.901831150054932	42.0			b''	0.15000000596046448				b'gauss'	b'W 28-A2'	-24.038999557495117	0.0042426404543221	-0.3651842474937439	5.901994228363037	270.1099853515625	270.1083068847656	b'2008A&A...481..401A'	"[1.1792000e-11 8.7830004e-12 3.8740001e-12 1.7340000e-12 6.2699997e-13
+ [-3.7436362e-08  4.1101046e-08]]"	-inf	0.0876779854297638	0.043062474578619	46.649864196777344	0.19523319602012634	3.386913362615762e-12	1.809129408780752e-11	1.4979670281967117e-11	1.4529268413387975e-11	2.3095381510018775e-11		1.7577442440990583e-12	4.944016565265246e-13	9.262116596506186e-13	3.0560610439536047e-13	8.375943120462693e-13	b'snr,mc'	b'HESS J1800-240B'	-24.038299560546875	b'hess'	b'2008-04'	b''	b'HESS J1800-240B'	-0.3634890019893646	5.901831150054932	42.0			b''	0.15000000596046448				b'gauss'	b'W 28-A2'	-24.038999557495117	0.0042426404543221	-0.3651842474937439	5.901994228363037	270.1099853515625	270.1083068847656	b'2008A&A...481..401A'	"[1.1792000e-11 8.7830004e-12 3.8740001e-12 1.7340000e-12 6.2699997e-13
  2.9100000e-13 2.0400000e-13 1.1000000e-13           nan 2.7000000e-14
            nan           nan           nan           nan           nan
            nan           nan           nan           nan           nan
@@ -7444,7 +7444,7 @@
  [-4.7952973e-08  4.9616350e-08]
  [-6.5486823e-08  6.8917764e-08]
  [-5.5281145e-08  5.7108213e-08]
- [-6.7682521e-08  6.9569623e-08]]"	-inf	0.038137998431921005	-inf	36.88847732543945	-inf	7.955107926560512e-13	5.422848628477972e-11	7.718760353103704e-11	1.7618502143323944e-11	7.854743938606745e-11		b'unid'	b'HESS J1813-126'	-12.770000457763672	b'hess'	b'2015-08'	b''	b'HESS J1813-126'	2.4420559406280518	17.241666793823242				b''					b'none'	b'PSR J1813-1246'						273.3500061035156	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-6.7682521e-08  6.9569623e-08]]"	-inf	0.038137998431921005	-inf	36.88847732543945	-inf	7.955107926560512e-13	5.422848628477972e-11	7.718760353103704e-11	1.7618502143323944e-11	7.854743938606745e-11		0.0	0.0	0.0	0.0	0.0	b'unid'	b'HESS J1813-126'	-12.770000457763672	b'hess'	b'2015-08'	b''	b'HESS J1813-126'	2.4420559406280518	17.241666793823242				b''					b'none'	b'PSR J1813-1246'						273.3500061035156	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -7517,7 +7517,7 @@
  [-6.92573536e-08  6.92573536e-08]
  [-1.10195877e-07  1.10633259e-07]
  [-7.53524958e-08  7.81199034e-08]
- [-9.19423471e-08  9.32492910e-08]]"	-inf	0.03382197022438049	0.015017140656709671	70.36119079589844	0.09307677298784256	2.661957026334205e-12	4.1015905949404186e-11	1.0838682729108484e-10	1.2089620103628018e-11	7.131453066966387e-11		b'bin'	b'LS 5039'	-14.848405838012695	b'hess'	b'2005-07'	b''	b'HESS J1826-148'	-1.2892162799835205	16.8815860748291	69.19999694824219			b''					b'point'	b'RX J1826.2-1450'	-14.848729133605957	0.0033333334140479565	-1.284999966621399	16.878999710083008	276.5576171875	276.562744140625	b'2006A&A...460..743A'	"[3.43570e-10 1.29701e-10 4.96572e-11 1.60828e-11 5.03824e-12 1.82750e-12
+ [-9.19423471e-08  9.32492910e-08]]"	-inf	0.03382197022438049	0.015017140656709671	70.36119079589844	0.09307677298784256	2.661957026334205e-12	4.1015905949404186e-11	1.0838682729108484e-10	1.2089620103628018e-11	7.131453066966387e-11		4.1639510018859685e-11	1.2327818252408656e-11	3.323339495280972e-11	3.9490492406904275e-12	2.3752150468083048e-11	b'bin'	b'LS 5039'	-14.848405838012695	b'hess'	b'2005-07'	b''	b'HESS J1826-148'	-1.2892162799835205	16.8815860748291	69.19999694824219			b''					b'point'	b'RX J1826.2-1450'	-14.848729133605957	0.0033333334140479565	-1.284999966621399	16.878999710083008	276.5576171875	276.562744140625	b'2006A&A...460..743A'	"[3.43570e-10 1.29701e-10 4.96572e-11 1.60828e-11 5.03824e-12 1.82750e-12
  5.03522e-13 1.46751e-13 5.04029e-14 1.33743e-14 2.32419e-15         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -7607,7 +7607,7 @@
  [-4.4333699e-08  4.8701349e-08]
  [-6.8513806e-08  7.1525164e-08]
  [-4.7073513e-08  5.2430707e-08]
- [-7.1575307e-08  7.3681704e-08]]"	-inf	0.05145524442195892	-inf	57.09547805786133	-inf	4.862748224920832e-12	1.1862477146407091e-11	6.951835808399753e-12	1.0732712461825056e-11	1.1754178359801859e-11		b'unid'	b'HESS J1834-087'	-8.74394416809082	b'hess'	b'2005-03'	b''	b'HESS J1834-087,1HWC J1836-090c'	-0.3298832178115845	23.268333435058594	7.300000190734863			b''	0.09000000357627869			0.019999999552965164	b'gauss'	b'G23.3-0.3,W41'	-8.764542579650879	0.019999999552965164	-0.3199999928474426	23.239999771118164	278.6937561035156	278.7158203125	b'2006ApJ...636..777A'	"[6.10410e-11 2.56683e-11 4.73332e-12 2.38579e-12 5.88047e-13 2.05360e-13
+ [-7.1575307e-08  7.3681704e-08]]"	-inf	0.05145524442195892	-inf	57.09547805786133	-inf	4.862748224920832e-12	1.1862477146407091e-11	6.951835808399753e-12	1.0732712461825056e-11	1.1754178359801859e-11		7.252464258218547e-12	2.2766507182396762e-12	4.4140447725805585e-12	1.8535125951930815e-12	2.8520787780470303e-12	b'unid'	b'HESS J1834-087'	-8.74394416809082	b'hess'	b'2005-03'	b''	b'HESS J1834-087,1HWC J1836-090c'	-0.3298832178115845	23.268333435058594	7.300000190734863			b''	0.09000000357627869			0.019999999552965164	b'gauss'	b'G23.3-0.3,W41'	-8.764542579650879	0.019999999552965164	-0.3199999928474426	23.239999771118164	278.6937561035156	278.7158203125	b'2006ApJ...636..777A'	"[6.10410e-11 2.56683e-11 4.73332e-12 2.38579e-12 5.88047e-13 2.05360e-13
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -7696,7 +7696,7 @@
  [-3.3054828e-08  3.7072077e-08]
  [-3.9483673e-08  4.3793339e-08]
  [           nan  3.8819980e-08]
- [-4.6970317e-08  4.9409174e-08]]"	5.612168862967337e-08	0.044716715812683105	-inf	86.71670532226562	-inf	2.0984198753626337e-11	2.0968615732641638e-11	1.2667283671649598e-12	2.2741230773504206e-11	7.566604461051174e-12		b'unid'	b'HESS J1841-055'	-5.550000190734863	b'hess'	b'2007-07'	b''	b'HESS J1841-055,ARGO J1839-0627,1HWC J1838-060'	-0.19760440289974213	26.79511260986328	26.0	39.0	6.0	b'radec'	0.4099999964237213	0.25	0.019999999552965164	0.03999999910593033	b'gauss'	b''	-5.549823760986328	0.05000000074505806	-0.19699999690055847	26.795000076293945	280.22857666015625	280.2291564941406	b'2008A&A...477..353A'	"[1.83210e-11 8.44120e-12 1.89955e-12 3.35585e-13 1.62058e-13 1.70821e-14
+ [-4.6970317e-08  4.9409174e-08]]"	5.612168862967337e-08	0.044716715812683105	-inf	86.71670532226562	-inf	2.0984198753626337e-11	2.0968615732641638e-11	1.2667283671649598e-12	2.2741230773504206e-11	7.566604461051174e-12		9.087248325475524e-12	6.969756978545238e-12	1.9313474794889867e-11	4.125790056831062e-12	1.204573249001903e-11	b'unid'	b'HESS J1841-055'	-5.550000190734863	b'hess'	b'2007-07'	b''	b'HESS J1841-055,ARGO J1839-0627,1HWC J1838-060'	-0.19760440289974213	26.79511260986328	26.0	39.0	6.0	b'radec'	0.4099999964237213	0.25	0.019999999552965164	0.03999999910593033	b'gauss'	b''	-5.549823760986328	0.05000000074505806	-0.19699999690055847	26.795000076293945	280.22857666015625	280.2291564941406	b'2008A&A...477..353A'	"[1.83210e-11 8.44120e-12 1.89955e-12 3.35585e-13 1.62058e-13 1.70821e-14
  7.12767e-15 1.17826e-15         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -7786,7 +7786,7 @@
  [-4.3180545e-08  4.5266052e-08]
  [-6.7111898e-08  6.8370959e-08]
  [-6.3935580e-08  6.3823023e-08]
- [-7.0241832e-08  7.2291499e-08]]"	-inf	0.06950549781322479	0.0422670803964138	52.63126754760742	0.3117753565311432	4.3938065534022963e-13	1.8089528139308975e-11	2.779979024758461e-11	8.304693738248048e-12	3.755890737311418e-11		b'unid'	b'HESS J1848-018'	-1.7920000553131104	b'hess'	b'2008-07'	b''	b'HESS J1848-018,1HWC J1849-017c'	-0.15920360386371613	30.999937057495117	50.0			b''	0.3199999928474426			0.019999999552965164	b'gauss'	b'WR121a,W43'	-1.7923074960708618		-0.1599999964237213	31.0	282.1207275390625	282.1199951171875	b'2008AIPC.1085..372C'	"[ 9.94175e-12  6.81516e-12  1.70718e-12  5.02674e-13  3.26588e-13
+ [-7.0241832e-08  7.2291499e-08]]"	-inf	0.06950549781322479	0.0422670803964138	52.63126754760742	0.3117753565311432	4.3938065534022963e-13	1.8089528139308975e-11	2.779979024758461e-11	8.304693738248048e-12	3.755890737311418e-11		3.211232010779721e-12		6.799902666713001e-12		3.4479475385878987e-12	b'unid'	b'HESS J1848-018'	-1.7920000553131104	b'hess'	b'2008-07'	b''	b'HESS J1848-018,1HWC J1849-017c'	-0.15920360386371613	30.999937057495117	50.0			b''	0.3199999928474426			0.019999999552965164	b'gauss'	b'WR121a,W43'	-1.7923074960708618		-0.1599999964237213	31.0	282.1207275390625	282.1199951171875	b'2008AIPC.1085..372C'	"[ 9.94175e-12  6.81516e-12  1.70718e-12  5.02674e-13  3.26588e-13
   8.18333e-14  2.97940e-14  4.02170e-15 -6.64708e-15  3.73541e-15
  -5.31736e-16          nan          nan          nan          nan
           nan          nan          nan          nan          nan
@@ -7877,7 +7877,7 @@
  [-3.9114251e-08  4.2495291e-08]
  [-4.4894513e-08  4.7980066e-08]
  [-3.8934015e-08  4.2265601e-08]
- [-5.0229648e-08  5.2889288e-08]]"	-inf	0.09899525344371796	0.055250316858291626	50.617431640625	0.26103153824806213	5.123906941101319e-13	1.3322194909737295e-11	2.6043989881374685e-11	5.809466189360402e-12	1.6156579546455774e-11		b'unid'	b'HESS J1858+020'	2.0899999141693115	b'hess'	b'2007-07'	b''	b'1HWC J1857+023'	-0.5801709890365601	35.57807159423828	25.0	4.0	17.0	b'radec'	0.07999999821186066	0.019999999552965164	0.03999999910593033	0.019999999552965164	b'gauss'	b'G35.6-0.4'	2.0895578861236572	0.05000000074505806	-0.5809999704360962	35.577999114990234	284.58404541015625	284.5833435058594	b'2008A&A...477..353A'	"[1.27006e-12 2.18991e-13 6.06834e-14 3.43868e-14 1.01307e-14 2.48266e-15
+ [-5.0229648e-08  5.2889288e-08]]"	-inf	0.09899525344371796	0.055250316858291626	50.617431640625	0.26103153824806213	5.123906941101319e-13	1.3322194909737295e-11	2.6043989881374685e-11	5.809466189360402e-12	1.6156579546455774e-11		4.351221106657921e-12	9.044445606109138e-13	1.0753211828817553e-12	7.010728363943488e-13	7.346239133847781e-13	b'unid'	b'HESS J1858+020'	2.0899999141693115	b'hess'	b'2007-07'	b''	b'1HWC J1857+023'	-0.5801709890365601	35.57807159423828	25.0	4.0	17.0	b'radec'	0.07999999821186066	0.019999999552965164	0.03999999910593033	0.019999999552965164	b'gauss'	b'G35.6-0.4'	2.0895578861236572	0.05000000074505806	-0.5809999704360962	35.577999114990234	284.58404541015625	284.5833435058594	b'2008A&A...477..353A'	"[1.27006e-12 2.18991e-13 6.06834e-14 3.43868e-14 1.01307e-14 2.48266e-15
  1.00120e-15 1.17554e-16         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -7967,7 +7967,7 @@
  [-4.2565539e-08  4.4079080e-08]
  [-4.5997631e-08  4.7204907e-08]
  [-5.0545534e-08  5.1411707e-08]
- [-4.7449998e-08  5.1187332e-08]]"	-inf	0.03085143119096756	0.014658023603260517	52.13117980957031	0.09046482294797897	1.0068153775966149e-11	3.1385029991559676e-11	4.303808698313816e-11	2.8275817451350882e-11	4.1197368433332215e-11		b'snr,mc'	b'W 49B'	9.101699829101562	b'hess'	b'2010-12'	b''	b'HESS J1911+090'	-0.15601561963558197	43.251407623291016	75.0			b''					b'point'	b'SNR G043.3-00.2,0FGL J1911.0+0905,1FGL J1910.9+0906c'	9.093607902526855	0.004999999888241291	-0.1899999976158142	43.2599983215332	287.78033447265625	287.74578857421875	b'2016arXiv160900600H'	"[4.791e-12 1.675e-12 3.208e-13 8.466e-14       nan       nan       nan
+ [-4.7449998e-08  5.1187332e-08]]"	-inf	0.03085143119096756	0.014658023603260517	52.13117980957031	0.09046482294797897	1.0068153775966149e-11	3.1385029991559676e-11	4.303808698313816e-11	2.8275817451350882e-11	4.1197368433332215e-11		1.5671160643491536e-12	9.108942095177997e-14	4.670894199203079e-13	4.17584386791371e-14	2.1412942025113062e-13	b'snr,mc'	b'W 49B'	9.101699829101562	b'hess'	b'2010-12'	b''	b'HESS J1911+090'	-0.15601561963558197	43.251407623291016	75.0			b''					b'point'	b'SNR G043.3-00.2,0FGL J1911.0+0905,1FGL J1910.9+0906c'	9.093607902526855	0.004999999888241291	-0.1899999976158142	43.2599983215332	287.78033447265625	287.74578857421875	b'2016arXiv160900600H'	"[4.791e-12 1.675e-12 3.208e-13 8.466e-14       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
        nan       nan       nan       nan       nan       nan       nan
@@ -8062,7 +8062,7 @@
  [-4.6858222e-08  4.7683322e-08]
  [-5.1391385e-08  4.7562072e-08]
  [-4.8814975e-08  4.9585317e-08]
- [-5.4721486e-08  5.7675354e-08]]"	-inf	0.016938187181949615	0.00972291175276041	69.1420669555664	0.10352244228124619	2.214253433385771e-11	6.960432924474347e-11	6.2286925617272e-11	5.003953848503606e-11	7.852144628950342e-11		b'snr,mc'	b'W 51C'	14.145000457763672	b'hess'	b'2008-10'	b''	b'HESS J1923+141'	-0.46160438656806946	49.115806579589844	50.0			b''	0.11999999731779099			0.019999999552965164	b'gauss'	b'SNR G49.2-0.7,0FGL J1923.0+1411'	14.190999984741211	0.014999999664723873	-0.364671528339386	49.11607360839844	290.7300109863281	290.8179931640625	b'2012A&A...541A..13A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-5.4721486e-08  5.7675354e-08]]"	-inf	0.016938187181949615	0.00972291175276041	69.1420669555664	0.10352244228124619	2.214253433385771e-11	6.960432924474347e-11	6.2286925617272e-11	5.003953848503606e-11	7.852144628950342e-11		0.0	0.0	0.0	0.0	0.0	b'snr,mc'	b'W 51C'	14.145000457763672	b'hess'	b'2008-10'	b''	b'HESS J1923+141'	-0.46160438656806946	49.115806579589844	50.0			b''	0.11999999731779099			0.019999999552965164	b'gauss'	b'SNR G49.2-0.7,0FGL J1923.0+1411'	14.190999984741211	0.014999999664723873	-0.364671528339386	49.11607360839844	290.7300109863281	290.8179931640625	b'2012A&A...541A..13A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -8135,7 +8135,7 @@
  [-8.95083652e-09  9.72933378e-09]
  [-9.36884170e-09  1.01110080e-08]
  [-9.59689306e-09  1.02453885e-08]
- [-1.11431158e-08  1.19072041e-08]]"	1.2278089656092561e-08	0.02233070880174637	-inf	158.37391662597656	-inf	1.3407607489523965e-11	8.850540092475434e-12	6.333740389802278e-12	1.0421253270054276e-11	7.730187150112311e-12		b'hbl'	b'1ES 1959+650'	65.14851379394531	b'magic'	b'1999-08'	b''	b'VER J1959+651'	17.66974639892578	98.00337982177734	6.0			b''					b'none'	b''						299.9993896484375	b'2006ApJ...639..761A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-1.11431158e-08  1.19072041e-08]]"	1.2278089656092561e-08	0.02233070880174637	-inf	158.37391662597656	-inf	1.3407607489523965e-11	8.850540092475434e-12	6.333740389802278e-12	1.0421253270054276e-11	7.730187150112311e-12		0.0	0.0	0.0	0.0	0.0	b'hbl'	b'1ES 1959+650'	65.14851379394531	b'magic'	b'1999-08'	b''	b'VER J1959+651'	17.66974639892578	98.00337982177734	6.0			b''					b'none'	b''						299.9993896484375	b'2006ApJ...639..761A'	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -8210,7 +8210,7 @@
  [-1.33857787e-08  1.49614490e-08]
  [-1.11225527e-08  1.27087008e-08]
  [-1.17793260e-08  1.34768481e-08]
- [-1.33062716e-08  1.49692667e-08]]"	2.17088587106673e-08	0.021873611956834793	-inf	341.1120910644531	-inf	1.3355650786694984e-11	1.3210354685155856e-11	1.3157035357036495e-11	1.5222330340680656e-11	1.1538964228563486e-11		b'ibl'	b'MAGIC J2001+435'	43.88410949707031	b'magic'	b'2010-07'	b''	b''	7.109652996063232	79.07070922851562				b''					b'none'	b'1FGL J2001.1+4351,MG4 J200112+4352'						300.3062438964844	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-1.33062716e-08  1.49692667e-08]]"	2.17088587106673e-08	0.021873611956834793	-inf	341.1120910644531	-inf	1.3355650786694984e-11	1.3210354685155856e-11	1.3157035357036495e-11	1.5222330340680656e-11	1.1538964228563486e-11		0.0	0.0	0.0	0.0	0.0	b'ibl'	b'MAGIC J2001+435'	43.88410949707031	b'magic'	b'2010-07'	b''	b''	7.109652996063232	79.07070922851562				b''					b'none'	b'1FGL J2001.1+4351,MG4 J200112+4352'						300.3062438964844	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -8283,7 +8283,7 @@
  [-6.0031948e-09  6.7896844e-09]
  [-6.5181127e-09  7.6743634e-09]
  [-5.6218390e-09  6.4632579e-09]
- [-5.9621894e-09  6.9064612e-09]]"	1.03151123198586e-08	0.03131505101919174	-inf	131.05726623535156	-inf	9.298842945648644e-12	5.1245691717882735e-12	2.8640807173824223e-12	7.159346032681313e-12	3.681735905730621e-12		b'hbl'	b'PKS 2005-489'	-48.83158874511719	b'hess'	b'2005-06'	b''	b'HESS J2009-488'	-32.60076141357422	350.3730773925781				b''					b'none'	b''						302.3558044433594	b'2010A&A...511A..52H'	"[2.46200e-11 7.92905e-12 4.16799e-12 1.53499e-12 3.39701e-13 1.82100e-13
+ [-5.9621894e-09  6.9064612e-09]]"	1.03151123198586e-08	0.03131505101919174	-inf	131.05726623535156	-inf	9.298842945648644e-12	5.1245691717882735e-12	2.8640807173824223e-12	7.159346032681313e-12	3.681735905730621e-12		5.939779169578389e-12	9.623469061025173e-14	8.252164896427879e-13	1.6125305744232626e-14	5.463151025653011e-13	b'hbl'	b'PKS 2005-489'	-48.83158874511719	b'hess'	b'2005-06'	b''	b'HESS J2009-488'	-32.60076141357422	350.3730773925781				b''					b'none'	b''						302.3558044433594	b'2010A&A...511A..52H'	"[2.46200e-11 7.92905e-12 4.16799e-12 1.53499e-12 3.39701e-13 1.82100e-13
  7.71000e-14 5.14300e-14 2.93100e-14 1.03300e-14         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -8372,7 +8372,7 @@
  [-3.5479516e-08  3.7801030e-08]
  [-3.3794091e-08  3.5635711e-08]
  [-2.7978050e-08  3.2521672e-08]
- [-3.7013130e-08  3.9789978e-08]]"	5.4391495751815455e-08	0.044772226363420486	0.026995301246643066	450.9681091308594	0.18034909665584564	1.6689907919240077e-12	1.7287475270744146e-11	3.4724379621708934e-11	7.1851882083029395e-12	2.690133879545975e-11		b'pwn,snr'	b'VER J2016+371'	37.214759826660156	b'veritas'	b'2011-08'	b''	b'MGRO J2019+37'	1.1501808166503906	74.95384979248047	70.0			b''					b'point'	b'CTB 87'	37.1974983215332	0.011785113252699375	1.140074372291565	74.9398422241211	304.0083312988281	304.0075988769531	b'2014ApJ...788...78A'	"[9.5052e-13 8.9146e-14 1.4862e-14 1.4700e-15        nan        nan
+ [-3.7013130e-08  3.9789978e-08]]"	5.4391495751815455e-08	0.044772226363420486	0.026995301246643066	450.9681091308594	0.18034909665584564	1.6689907919240077e-12	1.7287475270744146e-11	3.4724379621708934e-11	7.1851882083029395e-12	2.690133879545975e-11		2.5137827830979643e-12	2.6392518544220215e-13	6.098600343731919e-13	2.610076995177765e-13	2.784048984278146e-13	b'pwn,snr'	b'VER J2016+371'	37.214759826660156	b'veritas'	b'2011-08'	b''	b'MGRO J2019+37'	1.1501808166503906	74.95384979248047	70.0			b''					b'point'	b'CTB 87'	37.1974983215332	0.011785113252699375	1.140074372291565	74.9398422241211	304.0083312988281	304.0075988769531	b'2014ApJ...788...78A'	"[9.5052e-13 8.9146e-14 1.4862e-14 1.4700e-15        nan        nan
         nan        nan        nan        nan        nan        nan
         nan        nan        nan        nan        nan        nan
         nan        nan        nan        nan        nan        nan
@@ -8456,7 +8456,7 @@
  [-3.5479516e-08  3.7801030e-08]
  [-3.3794091e-08  3.5635711e-08]
  [-2.7978050e-08  3.2521672e-08]
- [-3.7013130e-08  3.9789978e-08]]"	5.4391495751815455e-08	0.044772226363420486	0.026995301246643066	450.9681091308594	0.18034909665584564	1.6689907919240077e-12	1.7287475270744146e-11	3.4724379621708934e-11	7.1851882083029395e-12	2.690133879545975e-11		b'unid'	b'VER J2019+368'	37.19778060913086	b'veritas'	b'2014-04'	b''	b'MGRO J2019+37'	1.1402524709701538	74.9400634765625	70.0	71.0		b'radec'	0.3400000035762787	0.12999999523162842	0.019999999552965164	0.029999999329447746	b'gauss'	b''	36.803890228271484	0.0695221796631813	0.36007750034332275	74.99310302734375	304.8541564941406	304.00830078125	b'2014ApJ...788...78A'	"[8.6212e-13 4.7155e-13 2.2732e-13 1.0727e-13 6.2419e-14 2.3266e-14
+ [-3.7013130e-08  3.9789978e-08]]"	5.4391495751815455e-08	0.044772226363420486	0.026995301246643066	450.9681091308594	0.18034909665584564	1.6689907919240077e-12	1.7287475270744146e-11	3.4724379621708934e-11	7.1851882083029395e-12	2.690133879545975e-11		6.90259512988569e-13	4.764276107667066e-12	1.598775610544071e-12	3.9153475352797e-12	2.9593070200551863e-12	b'unid'	b'VER J2019+368'	37.19778060913086	b'veritas'	b'2014-04'	b''	b'MGRO J2019+37'	1.1402524709701538	74.9400634765625	70.0	71.0		b'radec'	0.3400000035762787	0.12999999523162842	0.019999999552965164	0.029999999329447746	b'gauss'	b''	36.803890228271484	0.0695221796631813	0.36007750034332275	74.99310302734375	304.8541564941406	304.00830078125	b'2014ApJ...788...78A'	"[8.6212e-13 4.7155e-13 2.2732e-13 1.0727e-13 6.2419e-14 2.3266e-14
  5.9892e-15 2.9884e-15        nan        nan        nan        nan
         nan        nan        nan        nan        nan        nan
         nan        nan        nan        nan        nan        nan
@@ -8538,7 +8538,7 @@
  [-4.6961073e-08  4.6961073e-08]
  [-4.5207891e-08  4.5207891e-08]
  [-4.6938556e-08  4.6938556e-08]
- [-5.0310991e-08  5.0310991e-08]]"	-inf	0.020585138350725174	-inf	46.76888656616211	-inf	4.102753727031061e-12	1.3640304163953232e-10	9.810361550899316e-11	5.835287114619447e-11	1.3895988526524405e-10		b'pwn,unid'	b'Dragonfly'	36.851261138916016	b'milagro'	b'2007-03'	b''	b'MGRO J2019+37,VER J2019+368,VER J2016+371'	0.11098740994930267	75.22187042236328				b''					b'none'	b'0FGL J2020.8+3649'						305.27252197265625	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-5.0310991e-08  5.0310991e-08]]"	-inf	0.020585138350725174	-inf	46.76888656616211	-inf	4.102753727031061e-12	1.3640304163953232e-10	9.810361550899316e-11	5.835287114619447e-11	1.3895988526524405e-10		0.0	0.0	0.0	0.0	0.0	b'pwn,unid'	b'Dragonfly'	36.851261138916016	b'milagro'	b'2007-03'	b''	b'MGRO J2019+37,VER J2019+368,VER J2016+371'	0.11098740994930267	75.22187042236328				b''					b'none'	b'0FGL J2020.8+3649'						305.27252197265625	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -8613,7 +8613,7 @@
  [-2.2276392e-08  2.3526997e-08]
  [-2.3351820e-08  2.4241706e-08]
  [-2.1489898e-08  2.2724931e-08]
- [-2.3752332e-08  2.5168349e-08]]"	-inf	0.05523118004202843	-inf	38.32027816772461	-inf	2.8456859264835987e-12	4.600288899814231e-11	1.4188471578191475e-11	3.22483463544021e-11	3.170300133525927e-11		b'unid'	b'MGRO J2031+41'	41.56700134277344	b'milagro'	b'2007-08'	b''	b''	1.1111170053482056	80.29947662353516				b''					b'none'	b'TeV J2032+4130,TeV 2032+413,0FGL J2032.2+4122'						308.0249938964844	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-2.3752332e-08  2.5168349e-08]]"	-inf	0.05523118004202843	-inf	38.32027816772461	-inf	2.8456859264835987e-12	4.600288899814231e-11	1.4188471578191475e-11	3.22483463544021e-11	3.170300133525927e-11		0.0	0.0	0.0	0.0	0.0	b'unid'	b'MGRO J2031+41'	41.56700134277344	b'milagro'	b'2007-08'	b''	b''	1.1111170053482056	80.29947662353516				b''					b'none'	b'TeV J2032+4130,TeV 2032+413,0FGL J2032.2+4122'						308.0249938964844	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -8688,7 +8688,7 @@
  [-1.06262412e-08  1.12239062e-08]
  [-1.01244053e-08  1.08159117e-08]
  [-9.80967307e-09  1.03582849e-08]
- [-1.19376580e-08  1.28066091e-08]]"	1.782770553404589e-08	0.017710700631141663	0.006727897562086582	618.5021362304688	0.039075858891010284	4.2198449595742815e-11	3.2891092627274077e-11	1.614187776499687e-11	3.9875980989423354e-11	2.5697471928154414e-11		b'hbl'	b'PKS 2155-304'	-30.225587844848633	b'durham'	b'1999-06'	b''	b'HESS J2158-302'	-52.245853424072266	17.730497360229492				b''					b'none'	b''						329.7169494628906	b'2010A&A...520A..83H'	"[3.71000e-10 1.38000e-10 5.49998e-11 2.33999e-11 8.48001e-12 2.36000e-12
+ [-1.19376580e-08  1.28066091e-08]]"	1.782770553404589e-08	0.017710700631141663	0.006727897562086582	618.5021362304688	0.039075858891010284	4.2198449595742815e-11	3.2891092627274077e-11	1.614187776499687e-11	3.9875980989423354e-11	2.5697471928154414e-11		1.7909501471007626e-11	4.09884038507119e-14	2.3994418067303586e-12	2.1862899765124454e-15	8.329545640214771e-13	b'hbl'	b'PKS 2155-304'	-30.225587844848633	b'durham'	b'1999-06'	b''	b'HESS J2158-302'	-52.245853424072266	17.730497360229492				b''					b'none'	b''						329.7169494628906	b'2010A&A...520A..83H'	"[3.71000e-10 1.38000e-10 5.49998e-11 2.33999e-11 8.48001e-12 2.36000e-12
  1.11000e-12 5.77002e-13 2.34001e-13 8.73998e-14 4.82999e-14 1.37999e-14
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -8777,7 +8777,7 @@
  [-2.8934657e-08  2.8934657e-08]
  [-2.6781340e-08  2.6781340e-08]
  [-2.7938933e-08  2.7938933e-08]
- [-2.9978988e-08  2.9978988e-08]]"	3.1572398029311444e-08	0.016849016770720482	0.007280382793396711	2340.217041015625	0.047707073390483856	8.225059522359857e-12	2.984179223175509e-11	4.83514304983057e-11	1.9604538478712463e-11	3.9872376234040274e-11		b'lbl'	b'BL Lacertae'	42.27777099609375	b'crimea'	b'2001-04'	b''	b''	-10.441157341003418	92.58958435058594				b''					b'point'	b'1ES 2200+420'	42.25694274902344	0.009999999776482582	-10.445906639099121	92.56105041503906	330.6541748046875	330.6803894042969	b'2013ApJ...762...92A'	"[1.68999e-09 6.53000e-10 5.33999e-10 1.03000e-10 4.33999e-11         nan
+ [-2.9978988e-08  2.9978988e-08]]"	3.1572398029311444e-08	0.016849016770720482	0.007280382793396711	2340.217041015625	0.047707073390483856	8.225059522359857e-12	2.984179223175509e-11	4.83514304983057e-11	1.9604538478712463e-11	3.9872376234040274e-11		8.908233781766264e-11	1.3238896566439068e-13	7.886080079018575e-12	1.8834629435776562e-14	1.1219318411000073e-12	b'lbl'	b'BL Lacertae'	42.27777099609375	b'crimea'	b'2001-04'	b''	b''	-10.441157341003418	92.58958435058594				b''					b'point'	b'1ES 2200+420'	42.25694274902344	0.009999999776482582	-10.445906639099121	92.56105041503906	330.6541748046875	330.6803894042969	b'2013ApJ...762...92A'	"[1.68999e-09 6.53000e-10 5.33999e-10 1.03000e-10 4.33999e-11         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -8864,7 +8864,7 @@
  [-2.8114554e-08  2.8114554e-08]
  [-2.7246809e-08  2.7246809e-08]
  [-3.0190222e-08  3.0190222e-08]
- [-2.9432895e-08  2.9432895e-08]]"	-inf	0.020971553400158882	-inf	45.312110900878906	-inf	2.842486445872594e-12	5.582341186527451e-11	4.911918788375047e-11	2.915088656574305e-11	6.167179961158453e-11		b'pwn,snr'	b'Boomerang PWN'	61.20000076293945	b'milagro'	b'2009-04'	b''	b'MGRO C4,MGRO J2228+61,0FGL J2229.0+6114'	2.9234631061553955	106.6197738647461				b''					b'none'	b'SNR G106.6+2.9,PSR J2229+6114'						337.25	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-2.9432895e-08  2.9432895e-08]]"	-inf	0.020971553400158882	-inf	45.312110900878906	-inf	2.842486445872594e-12	5.582341186527451e-11	4.911918788375047e-11	2.915088656574305e-11	6.167179961158453e-11		0.0	0.0	0.0	0.0	0.0	b'pwn,snr'	b'Boomerang PWN'	61.20000076293945	b'milagro'	b'2009-04'	b''	b'MGRO C4,MGRO J2228+61,0FGL J2229.0+6114'	2.9234631061553955	106.6197738647461				b''					b'none'	b'SNR G106.6+2.9,PSR J2229+6114'						337.25	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -8937,7 +8937,7 @@
  [-4.9379389e-09  6.1709433e-09]
  [-7.3904238e-09  8.3325924e-09]
  [-6.0916592e-09  7.0911494e-09]
- [-5.2799036e-09  6.3390329e-09]]"	-inf	0.02956346981227398	-inf	59.123531341552734	-inf	1.1097228171108586e-11	6.706612695750458e-12	2.8837722140795385e-12	8.127634849863785e-12	4.02094199949965e-12		b'ibl'	b'RGB J2243+203'	20.351049423217773	b'veritas'	b'2014-12'	b''	b''	-33.36540222167969	86.56749725341797				b''					b'none'	b''						340.97808837890625	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
+ [-5.2799036e-09  6.3390329e-09]]"	-inf	0.02956346981227398	-inf	59.123531341552734	-inf	1.1097228171108586e-11	6.706612695750458e-12	2.8837722140795385e-12	8.127634849863785e-12	4.02094199949965e-12		0.0	0.0	0.0	0.0	0.0	b'ibl'	b'RGB J2243+203'	20.351049423217773	b'veritas'	b'2014-12'	b''	b''	-33.36540222167969	86.56749725341797				b''					b'none'	b''						340.97808837890625	b''	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan]"	"[nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
  nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan nan
@@ -9012,7 +9012,7 @@
  [-5.8266543e-09  7.2567761e-09]
  [           nan  4.8982649e-09]
  [-6.0335248e-09  7.3682078e-09]
- [-7.3729867e-09  8.6174818e-09]]"	-inf	0.07437045872211456	-inf	52.417179107666016	-inf	2.2409201230755293e-12	1.7127038719547127e-12	2.648155349518899e-12	1.7371376689542806e-12	1.4556783512961746e-12		b'hbl'	b'B3 2247+381'	38.41033172607422	b'magic'	b'2010-10'	b''	b''	-18.578105926513672	98.25415802001953				b''					b'none'	b''						342.5239562988281	b'2012A&A...539A.118A'	"[9.66000e-11 1.42000e-11 3.34002e-12 4.02999e-13         nan         nan
+ [-7.3729867e-09  8.6174818e-09]]"	-inf	0.07437045872211456	-inf	52.417179107666016	-inf	2.2409201230755293e-12	1.7127038719547127e-12	2.648155349518899e-12	1.7371376689542806e-12	1.4556783512961746e-12		1.8071003714718714e-12	4.202808030284118e-15	3.3642959917732625e-13	5.192883710388894e-16	4.156839362331014e-14	b'hbl'	b'B3 2247+381'	38.41033172607422	b'magic'	b'2010-10'	b''	b''	-18.578105926513672	98.25415802001953				b''					b'none'	b''						342.5239562988281	b'2012A&A...539A.118A'	"[9.66000e-11 1.42000e-11 3.34002e-12 4.02999e-13         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
          nan         nan         nan         nan         nan         nan
@@ -9101,7 +9101,7 @@
  [-4.3015991e-09  4.9328754e-09]
  [-4.5261981e-09  5.0805360e-09]
  [-4.3621684e-09  4.9048894e-09]
- [-4.4543098e-09  5.1937583e-09]]"	-inf	0.045901667326688766	0.026514191180467606	40.072166442871094	0.16641925275325775	7.360280787627183e-12	9.61274896488229e-12	5.90548988545534e-17	1.1862476279045353e-11	4.502070157647031e-12		b'snr'	b'Cassiopeia A'	58.814998626708984	b'hegra'	b'2001-04'	b''	b''	-2.1295676231384277	111.73474884033203	22.0			b''					b'point'	b'Cas A,3C461,G111.7-2.1'	58.8025016784668	0.02199999988079071	-2.137026309967041	111.7183609008789	350.82501220703125	350.8500061035156	b'2010ApJ...714..163A'	"[8.96e-12 2.10e-12 8.99e-13 1.59e-13 7.63e-14 1.25e-14      nan      nan
+ [-4.4543098e-09  5.1937583e-09]]"	-inf	0.045901667326688766	0.026514191180467606	40.072166442871094	0.16641925275325775	7.360280787627183e-12	9.61274896488229e-12	5.90548988545534e-17	1.1862476279045353e-11	4.502070157647031e-12		6.3772970170035386e-12	1.2965925695538228e-13	2.17381711819397e-12	1.5594050009332764e-14	1.1840224617078288e-12	b'snr'	b'Cassiopeia A'	58.814998626708984	b'hegra'	b'2001-04'	b''	b''	-2.1295676231384277	111.73474884033203	22.0			b''					b'point'	b'Cas A,3C461,G111.7-2.1'	58.8025016784668	0.02199999988079071	-2.137026309967041	111.7183609008789	350.82501220703125	350.8500061035156	b'2010ApJ...714..163A'	"[8.96e-12 2.10e-12 8.99e-13 1.59e-13 7.63e-14 1.25e-14      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
@@ -9179,7 +9179,7 @@
  [-6.0180878e-09  6.7896799e-09]
  [-7.7781843e-09  8.5694571e-09]
  [-4.4518624e-09  5.5857958e-09]
- [-4.9977253e-09  6.2325385e-09]]"	7.7781843188518e-09	0.03924274444580078	-inf	100.96907043457031	-inf	5.476609617194317e-12	4.107120459700964e-12	2.0860559373642173e-12	4.2760170404498865e-12	2.6930682076736767e-12		b'hbl'	b'1ES 2344+514'	51.7049674987793	b'whipple'	b'1998-07'	b''	b''	-9.90775203704834	112.89143371582031				b''					b'point'	b''						356.7701416015625	b'2011ApJ...738..169A'	"[8.96e-12 2.10e-12 8.99e-13 1.59e-13 7.63e-14 1.25e-14      nan      nan
+ [-4.9977253e-09  6.2325385e-09]]"	7.7781843188518e-09	0.03924274444580078	-inf	100.96907043457031	-inf	5.476609617194317e-12	4.107120459700964e-12	2.0860559373642173e-12	4.2760170404498865e-12	2.6930682076736767e-12		6.3772970170035386e-12	1.2965925695538228e-13	2.17381711819397e-12	1.5594050009332764e-14	1.1840224617078288e-12	b'hbl'	b'1ES 2344+514'	51.7049674987793	b'whipple'	b'1998-07'	b''	b''	-9.90775203704834	112.89143371582031				b''					b'point'	b''						356.7701416015625	b'2011ApJ...738..169A'	"[8.96e-12 2.10e-12 8.99e-13 1.59e-13 7.63e-14 1.25e-14      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
       nan      nan      nan      nan      nan      nan      nan      nan
