@@ -19,7 +19,6 @@ import seaborn as sns
 from sklearn import preprocessing
 
 def build_images_KMeans(spectra, spectrum_columns, spectra_distances, colors, TSNE_learning_rate=500, TSNE_n_iter=1500, TSNE_learning_rate2=300):
-
     colors_m = ['red','black']
     markers = ['o', 'x']
     cols = spectra['marked'].apply(lambda x: colors[x])
@@ -30,7 +29,12 @@ def build_images_KMeans(spectra, spectrum_columns, spectra_distances, colors, TS
     plt.title("PCA")
     pca = PCA(n_components=2, random_state=42)
     spectra_2D = pca.fit_transform(spectra[spectrum_columns])
-    for i in range(len(col)):
+    for i in range(len(spectra_2D)):
+        #print(i)
+        #print(spectra_2D[i, 0])
+        #print(spectra_2D[i, 1])
+        #print(cols[i])
+        #print(col[i])
         plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
 
     plt.subplot(132)
@@ -50,17 +54,12 @@ def build_images_KMeans(spectra, spectrum_columns, spectra_distances, colors, TS
     # visualization - tsne with chosen distance
     print('Clustering')
     plt.subplots(figsize=(18, 12))
-    plt.subplot(3, 3, 1)
-
-    plt.title("true labels")
-    for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
 
     for n in range(2, 10):
         kmeans = cluster.KMeans(n_clusters=n, random_state=42)
         cluster_labels = kmeans.fit_predict(spectra_distances)
 
-        plt.subplot(3, 3, n)
+        plt.subplot(3, 3, n-1)
         cols = [colors[l] for l in cluster_labels]
         plt.title("cluster labels ({} clusters)".format(n))
         for i in range(len(col)):
@@ -110,6 +109,7 @@ def build_images_DBSCAN(spectra, spectrum_columns, spectra_distances, colors, ep
     pca = PCA(n_components=2, random_state=42)
     spectra_2D = pca.fit_transform(spectra[spectrum_columns])
     for i in range(len(col)):
+        
         plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
 
     plt.subplot(132)
@@ -131,17 +131,12 @@ def build_images_DBSCAN(spectra, spectrum_columns, spectra_distances, colors, ep
     # visualization - tsne with chosen distance
     print('Clustering')
     plt.subplots(figsize=(18, 18))
-    plt.subplot(3, 3, 1)
-
-    plt.title("true labels")
-    for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
 
     for i, eps in enumerate(eps_l):
         dbscan = cluster.DBSCAN(eps=eps, min_samples=4)
         cluster_labels = dbscan.fit_predict(spectra_distances)
 
-        plt.subplot(3, 3, i + 2)
+        plt.subplot(3, 3, i + 1)
         cols = [colors[l] for l in cluster_labels]
         plt.title("cluster labels (eps = {:.2})".format(eps))
         for j in range(len(col)):
@@ -167,6 +162,7 @@ def print_clusters_structure_DBSCAN(spectra, spectrum_columns, other_names, spec
         plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
     plt.show()
     list_spectra_clusters = []
+    display(spectra[spectra['marked'] == 1])
     
     for i in set(cluster_labels):
         list_spectra_clusters.append(spectra[spectra[col_name] == i][other_names])
