@@ -18,9 +18,12 @@ from sklearn.manifold import TSNE
 import seaborn as sns
 from sklearn import preprocessing
 
+markersizes= [20,100]
+markers = ['^', 'o']
+
 def build_images_KMeans(spectra, spectrum_columns, spectra_distances, colors, TSNE_learning_rate=500, TSNE_n_iter=1500, TSNE_learning_rate2=300):
     colors_m = ['red','black']
-    markers = ['o', 'x']
+    
     cols = spectra['marked'].apply(lambda x: colors[x])
     col = spectra['marked']
 
@@ -35,21 +38,21 @@ def build_images_KMeans(spectra, spectrum_columns, spectra_distances, colors, TS
         #print(spectra_2D[i, 1])
         #print(cols[i])
         #print(col[i])
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s=markersizes[col[i]])
 
     plt.subplot(132)
     plt.title("TSNE, Euclidean distance")
-    tsne = TSNE(n_components=2, random_state=42, learning_rate=700)
+    tsne = TSNE(n_components=2, random_state=42, learning_rate=TSNE_learning_rate, n_iter=TSNE_n_iter)
     spectra_2D = tsne.fit_transform(spectra[spectrum_columns])
     for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s=markersizes[col[i]])
 
     plt.subplot(133)
     plt.title("TSNE, Chosen distance")
-    tsne = TSNE(n_components=2, random_state=42, metric="precomputed", learning_rate=700)
+    tsne = TSNE(n_components=2, random_state=42, metric="precomputed", learning_rate=TSNE_learning_rate2)
     spectra_2D = tsne.fit_transform(spectra_distances)
     for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]],s=markersizes[col[i]])
     
     # visualization - tsne with chosen distance
     print('Clustering')
@@ -63,7 +66,7 @@ def build_images_KMeans(spectra, spectrum_columns, spectra_distances, colors, TS
         cols = [colors[l] for l in cluster_labels]
         plt.title("cluster labels ({} clusters)".format(n))
         for i in range(len(col)):
-            plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+            plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s=markersizes[col[i]])
     
     plt.show()
 
@@ -76,14 +79,12 @@ def print_clusters_structure_KMeans(spectra, spectrum_columns, other_names, spec
     cluster_labels = kmeans.fit_predict(spectra_distances)
     centers = []
     list_spectra_clusters = []
-    markers = ['o', 'x']
-
     col = spectra['marked']
     plt.figure(figsize=(18, 6))
     cols = [colors[l] for l in cluster_labels]
     plt.title("cluster labels ({} clusters)".format(n))
     for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s=markersizes[col[i]])
     
     plt.show()
 
@@ -99,7 +100,7 @@ def print_clusters_structure_KMeans(spectra, spectrum_columns, other_names, spec
     return list_spectra_clusters, centers
     
 def build_images_DBSCAN(spectra, spectrum_columns, spectra_distances, colors, eps_l=[0.01 * i for i in range(12, 0, -2)], TSNE_learning_rate=500, TSNE_n_iter=1500, TSNE_learning_rate2=300):
-    markers = ['o', 'x']
+    markers = ['x', 'o']
     cols = spectra['marked'].apply(lambda x: colors[x])
     col = spectra['marked']
 
@@ -109,8 +110,7 @@ def build_images_DBSCAN(spectra, spectrum_columns, spectra_distances, colors, ep
     pca = PCA(n_components=2, random_state=42)
     spectra_2D = pca.fit_transform(spectra[spectrum_columns])
     for i in range(len(col)):
-        
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s=markersizes[col[i]])
 
     plt.subplot(132)
     plt.title("TSNE, Euclidean distance")
@@ -124,7 +124,7 @@ def build_images_DBSCAN(spectra, spectrum_columns, spectra_distances, colors, ep
     tsne = TSNE(n_components=2, random_state=42, metric="precomputed", learning_rate=TSNE_learning_rate2)
     spectra_2D = tsne.fit_transform(spectra_distances)
     for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s = markersizes)
     plt.show()
     
     
@@ -140,7 +140,7 @@ def build_images_DBSCAN(spectra, spectrum_columns, spectra_distances, colors, ep
         cols = [colors[l] for l in cluster_labels]
         plt.title("cluster labels (eps = {:.2})".format(eps))
         for j in range(len(col)):
-            plt.scatter(spectra_2D[j, 0], spectra_2D[j, 1], c=cols[j], alpha=0.5, marker=markers[col[j]])
+            plt.scatter(spectra_2D[j, 0], spectra_2D[j, 1], c=cols[j], alpha=0.5, marker=markers[col[j]], s=markersizes[col[i]])
 
     plt.show()
     return spectra_2D
@@ -151,7 +151,6 @@ def print_clusters_structure_DBSCAN(spectra, spectrum_columns, other_names, spec
     dbscan = cluster.DBSCAN(eps=eps, min_samples=2)
     cluster_labels = dbscan.fit_predict(spectra_distances)
     centers = []
-    markers = ['o', 'x']
     col = spectra['marked']
     plt.figure(figsize=(18, 6))
     cols = [colors[l] for l in cluster_labels]
@@ -159,7 +158,7 @@ def print_clusters_structure_DBSCAN(spectra, spectrum_columns, other_names, spec
     spectra[col_name] = cluster_labels
     plt.title(col_name)
     for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s=markersizes[col[i]])
     plt.show()
     list_spectra_clusters = []
     display(spectra[spectra['marked'] == 1])
@@ -176,3 +175,23 @@ def print_clusters_structure_DBSCAN(spectra, spectrum_columns, other_names, spec
     # plt.figure(figsize=(20, 10))
     # sns.heatmap(centers, vmin=0, vmax=1)
     # plt.show()
+
+def show_all_spectra(spectra_columns, spectra):
+    plt.clf()
+    fig, ax = plt.subplots(figsize=(16,6))
+    marked_spectra = spectra
+    
+    for i in range(0,len(marked_spectra)):
+        table = marked_spectra[spectra_columns].iloc[i]
+        values = table.values
+
+        spectra_points_number = len(spectra_columns)
+        plt.xticks(())
+        #if i == 0:
+        #    plt.setp([plt], title='Normalized columns')
+        if i == 3:
+            #plt.set_xlabel('optics - gev - tev')
+            plt.xticks(range(spectra_points_number), spectra_columns,rotation=45)
+        ax.plot(range(len(values)), marked_spectra[spectra_columns].iloc[i].values, label=marked_spectra['gev_1FGL_Name'].values[i])
+        legend = ax.legend(loc = 'upper right')   
+    plt.show()

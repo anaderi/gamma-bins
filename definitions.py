@@ -4,9 +4,13 @@ Created on Sat Sep  8 13:13:07 2018
 
 @author: Admin
 """
+import numpy as np
+import astropy
+import astropy.units as u
+from astropy.coordinates import SkyCoord
 
 def get_epsilon():
-    return 0.12
+    return 0.01
 
 def list_xmm_spectra_columns():
     xmm_spectrum_columns = [
@@ -19,6 +23,25 @@ def list_xmm_spectra_columns():
     xmm_spectrum_columns = list(map(lambda x: "xmm_" + x, xmm_spectrum_columns))
     return xmm_spectrum_columns
 
+def change_units_in_radec(glat, glon): 
+    ra = np.zeros((len(glat), 1))
+    dec = np.zeros((len(glat), 1))
+    for i in range(len(glat)):
+        if (str(glat[i]) != ''):
+            c_icrs = SkyCoord(l = glat[i]*u.degree, b = glon[i]*u.degree,  frame='galactic')
+            c_new = c_icrs.transform_to('fk5')
+            ra[i][0] = c_new.ra.deg
+            dec[i][0] = c_new.dec.deg
+        else:
+            ra[i][0] = None
+            dec[i][0] = None
+    return ra, dec
+
+def angsep(ra1,dec1,ra2,dec2):
+    SEP = numpy.cos(dec1*numpy.pi/180)*numpy.cos(dec2*numpy.pi/180)*numpy.cos((ra1-ra2)*numpy.pi/180)
+    SEP += numpy.sin(dec1*numpy.pi/180)*numpy.sin(dec2*numpy.pi/180) #returns values between 0 and pi radians
+    SEP = numpy.arccos(SEP)
+    return SEP*180./numpy.pi
 
 def list_gev_spectrum_columns():
     gev_spectrum_columns = [

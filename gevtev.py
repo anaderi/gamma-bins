@@ -10,6 +10,7 @@ import pandas as pd
 from scipy.interpolate import interp1d
 from astropy.io import fits
 from definitions import *
+from astropy.coordinates import SkyCoord
 import re
 
 _epsilon = get_epsilon()
@@ -131,6 +132,7 @@ def get_tev_spectra(catalog_TeV):
         catalog_TeV[i] = 1.6 * E ** 2 * catalog_TeV[i]
     return catalog_TeV
 
+
 def create_common(cat_gev, cat_tev, epsilon):
     """
     Returns 2 vectors for gev and tev respectively.
@@ -158,6 +160,7 @@ def create_common(cat_gev, cat_tev, epsilon):
     glat_tev = cat_tev['glat']
     glon_gev = cat_gev['GLON']
     glon_tev = cat_tev['glon']
+
     
     glat_dif_matrix = np.dot(np.vstack((glat_gev, -np.ones_like(glat_gev))).T,
                       np.vstack((np.ones_like(glat_tev), glat_tev)))
@@ -166,6 +169,44 @@ def create_common(cat_gev, cat_tev, epsilon):
     pairs_matrix = np.logical_and(np.abs(glat_dif_matrix) < epsilon,
                                   np.abs(glon_dif_matrix) < epsilon)
     return pairs_matrix
+
+
+def create_common2(gev_data, tev_data, epsilon):
+    """
+    Returns 2 vectors for gev and tev respectively.
+    C_associations_gev coordinate is equal 
+    
+    -1, if no similar objects in TEV catalog found
+    i, where i is a corresponding index of a similar object from TEV
+        to the object from GEV with an index equal to number 
+        of the coordinate.
+    
+    Arguments:
+    cat_gev -- rec array with GEV data
+    cat_tev -- rec array with TEV data
+    epsilon - threshold for similarity
+    
+    Returns:
+    C_associations_gev - numpy array (n,)
+    C_associations_tev - numpy array (m, )
+    
+    n - number of examples in GEV
+    m - number of examples in TEV
+    """
+    ra_tev, dec_tev = np.reshape(np.array(tev_data['tev_pos_ra'].values), (len(tev_data['tev_pos_ra']), -1)),\
+    np.reshape(np.array(tev_data['tev_pos_dec'].values), (len(tev_data['tev_pos_dec']), -1))
+    ra_gev, dec_gev = np.reshape(np.array(gev_data['gev_RAJ2000'].values), (len(gev_data['gev_RAJ2000']), -1)),\
+    np.reshape(np.array(gev_data['gev_DEJ2000'].values), (len(gev_data['gev_RAJ2000']), -1))
+    ra1,dec1,ra2,dec2 = ra_gev, dec_gev, ra_tev, dec_tev  
+    
+    ra_dif_matrix = np.dot(np.vstack((ra1.T, -np.ones_like(ra1.T))).T, np.vstack((np.ones_like(ra2.T), ra2.T)))
+    SEP = np.cos(dec1*np.pi/180)*np.cos(dec2.T*np.pi/180)*np.cos((ra_dif_matrix)*np.pi/180)
+    SEP += np.sin(dec1*np.pi/180)*np.sin(dec2.T*np.pi/180) #returns values between 0 and pi radians
+    SEP = np.arccos(SEP)
+     
+    pairs_matrix = (SEP < epsilon)
+    return pairs_matrix
+
 
 def create_pandas_frames(cat_gev, cat_tev):   
     """
@@ -196,6 +237,10 @@ def create_pandas_frames(cat_gev, cat_tev):
         tev_match_names.update({i : "tev_" + i})
     data_tev = data_tev.rename(columns = tev_match_names)
     data_tev = get_tev_spectra(data_tev)
+
+    ra_tev, dec_tev = change_units_in_radec(data_tev['tev_glon'].values, data_tev['tev_glat'].values)
+    data_tev['tev_pos_ra'] = ra_tev
+    data_tev['tev_pos_dec'] = dec_tev
     return data_gev, data_tev
 
 def create_common_data(data_gev, data_tev, pairs_matrix):
@@ -263,8 +308,11 @@ def compare_gev_tev_data(epsilon):
     only_gev_data - pandas DataFrame of only GEV objects 
     """
     cat_gev, cat_tev = cat_gev_tev(_path_gev, _path_tev)
-    pairs_matrix = create_common(cat_gev, cat_tev, epsilon)
+    
     data_gev, data_tev = create_pandas_frames(cat_gev, cat_tev)
+    for i in data_tev.columns:
+        print(i)
+    pairs_matrix = create_common2(data_gev, data_tev, epsilon)
     common_data = create_common_data(data_gev, data_tev, pairs_matrix)
     only_tev_data = create_only_tev_data(data_tev)
     only_gev_data = create_only_gev_data(data_gev)
