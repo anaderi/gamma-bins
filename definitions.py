@@ -10,7 +10,7 @@ import astropy.units as u
 from astropy.coordinates import SkyCoord
 
 def get_epsilon():
-    return 0.01
+    return 0.05
 
 def list_xmm_spectra_columns():
     xmm_spectrum_columns = [
