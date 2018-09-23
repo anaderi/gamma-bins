@@ -37,11 +37,11 @@ def change_units_in_radec(glat, glon):
             dec[i][0] = None
     return ra, dec
 
-def angsep(ra1,dec1,ra2,dec2):
-    SEP = numpy.cos(dec1*numpy.pi/180)*numpy.cos(dec2*numpy.pi/180)*numpy.cos((ra1-ra2)*numpy.pi/180)
-    SEP += numpy.sin(dec1*numpy.pi/180)*numpy.sin(dec2*numpy.pi/180) #returns values between 0 and pi radians
-    SEP = numpy.arccos(SEP)
-    return SEP*180./numpy.pi
+def angsep(ra1, dec1, ra2, dec2):
+    SEP = np.cos(dec1 * np.pi / 180) * np.cos(dec2 * np.pi / 180) * np.cos((ra1 - ra2) * np.pi / 180)
+    SEP += np.sin(dec1 * np.pi / 180) * np.sin(dec2 * np.pi / 180) #returns values between 0 and pi radians
+    SEP = np.arccos(SEP)
+    return SEP * 180. / np.pi
 
 def list_gev_spectrum_columns():
     gev_spectrum_columns = [

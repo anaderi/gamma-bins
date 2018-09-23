@@ -172,37 +172,21 @@ def create_common(cat_gev, cat_tev, epsilon):
 
 
 def create_common2(gev_data, tev_data, epsilon):
-    """
-    Returns 2 vectors for gev and tev respectively.
-    C_associations_gev coordinate is equal 
+    data1 = gev_data
+    data2 = tev_data
+    data1_ra = 'gev_RAJ2000'
+    data1_dec = 'gev_DEJ2000'
+    data2_ra = 'tev_pos_ra'
+    data2_dec = 'tev_pos_dec' 
     
-    -1, if no similar objects in TEV catalog found
-    i, where i is a corresponding index of a similar object from TEV
-        to the object from GEV with an index equal to number 
-        of the coordinate.
-    
-    Arguments:
-    cat_gev -- rec array with GEV data
-    cat_tev -- rec array with TEV data
-    epsilon - threshold for similarity
-    
-    Returns:
-    C_associations_gev - numpy array (n,)
-    C_associations_tev - numpy array (m, )
-    
-    n - number of examples in GEV
-    m - number of examples in TEV
-    """
-    ra_tev, dec_tev = np.reshape(np.array(tev_data['tev_pos_ra'].values), (len(tev_data['tev_pos_ra']), -1)),\
-    np.reshape(np.array(tev_data['tev_pos_dec'].values), (len(tev_data['tev_pos_dec']), -1))
-    ra_gev, dec_gev = np.reshape(np.array(gev_data['gev_RAJ2000'].values), (len(gev_data['gev_RAJ2000']), -1)),\
-    np.reshape(np.array(gev_data['gev_DEJ2000'].values), (len(gev_data['gev_RAJ2000']), -1))
-    ra1,dec1,ra2,dec2 = ra_gev, dec_gev, ra_tev, dec_tev  
-    
-    ra_dif_matrix = np.dot(np.vstack((ra1.T, -np.ones_like(ra1.T))).T, np.vstack((np.ones_like(ra2.T), ra2.T)))
-    SEP = np.cos(dec1*np.pi/180)*np.cos(dec2.T*np.pi/180)*np.cos((ra_dif_matrix)*np.pi/180)
-    SEP += np.sin(dec1*np.pi/180)*np.sin(dec2.T*np.pi/180) #returns values between 0 and pi radians
-    SEP = np.arccos(SEP)
+    ra_dif_matrix = np.dot(np.vstack((data1[data1_ra].T, -np.ones_like(data1[data1_ra].T))).T, 
+                           np.vstack((np.ones_like(data2[data2_ra].T), data2[data2_ra].T)))
+    dec1 = data1[data1_dec].reshape(-1, 1)
+    dec2 = data2[data2_dec].reshape(-1, 1)
+
+    SEP = np.cos(dec1 * np.pi / 180) * np.cos(dec2.T * np.pi / 180) * np.cos((ra_dif_matrix) * np.pi / 180)
+    SEP += np.sin(dec1 * np.pi / 180) * np.sin(dec2.T * np.pi / 180) # returns values between 0 and pi radians
+    SEP = np.arccos(SEP) * 180. / np.pi
      
     pairs_matrix = (SEP < epsilon)
     return pairs_matrix
@@ -296,8 +280,26 @@ def create_only_gev_data(data_gev):
     data_only_gev = data_only_gev.reset_index()
     return data_only_gev
 
-
 def compare_gev_tev_data(epsilon):
+    """
+    The fonction returns common objects for GEV and TEV,
+    only GEV and only TEV objects.
+    
+    Returns:
+    common_data - pandas DataFrame with common for GEV and TEV objects 
+    only_tev_data - pandas DataFrame of only TEV objects 
+    only_gev_data - pandas DataFrame of only GEV objects 
+    """
+    cat_gev, cat_tev = cat_gev_tev(_path_gev, _path_tev)
+    pairs_matrix = create_common(cat_gev, cat_tev, epsilon)
+    
+    data_gev, data_tev = create_pandas_frames(cat_gev, cat_tev)
+    common_data = create_common_data(data_gev, data_tev, pairs_matrix)
+    only_tev_data = create_only_tev_data(data_tev)
+    only_gev_data = create_only_gev_data(data_gev)
+    return common_data, only_tev_data, only_gev_data
+
+def compare_gev_tev_data2(epsilon):
     """
     The fonction returns common objects for GEV and TEV,
     only GEV and only TEV objects.
@@ -310,8 +312,8 @@ def compare_gev_tev_data(epsilon):
     cat_gev, cat_tev = cat_gev_tev(_path_gev, _path_tev)
     
     data_gev, data_tev = create_pandas_frames(cat_gev, cat_tev)
-    for i in data_tev.columns:
-        print(i)
+    # for i in data_tev.columns:
+    #     print(i)
     pairs_matrix = create_common2(data_gev, data_tev, epsilon)
     common_data = create_common_data(data_gev, data_tev, pairs_matrix)
     only_tev_data = create_only_tev_data(data_tev)
@@ -320,5 +322,3 @@ def compare_gev_tev_data(epsilon):
     only_gev_data.to_csv("data/gev.txt", sep='\t')
     only_tev_data.to_csv("data/tev.txt", sep='\t')
     return common_data, only_tev_data, only_gev_data
-#print(only_tev_data.head())
-#print(only_gev_data.head())
