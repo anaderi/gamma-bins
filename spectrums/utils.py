@@ -117,14 +117,14 @@ def build_images_DBSCAN(spectra, spectrum_columns, spectra_distances, colors, ep
     tsne = TSNE(n_components=2, random_state=42, learning_rate=TSNE_learning_rate, n_iter=TSNE_n_iter)
     spectra_2D = tsne.fit_transform(spectra[spectrum_columns])
     for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]])
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s=markersizes[col[i]])
 
     plt.subplot(133)
     plt.title("TSNE, Chosen distance")
     tsne = TSNE(n_components=2, random_state=42, metric="precomputed", learning_rate=TSNE_learning_rate2)
     spectra_2D = tsne.fit_transform(spectra_distances)
     for i in range(len(col)):
-        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s = markersizes)
+        plt.scatter(spectra_2D[i, 0], spectra_2D[i, 1], c=cols[i], alpha=0.5, marker=markers[col[i]], s=markersizes[col[i]])
     plt.show()
     
     
@@ -140,7 +140,7 @@ def build_images_DBSCAN(spectra, spectrum_columns, spectra_distances, colors, ep
         cols = [colors[l] for l in cluster_labels]
         plt.title("cluster labels (eps = {:.2})".format(eps))
         for j in range(len(col)):
-            plt.scatter(spectra_2D[j, 0], spectra_2D[j, 1], c=cols[j], alpha=0.5, marker=markers[col[j]], s=markersizes[col[i]])
+            plt.scatter(spectra_2D[j, 0], spectra_2D[j, 1], c=cols[j], alpha=0.5, marker=markers[col[j]], s=markersizes[col[j]])
 
     plt.show()
     return spectra_2D
