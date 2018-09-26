@@ -18,7 +18,7 @@ from sklearn.manifold import TSNE
 import seaborn as sns
 from sklearn import preprocessing
 
-markersizes= [20,100]
+markersizes= [20,200]
 markers = ['^', 'o']
 
 def build_images_KMeans(spectra, spectrum_columns, spectra_distances, colors, TSNE_learning_rate=500, TSNE_n_iter=1500, TSNE_learning_rate2=300):
